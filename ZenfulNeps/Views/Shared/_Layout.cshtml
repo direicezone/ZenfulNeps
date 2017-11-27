@@ -1,0 +1,189 @@
+@{
+    var homePage = "../../ZenfulNeps/Index";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Zenful Nepenthes - @ViewBag.Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=100">
+    <meta name="Classification" content="Environment" />
+    <meta name="Description" content="The Zenful Nepenthes Website: Home to many interesting links such as our Companion Planting Guide, the Body Fat Calculator, and other interesting links and facts." />
+    <meta name="Keywords" content="home brewing, beer, zenful, carnivorous plants, zen, companion planting guide, body fat calculator, zenful nepenthes, health" />
+    <meta name="rating" content="General" />
+    <meta name="copyright" content="Copyright(c)@(DateTime.Now.Year) Bill Hamilton, All Rights Reserved" />
+    <meta name="author" content="Bill Hamilton" />
+    <meta name="robots" content="ALL" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link rel="stylesheet" href="../../Content/Site.css?Version@(DateTime.Now.ToShortDateString())" type="text/css" />
+    <link href="../../Content/jquery-ui.css" rel="stylesheet" type="text/css" />
+    @*<link href="../../Content/themes/easydropdown.css" rel="stylesheet" type="text/css" />*@
+    <link href="../../Content/Gridmvc.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19193261-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- Begin: FACEBOOK OPEN GRAPH -->
+    @{
+        if (!string.IsNullOrEmpty(ViewBag.Title))
+        {
+        <meta property="og:title" content="@ViewBag.Title" />
+        }
+        if (!string.IsNullOrEmpty(ViewBag.Image))
+        {
+        <meta property="og:image" content="@ViewBag.Image" />
+        }
+        if (!string.IsNullOrEmpty(ViewBag.Description))
+        {
+        <meta property="og:description" content="@ViewBag.Description" />
+        }
+        <meta property="og:url" content="@Request.Url.ToString()" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="ZenfulNeps.com" />
+    }
+    <!-- End: FACEBOOK OPEN GRAPH -->
+</head>
+@*<script src="../../Scripts/jquery-1.7.1.min-vsdoc.js" type="text/javascript"></script>*@
+<script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="../../Scripts/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="../../Scripts/json2.js" type="text/javascript"></script>
+<script src="../../Scripts/jquery.PrintArea.js?Version@(DateTime.Now.ToShortDateString())" type="text/javascript"></script>
+<script src="../../Scripts/printThis.js?Version@(DateTime.Now.ToShortDateString())" type="text/javascript"></script>
+<script src="../../Content/src/jquery.easydropdown.js?Version@(DateTime.Now.ToShortDateString())" type="text/javascript"></script>
+<script type="text/javascript" src="../../Scripts/MashSpargeWater.js?Version@(DateTime.Now.ToShortDateString())"></script>
+<script src="../../Scripts/gridmvc.min.js" type="text/javascript"> </script>
+<body>
+
+    <!-- wrap starts here -->
+    <div id="wrap">
+
+        <!--header -->
+        <div id="header">
+
+            <h1 id="logo-text"><a href="@homePage" title="">Zenful Nepenthes</a></h1>
+            <p id="slogan">Namasté and Welcome ...</p>
+
+            <div id="header-links">
+                <p>
+                    <a href="@homePage">Home</a> |
+			<a href="mailto:direicezone@gmail.com">Contact</a>
+                </p>
+            </div>
+
+            <!--header ends-->
+        </div>
+
+        @*<div id="header-photo"><img src="/Content/zenbanner.jpg" width="870" height="125" alt="header-photo" /></div>*@
+
+        <!-- navigation starts-->
+
+        @{
+            var currentController = ViewContext.Controller.ToString().Substring(ViewContext.Controller.ToString().LastIndexOf("."));
+            var ind = string.Empty;
+            var arc = string.Empty;
+            var rcp = string.Empty;
+            var msw = string.Empty;
+            var bec = string.Empty;
+            switch (currentController)
+            {
+                case ".ZenfulNepsController":
+                    var action = ViewContext.RouteData.GetRequiredString("action");
+                    switch (action.ToLower())
+                    {
+                        case "mashspargewater":
+                            msw = "current";
+                            break;
+                        default:
+                            ind = "current";
+                            break;
+                    }
+                    break;
+                case ".CompanionPlantsController":
+                    arc = "current";
+                    break; ;
+                case ".RecipesController":
+                    rcp = "current";
+                    break; ;
+                case ".BrewingController":
+                    bec = "current";
+                    break; ;
+            }
+        }
+
+        <div id="nav">
+            <ul>
+                <li id="@ind"><a href="@homePage">Home</a></li>
+                <li id="@arc"><a href="../../CompanionPlants/Index">Companion Planting</a></li>
+                <li id="@rcp"><a href="../../Recipes/Index">The Recipe Codex</a></li>
+                <li id="@msw"><a href="../ZenfulNeps/MashSpargeWater">Mash & Sparge Water</a></li>
+                <li id="@bec"><a href="../Brewing/Index">Brewing Efficiency</a></li>
+            </ul>
+            <!-- navigation ends-->
+        </div>
+
+        @RenderBody()
+
+        <!-- footer starts -->
+        <div id="footer-wrap">
+
+            <div id="footer-columns">
+
+                <div class="col3">
+                    <h3>Gardening</h3>
+                    <ul>
+                        <li><a target="_blank" href="http://www.eattheweeds.com/">Eat The Weeds</a></li>
+                        <li><a target="_blank" href="http://www.botany.org/carnivorous_plants/">Carnivorous Plants Online</a></li>
+                        <li><a target="_blank" href="http://www.almanac.com/">The Old Farmer's Almanac</a></li>
+                        <li><a target="_blank" href="http://www.garden.org/">National Gardening Association</a></li>
+                    </ul>
+                </div>
+
+                <div class="col3-center">
+                    <h3>Home Brewing</h3>
+                    <ul>
+                        <li><a target="_blank" href="http://www.homebrewersassociation.org/">American Homebrewers Association</a></li>
+                        <li><a target="_blank" href="http://brewgr.com/">Brewgr - Homebrew Recipes, Tools & Community</a></li>
+                        <li><a target="_blank" href="http://www.brewersfriend.com/">Brewer's Friend</a></li>
+                        <li><a target="_blank" href="http://brooklynbrewshop.com/themash/category/spentgrainchef/">Spent Grain Chef</a></li>
+                    </ul>
+                </div>
+
+                <div class="col3">
+                    <h3>Entertainment</h3>
+                    <ul>
+                        <li><a target="_blank" href="http://www.bluesnews.com/">Blues News</a></li>
+                        <li><a target="_blank" href="http://io9.com/">io9</a></li>
+                        <li><a target="_blank" href="http://unrealitymag.com/">Unreality Magazine</a></li>
+                        <li><a target="_blank" href="http://thechive.com/">The Chive</a></li>
+                    </ul>
+                </div>
+                <!-- footer-columns ends -->
+            </div>
+
+            <div id="footer-bottom">
+
+                <p>
+                    &copy; @(DateTime.Now.Year) <strong><a href="mailto:direicezone@gmail.com">Bill Hamilton</a></strong>
+                </p>
+            </div>
+
+            <!-- footer ends-->
+        </div>
+
+        <!-- wrap ends here -->
+    </div>
+</body>
+</html>

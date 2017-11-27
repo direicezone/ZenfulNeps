@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipes>
+    <Recipe>
+        <Id>1</Id>
+        <Description>Creamy Coleslaw</Description>
+        <Author><![CDATA[Bill & Cheryl Hamilton]]></Author>
+        <Ingredient Name="Shredded Cabbage with Carrots" Amount="16" Unit="oz" Note="" />
+        <Ingredient Name="Mayonnaise" Amount="1" Unit="cup" Note="" />
+        <Ingredient Name="Sugar" Amount="1" Unit="tsp" Note="" />
+        <Ingredient Name="Salt" Amount="1" Unit="tsp" Note="" />
+        <Ingredient Name="Black Pepper" Amount="1" Unit="tsp" Note="" />
+        <Ingredient Name="Celery Salt" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Garlic Powder" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Onion Powder" Amount="1/2" Unit="tsp" Note="or 1/4 cup chopped onion" />
+        <Ingredient Name="MSG" Amount="1/2" Unit="tsp" Note="Mono-sodium-glutamate" />
+        <Info>
+            A clone of the same cole slaw served at Top O The River restaurants.
+        </Info>
+        <Instructions>
+            Mix all ingredients together.[BR]
+            Let set covered in the refrigerator for 1 hour.
+        </Instructions>
+        <Image>coleslaw.jpg</Image>
+    </Recipe>    
+    <Recipe>
+        <Id>2</Id>
+        <Description>Hamilton's Coveted Spicy Pickle Recipe</Description>
+        <Author><![CDATA[Bill & Cheryl Hamilton]]></Author>
+        <Ingredient Name="Dill Flowers" Amount="2" Unit="" Note="can sub 1 tbsp dry dill" />
+        <Ingredient Name="Garlic Cloves" Amount="2" Unit="" Note="peeled and halved" />
+        <Ingredient Name="Pickling Cucumbers" Amount="1 1/4" Unit="lbs." Note="ends cut" />
+        <Ingredient Name="Habanero Pepper" Amount="1" Unit="" Note="sliced open" />
+        <Ingredient Name="Tabasco Pepper" Amount="2-4" Unit="" Note="whole" />
+        <Ingredient Name="Whole Peppercorn" Amount="1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="Fresh Dill" Amount="6" Unit="sprigs" Note="" />
+        <Ingredient Name="Kosher Salt" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Vinegar" Amount="1/2" Unit="cup" Note="" />
+        <Info>
+            A spicy claussen type recipe using lactose fermentation. Pickles stay crisp and cruncy.
+        </Info>
+        <Instructions>
+            This should make near ¼ gallons (1 quart) of pickles. So just double it for half-gallon or quadruple it for a gallon.
+            [BR]
+            Put dill flower, peppers, and garlic in bottom of jar.[BR]
+            Add the cukes, put sprigs of dill in center of cukes, add salt, vinegar, and fill jar with boiled water (that is now cooled/warm) to within 1/8th of top.[BR]
+            Seal jar and shake to dissolve salt.[BR]
+            Set upside down on counter away from sunlight and heat.[BR]
+            Let sit 4-5 days flipping the jar either upright or upside down each day.[BR]
+            Let sit upright 2 more days then refrigerate.[BR]
+            Will lasts about +6 months refrigerated.[BR]
+            NOTE: If brine becomes cloudy, this is normal.[BR]
+            Just make sure the pickles don't smell spoiled and are not slimy.
+        </Instructions>
+        <Image>Pickles.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>3</Id>
+        <Description>Spicy Beef Jerky Marinade</Description>
+        <Author>Bill Hamilton</Author>
+        <Ingredient Name="Bottle Lawry’s Caribbean Jerk Marinade" Amount="12" Unit="oz" Note="" />
+        <Ingredient Name="Worcestershire Sauce" Amount="1/4" Unit="cup" Note="" />
+        <Ingredient Name="Soy Sauce" Amount="1/8" Unit="cup" Note="" />
+        <Ingredient Name="Garlic Powder" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Crushed Red Pepper" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Black Pepper" Amount="1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="Ground Ginger" Amount="1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="Ground Curry" Amount="1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="Onion Powder" Amount="1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="MSG" Amount="1" Unit="tsp" Note="" />
+        <Ingredient Name="Hot Chili Sauce" Amount="1" Unit="tbsp" Note="(Sriracha)" />
+        <Ingredient Name="Dave's Insanity Hot Sauce" Amount="1/2 to 1" Unit="tsp" Note="depending on heat desired" />
+        <Ingredient Name="Liquid Smoke" Amount="1" Unit="tsp" Note="" />
+        <Info>
+            One of the best beef jerky marinades you will ever make.  Used with thinly sliced London Broil to create the perfect jerky.
+        </Info>
+        <Instructions>
+            Mix all ingredients together and marinade 1 - 2 lbs of sliced meat. Cover and refrigerated overnight.
+            Dehydrate for 5-7 hours. Lawry’s Marinade and Dave's Sauce may be substituted for other marinade/hot-sauce. 
+            [BR]
+            [BR]
+            Replace the Lawry's with 12 oz of papaya juice for a sweet/spicy marinade.
+        </Instructions>
+        <Image>Jerky.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>4</Id>
+        <Description>Catfish Batter</Description>
+        <Author>Bill Hamilton</Author>
+        <Ingredient Name="Flour" Amount="1" Unit="cup" Note="" />
+        <Ingredient Name="Cornmeal" Amount="1" Unit="cup" Note="non self-rising" />
+        <Ingredient Name="Lawry's Season Salt" Amount="1 1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="Garlic Salt" Amount="1 1/2" Unit="tbsp" Note="" />
+        <Ingredient Name="MSG" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Ground Black Pepper" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Ground White Pepper" Amount="1/2" Unit="tbsp" Note="" />
+        <Info>
+            A clone of the same catfish batter used at Top O The River restaurants.
+        </Info>
+        <Instructions>
+            Mix all ingredients until all lumps are gone and batter raw, moist catfish fillets.[BR]
+            Deep fry in peanut oil at 350° until done (5-10 minutes).
+        </Instructions>
+        <Image>Catfish.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>5</Id>
+        <Description>Fried Chicken Finger Batter Mix</Description>
+        <Author>Bill Hamilton</Author>
+        <Ingredient Name="Egg" Amount="1" Unit="" Note="" />
+        <Ingredient Name="Flour" Amount="3/4" Unit="cup" Note="" />
+        <Ingredient Name="Milk" Amount="1/2" Unit="cup" Note="skim mild may be used" />
+        <Ingredient Name="Garlic Powder" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Ground Black Pepper" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Lawry's Season Salt" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Paprika" Amount="1/2" Unit="tsp" Note="" />
+        <Info>
+            A very tasteful and cruchy batter mix perfect for fried chicken fingers.  Kids will love them.
+        </Info>
+        <Instructions>
+            Mix all ingredients well and batter raw chicken fillets.[BR]
+            Dredge the battered fillets in flour.[BR]
+            Deep fry in peanut oil at 350° until done (5-10 minutes).
+        </Instructions>
+        <Image>ChickenFingers.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>6</Id>
+        <Description>Cornbread</Description>
+        <Author>Bill Hamilton</Author>
+        <Ingredient Name="Seasoned Peanut Oil" Amount="1/4" Unit="cup" Note="" />
+        <Ingredient Name="Sugar" Amount="2/3" Unit="cup" Note="" />
+        <Ingredient Name="Eggs" Amount="2" Unit="" Note="" />
+        <Ingredient Name="Buttermilk" Amount="1" Unit="cup" Note="" />
+        <Ingredient Name="Baking Soda" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Cornmeal" Amount="1" Unit="cup" Note="" />
+        <Ingredient Name="All-Purpose Flour" Amount="1" Unit="cup" Note="" />
+        <Ingredient Name="Salt" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Creamed Corn" Amount="1/2" Unit="can" Note="" />
+        <Info>
+            A clone of the same cornbread batter used at Top O The River restaurants.
+        </Info>
+        <Instructions>
+            Preheat over to 375°.[BR]
+            Grease an 8 inch cast iron skillet.[BR]
+            Combine all ingredients and blend well until few/no lumps.[BR]
+            Pour batter into the prepared skillet.[BR]
+            Bake in the oven for 30 to 40 minutes.[BR]
+            Note: Pickled Jalapenos can be added for a Mexican style recipe.[BR]
+        </Instructions>
+        <Image>Cornbread.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>7</Id>
+        <Description>Picked Onions</Description>
+        <Author><![CDATA[Bill Hamilton & Cheryl Hamilton]]></Author>
+        <Ingredient Name="Rough Cut Vidalia Oinons" Amount="1" Unit="quart" Note="" />
+        <Ingredient Name="Seasoned Peanut Oil" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Celery Salt" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Salt" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Sugar" Amount="1" Unit="tbsp" Note="" />
+        <Ingredient Name="Vinegar" Amount="3-4" Unit="cups" Note="" />
+        <Info>
+            A clone of the same picked onions served at Top O The River restaurants.
+        </Info>
+        <Instructions>
+            Bring vinegar to a boil and remove from heat.[BR]
+            Put onions and all other ingredients in a quart container.[BR]
+            Fill container with hot vinegar to within 1/8 of the top.[BR]
+            Seal, shake to desolve salt, and let set for 1 week before serving[BR]
+        </Instructions>
+        <Image>Onion.jpg</Image>
+    </Recipe>
+    <Recipe>
+        <Id>8</Id>
+        <Description>Pasta Sauce</Description>
+        <Author><![CDATA[Bill Hamilton & Cheryl Hamilton]]></Author>
+        <Ingredient Name="Ripe Tomotoes" Amount="1 - 1 1/2" Unit="lbs" Note="about 3 large" />
+        <Ingredient Name="White Onion" Amount="1/4" Unit="med" Note="peeled and chopped" />
+        <Ingredient Name="Roasted Red Pepper" Amount="1/4" Unit="med" Note="optional" />
+        <Ingredient Name="Garlic Cloves" Amount="2" Unit="" Note="peeled and minced" />
+        <Ingredient Name="Olive Oil" Amount="3" Unit="tbsp" Note="" />
+        <Ingredient Name="Fresh Basil" Amount="1/4" Unit="cup" Note="chopped" />
+        <Ingredient Name="Salt" Amount="1/2" Unit="tsp" Note="" />
+        <Ingredient Name="Ground Black Pepper" Amount="1/2" Unit="tsp" Note="" />
+        <Info>
+            This is a favorite of ours.  We grow fresh tomotoes, onions, pepper, and basil in our garden just for
+            this recipe.  
+        </Info>
+        <Instructions>
+            Peel tomatoes and remove the seeds while straining to catch the juice into a bowl. Save the juice.[BR]
+            In a food processor, combine all the ingredients and juice. Pulse quickly to blend. Pulse longer for smoother sauce.[BR]
+            Transfer to a pot and bring to a boil.  Low heat to simmer and allow the sauce to reduce to desire consitancy.[BR]
+            Use immediately or can and process for later.
+        </Instructions>
+        <Image>PastaSauce.jpg</Image>
+    </Recipe>
+</Recipes>

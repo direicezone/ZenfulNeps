@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZenfulNeps</RootNamespace>
+    <AssemblyName>ZenfulNeps</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FiftyOne.Foundation, Version=3.2.15.6, Culture=neutral, PublicKeyToken=e0b3a8da0bbce49c, processorArchitecture=MSIL">
+      <HintPath>..\packages\51Degrees.mobi-core.3.2.15.6\lib\NET40\FiftyOne.Foundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GridMvc, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grid.Mvc.3.0.0\lib\net40\GridMvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebMatrix.WebData">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Common.Core\Common.cs" />
+    <Compile Include="Controllers\BrewingController.cs" />
+    <Compile Include="Controllers\CompanionPlantsController.cs" />
+    <Compile Include="Controllers\CompanionPlantsNewController.cs" />
+    <Compile Include="Controllers\RecipesController.cs" />
+    <Compile Include="Controllers\ZenfulNepsController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\Brewing.cs" />
+    <Compile Include="Models\CompanionPlants.cs" />
+    <Compile Include="Models\Recipes.cs" />
+    <Compile Include="Models\ZenfulNeps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\add.png" />
+    <Content Include="Content\bg.jpg" />
+    <Content Include="Content\bullet.gif" />
+    <Content Include="Content\content-bg.jpg" />
+    <Content Include="Content\down_arrow_select.jpg" />
+    <Content Include="Content\FF.css" />
+    <Content Include="Content\Gridmvc.css" />
+    <Content Include="Content\header-bg.jpg" />
+    <Content Include="Content\header-photo.jpg" />
+    <Content Include="Content\image-sample.jpg" />
+    <Content Include="Content\images\ajax-loader.gif" />
+    <Content Include="Content\images\icons-png\action-black.png" />
+    <Content Include="Content\images\icons-png\action-white.png" />
+    <Content Include="Content\images\icons-png\alert-black.png" />
+    <Content Include="Content\images\icons-png\alert-white.png" />
+    <Content Include="Content\images\icons-png\arrow-d-black.png" />
+    <Content Include="Content\images\icons-png\arrow-d-l-black.png" />
+    <Content Include="Content\images\icons-png\arrow-d-l-white.png" />
+    <Content Include="Content\images\icons-png\arrow-d-r-black.png" />
+    <Content Include="Content\images\icons-png\arrow-d-r-white.png" />
+    <Content Include="Content\images\icons-png\arrow-d-white.png" />
+    <Content Include="Content\images\icons-png\arrow-l-black.png" />
+    <Content Include="Content\images\icons-png\arrow-l-white.png" />
+    <Content Include="Content\images\icons-png\arrow-r-black.png" />
+    <Content Include="Content\images\icons-png\arrow-r-white.png" />
+    <Content Include="Content\images\icons-png\arrow-u-black.png" />
+    <Content Include="Content\images\icons-png\arrow-u-l-black.png" />
+    <Content Include="Content\images\icons-png\arrow-u-l-white.png" />
+    <Content Include="Content\images\icons-png\arrow-u-r-black.png" />
+    <Content Include="Content\images\icons-png\arrow-u-r-white.png" />
+    <Content Include="Content\images\icons-png\arrow-u-white.png" />
+    <Content Include="Content\images\icons-png\audio-black.png" />
+    <Content Include="Content\images\icons-png\audio-white.png" />
+    <Content Include="Content\images\icons-png\back-black.png" />
+    <Content Include="Content\images\icons-png\back-white.png" />
+    <Content Include="Content\images\icons-png\bars-black.png" />
+    <Content Include="Content\images\icons-png\bars-white.png" />
+    <Content Include="Content\images\icons-png\bullets-black.png" />
+    <Content Include="Content\images\icons-png\bullets-white.png" />
+    <Content Include="Content\images\icons-png\calendar-black.png" />
+    <Content Include="Content\images\icons-png\calendar-white.png" />
+    <Content Include="Content\images\icons-png\camera-black.png" />
+    <Content Include="Content\images\icons-png\camera-white.png" />
+    <Content Include="Content\images\icons-png\carat-d-black.png" />
+    <Content Include="Content\images\icons-png\carat-d-white.png" />
+    <Content Include="Content\images\icons-png\carat-l-black.png" />
+    <Content Include="Content\images\icons-png\carat-l-white.png" />
+    <Content Include="Content\images\icons-png\carat-r-black.png" />
+    <Content Include="Content\images\icons-png\carat-r-white.png" />
+    <Content Include="Content\images\icons-png\carat-u-black.png" />
+    <Content Include="Content\images\icons-png\carat-u-white.png" />
+    <Content Include="Content\images\icons-png\check-black.png" />
+    <Content Include="Content\images\icons-png\check-white.png" />
+    <Content Include="Content\images\icons-png\clock-black.png" />
+    <Content Include="Content\images\icons-png\clock-white.png" />
+    <Content Include="Content\images\icons-png\cloud-black.png" />
+    <Content Include="Content\images\icons-png\cloud-white.png" />
+    <Content Include="Content\images\icons-png\comment-black.png" />
+    <Content Include="Content\images\icons-png\comment-white.png" />
+    <Content Include="Content\images\icons-png\delete-black.png" />
+    <Content Include="Content\images\icons-png\delete-white.png" />
+    <Content Include="Content\images\icons-png\edit-black.png" />
+    <Content Include="Content\images\icons-png\edit-white.png" />
+    <Content Include="Content\images\icons-png\eye-black.png" />
+    <Content Include="Content\images\icons-png\eye-white.png" />
+    <Content Include="Content\images\icons-png\forbidden-black.png" />
+    <Content Include="Content\images\icons-png\forbidden-white.png" />
+    <Content Include="Content\images\icons-png\forward-black.png" />
+    <Content Include="Content\images\icons-png\forward-white.png" />
+    <Content Include="Content\images\icons-png\gear-black.png" />
+    <Content Include="Content\images\icons-png\gear-white.png" />
+    <Content Include="Content\images\icons-png\grid-black.png" />
+    <Content Include="Content\images\icons-png\grid-white.png" />
+    <Content Include="Content\images\icons-png\heart-black.png" />
+    <Content Include="Content\images\icons-png\heart-white.png" />
+    <Content Include="Content\images\icons-png\home-black.png" />
+    <Content Include="Content\images\icons-png\home-white.png" />
+    <Content Include="Content\images\icons-png\info-black.png" />
+    <Content Include="Content\images\icons-png\info-white.png" />
+    <Content Include="Content\images\icons-png\location-black.png" />
+    <Content Include="Content\images\icons-png\location-white.png" />
+    <Content Include="Content\images\icons-png\lock-black.png" />
+    <Content Include="Content\images\icons-png\lock-white.png" />
+    <Content Include="Content\images\icons-png\mail-black.png" />
+    <Content Include="Content\images\icons-png\mail-white.png" />
+    <Content Include="Content\images\icons-png\minus-black.png" />
+    <Content Include="Content\images\icons-png\minus-white.png" />
+    <Content Include="Content\images\icons-png\navigation-black.png" />
+    <Content Include="Content\images\icons-png\navigation-white.png" />
+    <Content Include="Content\images\icons-png\phone-black.png" />
+    <Content Include="Content\images\icons-png\phone-white.png" />
+    <Content Include="Content\images\icons-png\plus-black.png" />
+    <Content Include="Content\images\icons-png\plus-white.png" />
+    <Content Include="Content\images\icons-png\power-black.png" />
+    <Content Include="Content\images\icons-png\power-white.png" />
+    <Content Include="Content\images\icons-png\recycle-black.png" />
+    <Content Include="Content\images\icons-png\recycle-white.png" />
+    <Content Include="Content\images\icons-png\refresh-black.png" />
+    <Content Include="Content\images\icons-png\refresh-white.png" />
+    <Content Include="Content\images\icons-png\search-black.png" />
+    <Content Include="Content\images\icons-png\search-white.png" />
+    <Content Include="Content\images\icons-png\shop-black.png" />
+    <Content Include="Content\images\icons-png\shop-white.png" />
+    <Content Include="Content\images\icons-png\star-black.png" />
+    <Content Include="Content\images\icons-png\star-white.png" />
+    <Content Include="Content\images\icons-png\tag-black.png" />
+    <Content Include="Content\images\icons-png\tag-white.png" />
+    <Content Include="Content\images\icons-png\user-black.png" />
+    <Content Include="Content\images\icons-png\user-white.png" />
+    <Content Include="Content\images\icons-png\video-black.png" />
+    <Content Include="Content\images\icons-png\video-white.png" />
+    <Content Include="Content\images\icons-svg\action-black.svg" />
+    <Content Include="Content\images\icons-svg\action-white.svg" />
+    <Content Include="Content\images\icons-svg\alert-black.svg" />
+    <Content Include="Content\images\icons-svg\alert-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-l-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-l-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-r-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-r-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-d-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-l-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-l-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-r-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-r-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-l-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-l-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-r-black.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-r-white.svg" />
+    <Content Include="Content\images\icons-svg\arrow-u-white.svg" />
+    <Content Include="Content\images\icons-svg\audio-black.svg" />
+    <Content Include="Content\images\icons-svg\audio-white.svg" />
+    <Content Include="Content\images\icons-svg\back-black.svg" />
+    <Content Include="Content\images\icons-svg\back-white.svg" />
+    <Content Include="Content\images\icons-svg\bars-black.svg" />
+    <Content Include="Content\images\icons-svg\bars-white.svg" />
+    <Content Include="Content\images\icons-svg\bullets-black.svg" />
+    <Content Include="Content\images\icons-svg\bullets-white.svg" />
+    <Content Include="Content\images\icons-svg\calendar-black.svg" />
+    <Content Include="Content\images\icons-svg\calendar-white.svg" />
+    <Content Include="Content\images\icons-svg\camera-black.svg" />
+    <Content Include="Content\images\icons-svg\camera-white.svg" />
+    <Content Include="Content\images\icons-svg\carat-d-black.svg" />
+    <Content Include="Content\images\icons-svg\carat-d-white.svg" />
+    <Content Include="Content\images\icons-svg\carat-l-black.svg" />
+    <Content Include="Content\images\icons-svg\carat-l-white.svg" />
+    <Content Include="Content\images\icons-svg\carat-r-black.svg" />
+    <Content Include="Content\images\icons-svg\carat-r-white.svg" />
+    <Content Include="Content\images\icons-svg\carat-u-black.svg" />
+    <Content Include="Content\images\icons-svg\carat-u-white.svg" />
+    <Content Include="Content\images\icons-svg\check-black.svg" />
+    <Content Include="Content\images\icons-svg\check-white.svg" />
+    <Content Include="Content\images\icons-svg\clock-black.svg" />
+    <Content Include="Content\images\icons-svg\clock-white.svg" />
+    <Content Include="Content\images\icons-svg\cloud-black.svg" />
+    <Content Include="Content\images\icons-svg\cloud-white.svg" />
+    <Content Include="Content\images\icons-svg\comment-black.svg" />
+    <Content Include="Content\images\icons-svg\comment-white.svg" />
+    <Content Include="Content\images\icons-svg\delete-black.svg" />
+    <Content Include="Content\images\icons-svg\delete-white.svg" />
+    <Content Include="Content\images\icons-svg\edit-black.svg" />
+    <Content Include="Content\images\icons-svg\edit-white.svg" />
+    <Content Include="Content\images\icons-svg\eye-black.svg" />
+    <Content Include="Content\images\icons-svg\eye-white.svg" />
+    <Content Include="Content\images\icons-svg\forbidden-black.svg" />
+    <Content Include="Content\images\icons-svg\forbidden-white.svg" />
+    <Content Include="Content\images\icons-svg\forward-black.svg" />
+    <Content Include="Content\images\icons-svg\forward-white.svg" />
+    <Content Include="Content\images\icons-svg\gear-black.svg" />
+    <Content Include="Content\images\icons-svg\gear-white.svg" />
+    <Content Include="Content\images\icons-svg\grid-black.svg" />
+    <Content Include="Content\images\icons-svg\grid-white.svg" />
+    <Content Include="Content\images\icons-svg\heart-black.svg" />
+    <Content Include="Content\images\icons-svg\heart-white.svg" />
+    <Content Include="Content\images\icons-svg\home-black.svg" />
+    <Content Include="Content\images\icons-svg\home-white.svg" />
+    <Content Include="Content\images\icons-svg\info-black.svg" />
+    <Content Include="Content\images\icons-svg\info-white.svg" />
+    <Content Include="Content\images\icons-svg\location-black.svg" />
+    <Content Include="Content\images\icons-svg\location-white.svg" />
+    <Content Include="Content\images\icons-svg\lock-black.svg" />
+    <Content Include="Content\images\icons-svg\lock-white.svg" />
+    <Content Include="Content\images\icons-svg\mail-black.svg" />
+    <Content Include="Content\images\icons-svg\mail-white.svg" />
+    <Content Include="Content\images\icons-svg\minus-black.svg" />
+    <Content Include="Content\images\icons-svg\minus-white.svg" />
+    <Content Include="Content\images\icons-svg\navigation-black.svg" />
+    <Content Include="Content\images\icons-svg\navigation-white.svg" />
+    <Content Include="Content\images\icons-svg\phone-black.svg" />
+    <Content Include="Content\images\icons-svg\phone-white.svg" />
+    <Content Include="Content\images\icons-svg\plus-black.svg" />
+    <Content Include="Content\images\icons-svg\plus-white.svg" />
+    <Content Include="Content\images\icons-svg\power-black.svg" />
+    <Content Include="Content\images\icons-svg\power-white.svg" />
+    <Content Include="Content\images\icons-svg\recycle-black.svg" />
+    <Content Include="Content\images\icons-svg\recycle-white.svg" />
+    <Content Include="Content\images\icons-svg\refresh-black.svg" />
+    <Content Include="Content\images\icons-svg\refresh-white.svg" />
+    <Content Include="Content\images\icons-svg\search-black.svg" />
+    <Content Include="Content\images\icons-svg\search-white.svg" />
+    <Content Include="Content\images\icons-svg\shop-black.svg" />
+    <Content Include="Content\images\icons-svg\shop-white.svg" />
+    <Content Include="Content\images\icons-svg\star-black.svg" />
+    <Content Include="Content\images\icons-svg\star-white.svg" />
+    <Content Include="Content\images\icons-svg\tag-black.svg" />
+    <Content Include="Content\images\icons-svg\tag-white.svg" />
+    <Content Include="Content\images\icons-svg\user-black.svg" />
+    <Content Include="Content\images\icons-svg\user-white.svg" />
+    <Content Include="Content\images\icons-svg\video-black.svg" />
+    <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\jquery.mobile-1.4.5.css" />
+    <Content Include="Content\jquery.mobile-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.external-png-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.external-png-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.icons-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.icons-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.inline-png-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.inline-png-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.structure-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
+    <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
+    <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
+    <Content Include="Content\nav-current.jpg" />
+    <Content Include="Content\nav-hover.jpg" />
+    <Content Include="Content\nav.jpg" />
+    <Content Include="Content\quote.jpg" />
+    <Content Include="Content\remove.gif" />
+    <Content Include="Content\src\jquery.easydropdown.js" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\easydropdown.css" />
+    <Content Include="Content\themes\easydropdown.flat.css" />
+    <Content Include="Content\themes\easydropdown.metro.css" />
+    <Content Include="Content\wrap-bg.jpg" />
+    <Content Include="Content\zenbanner.jpg" />
+    <Content Include="Content\ZenIcon.png" />
+    <Content Include="Data\BrewingIngredients.xml" />
+    <Content Include="Data\Colors.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\CompanionPlants.xml" />
+    <Content Include="Data\Hops.xml" />
+    <Content Include="Data\Recipes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\Yeasts.xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\btn_caution2.gif" />
+    <Content Include="Images\btn_checkmark_green.gif" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\EnzymeActivity1HourMash.jpg" />
+    <Content Include="Images\MashThickness.gif" />
+    <Content Include="Images\mashtun.jpg" />
+    <Content Include="Images\mashtun2.jpg" />
+    <Content Include="Images\Plants\Allium.jpg" />
+    <Content Include="Images\Plants\Amaranth.jpg" />
+    <Content Include="Images\Plants\Angelica.jpg" />
+    <Content Include="Images\Plants\Anise.jpg" />
+    <Content Include="Images\Plants\Artichoke.jpg" />
+    <Content Include="Images\Plants\Asparagus.jpg" />
+    <Content Include="Images\Plants\Basil.jpg" />
+    <Content Include="Images\Plants\BeeBalm.jpg" />
+    <Content Include="Images\Plants\beets.jpg" />
+    <Content Include="Images\Plants\bellpeppers.jpg" />
+    <Content Include="Images\Plants\Blackberry.jpg" />
+    <Content Include="Images\Plants\blackwalnut.jpg" />
+    <Content Include="Images\Plants\Borage.jpg" />
+    <Content Include="Images\Plants\BroadBeans.jpg" />
+    <Content Include="Images\Plants\Broccoli.jpg" />
+    <Content Include="Images\Plants\Buckwheat.jpg" />
+    <Content Include="Images\Plants\burdock.jpg" />
+    <Content Include="Images\Plants\Burnet.jpg" />
+    <Content Include="Images\Plants\BushBeans.jpg" />
+    <Content Include="Images\Plants\Cabbage.jpg" />
+    <Content Include="Images\Plants\Caraway.jpg" />
+    <Content Include="Images\Plants\Carrots.jpg" />
+    <Content Include="Images\Plants\CastorBean.jpg" />
+    <Content Include="Images\Plants\Catnip.jpg" />
+    <Content Include="Images\Plants\Celery.jpg" />
+    <Content Include="Images\Plants\Chamomile.jpg" />
+    <Content Include="Images\Plants\Chards.jpg" />
+    <Content Include="Images\Plants\Chervil.jpg" />
+    <Content Include="Images\Plants\Chives.jpg" />
+    <Content Include="Images\Plants\Chrysanthemums.jpg" />
+    <Content Include="Images\Plants\Clover.jpg" />
+    <Content Include="Images\Plants\Comfrey.jpg" />
+    <Content Include="Images\Plants\companion.png" />
+    <Content Include="Images\Plants\Coriander.jpg" />
+    <Content Include="Images\Plants\Corn.jpg" />
+    <Content Include="Images\Plants\Costmary.jpg" />
+    <Content Include="Images\Plants\CrowGarlic.gif" />
+    <Content Include="Images\Plants\Cucumbers.jpg" />
+    <Content Include="Images\Plants\Daisy.jpg" />
+    <Content Include="Images\Plants\Datura.jpg" />
+    <Content Include="Images\Plants\dill.jpg" />
+    <Content Include="Images\Plants\Eggplant.jpg" />
+    <Content Include="Images\Plants\Escarole.jpg" />
+    <Content Include="Images\Plants\Fennel.jpg" />
+    <Content Include="Images\Plants\Flax.jpg" />
+    <Content Include="Images\Plants\FourOClocks.jpg" />
+    <Content Include="Images\Plants\Foxglove.jpg" />
+    <Content Include="Images\Plants\Garlic.jpg" />
+    <Content Include="Images\Plants\Geranium.jpg" />
+    <Content Include="Images\Plants\Gourds.jpg" />
+    <Content Include="Images\Plants\Grapes.jpg" />
+    <Content Include="Images\Plants\GroundIvy.jpg" />
+    <Content Include="Images\Plants\Horehound.jpg" />
+    <Content Include="Images\Plants\horseradish.jpg" />
+    <Content Include="Images\Plants\HotPeppers.jpg" />
+    <Content Include="Images\Plants\Hyssop.jpg" />
+    <Content Include="Images\Plants\Kohlrabi.jpg" />
+    <Content Include="Images\Plants\LambsQuarters.jpg" />
+    <Content Include="Images\Plants\Lamium.jpg" />
+    <Content Include="Images\Plants\Larkspur.jpg" />
+    <Content Include="Images\Plants\Lavender.jpg" />
+    <Content Include="Images\Plants\Leek.jpg" />
+    <Content Include="Images\Plants\LemonBalm.jpg" />
+    <Content Include="Images\Plants\Lettuce.jpg" />
+    <Content Include="Images\Plants\Lovage.jpg" />
+    <Content Include="Images\Plants\Lupin.jpg" />
+    <Content Include="Images\Plants\Marigold.jpg" />
+    <Content Include="Images\Plants\Marjoram.jpg" />
+    <Content Include="Images\Plants\Melons.jpg" />
+    <Content Include="Images\Plants\Mimosa.jpg" />
+    <Content Include="Images\Plants\Mint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Allium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Amaranth.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Angelica.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Anise.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Artichoke.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Asparagus.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Basil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\BeeBalm.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\beets.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\bellpeppers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Blackberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\blackwalnut.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Borage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\BroadBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Broccoli.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Buckwheat.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\burdock.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Burnet.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\BushBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Cabbage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Caraway.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Carrots.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\CastorBean.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Catnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Celery.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chamomile.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chards.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chives.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chrysanthemums.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Clover.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Comfrey.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Coriander.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Corn.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Costmary.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\CrowGarlic.gif" />
+    <Content Include="Images\Plants\Mobile_Images\Cucumbers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Daisy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Datura.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\dill.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Eggplant.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Escarole.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Fennel.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Flax.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\FourOClocks.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Foxglove.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Garlic.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Geranium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Gourds.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Grapes.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\GroundIvy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Horehound.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Horseradish.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\HotPeppers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Hyssop.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Kohlrabi.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\LambsQuarters.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Lamium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Larkspur.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Lavender.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Leek.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\LemonBalm.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Lettuce.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Lovage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Lupin.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Marigold.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Marjoram.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Melons.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Mimosa.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Mint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Mustard.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Nasturtiums.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Okra.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Onion.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Oregano.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Pansy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Parsley.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Parsnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Peanuts.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Peas.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Pennyroyal.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Peppermint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Petunias.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\PoleBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Potato.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Pumpkins.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Pyrethrum.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Radish.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Raspberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Rhubarb.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Rosemary.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Roses.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Rue.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Sage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Savory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Shallot.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\SnapBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Southernwood.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Soybeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Spearmint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Spinach.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Squash.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Strawberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Sunflower.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\SweetAlyssum.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\SweetPepper.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tansy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tarragon.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Thyme.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Allium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Amaranth.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Angelica.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Anise.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Artichoke.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Asparagus.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Basil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\BeeBalm.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\beets.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\bellpeppers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Blackberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\blackwalnut.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Borage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\BroadBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Broccoli.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Buckwheat.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\burdock.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Burnet.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\BushBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Cabbage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Caraway.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Carrots.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\CastorBean.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Catnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Celery.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chamomile.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chards.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chives.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chrysanthemums.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Clover.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Comfrey.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Coriander.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Corn.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Costmary.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\CrowGarlic.gif" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Cucumbers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Daisy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Datura.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\dill.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Eggplant.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Escarole.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Fennel.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Flax.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\FourOClocks.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Foxglove.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Garlic.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Geranium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Gourds.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Grapes.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\GroundIvy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Horehound.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Horseradish.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\HotPeppers.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Hyssop.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Kohlrabi.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\LambsQuarters.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Lamium.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Larkspur.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Lavender.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Leek.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\LemonBalm.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Lettuce.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Lovage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Lupin.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Marigold.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Marjoram.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Melons.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Mimosa.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Mint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Mustard.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Nasturtiums.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Okra.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Onion.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Oregano.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Pansy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Parsley.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Parsnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Peanuts.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Peas.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Pennyroyal.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Peppermint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Petunias.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\PoleBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Potato.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Pumpkins.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Pyrethrum.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Radish.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Raspberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Rhubarb.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Rosemary.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Roses.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Rue.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Sage.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Savory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Shallot.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\SnapBeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Southernwood.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Soybeans.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Spearmint.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Spinach.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Squash.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Strawberry.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Sunflower.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\SweetAlyssum.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\SweetPepper.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Tansy.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Tarragon.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Thyme.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Tomato.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Turnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Valerian.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Wormwood.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Yarrow.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Zinnia.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Zucchini.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tomato.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Turnip.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Valerian.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Wormwood.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Yarrow.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Zinnia.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Zucchini.jpg" />
+    <Content Include="Images\Plants\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mustard.jpg" />
+    <Content Include="Images\Plants\Nasturtiums.jpg" />
+    <Content Include="Images\Plants\Okra.jpg" />
+    <Content Include="Images\Plants\Onion.jpg" />
+    <Content Include="Images\Plants\Oregano.jpg" />
+    <Content Include="Images\Plants\Pansy.jpg" />
+    <Content Include="Images\Plants\Parsley.jpg" />
+    <Content Include="Images\Plants\Parsnip.jpg" />
+    <Content Include="Images\Plants\Peanuts.jpg" />
+    <Content Include="Images\Plants\Peas.jpg" />
+    <Content Include="Images\Plants\Pennyroyal.jpg" />
+    <Content Include="Images\Plants\Peppermint.jpg" />
+    <Content Include="Images\Plants\Petunias.jpg" />
+    <Content Include="Images\Plants\PoleBeans.jpg" />
+    <Content Include="Images\Plants\Potato.jpg" />
+    <Content Include="Images\Plants\previous.gif" />
+    <Content Include="Images\Plants\Pumpkins.jpg" />
+    <Content Include="Images\Plants\Pyrethrum.jpg" />
+    <Content Include="Images\Plants\Radish.jpg" />
+    <Content Include="Images\Plants\Raspberry.jpg" />
+    <Content Include="Images\Plants\Rhubarb.jpg" />
+    <Content Include="Images\Plants\Rosemary.jpg" />
+    <Content Include="Images\Plants\Roses.jpg" />
+    <Content Include="Images\Plants\Rue.jpg" />
+    <Content Include="Images\Plants\Sage.jpg" />
+    <Content Include="Images\Plants\Savory.jpg" />
+    <Content Include="Images\Plants\Shallot.jpg" />
+    <Content Include="Images\Plants\SnapBeans.jpg" />
+    <Content Include="Images\Plants\Southernwood.jpg" />
+    <Content Include="Images\Plants\Soybeans.jpg" />
+    <Content Include="Images\Plants\Spearmint.jpg" />
+    <Content Include="Images\Plants\Spinach.jpg" />
+    <Content Include="Images\Plants\Squash.jpg" />
+    <Content Include="Images\Plants\star.jpg" />
+    <Content Include="Images\Plants\Strawberry.jpg" />
+    <Content Include="Images\Plants\Sunflower.jpg" />
+    <Content Include="Images\Plants\SweetAlyssum.jpg" />
+    <Content Include="Images\Plants\SweetPepper.jpg" />
+    <Content Include="Images\Plants\Tansy.jpg" />
+    <Content Include="Images\Plants\Tarragon.jpg" />
+    <Content Include="Images\Plants\Thyme.jpg" />
+    <Content Include="Images\Plants\Tomato.jpg" />
+    <Content Include="Images\Plants\Turnip.jpg" />
+    <Content Include="Images\Plants\Valerian.jpg" />
+    <Content Include="Images\Plants\Wormwood.jpg" />
+    <Content Include="Images\Plants\Yarrow.jpg" />
+    <Content Include="Images\Plants\Zinnia.jpg" />
+    <Content Include="Images\Plants\Zucchini.jpg" />
+    <Content Include="Images\Recipes\Catfish.jpg" />
+    <Content Include="Images\Recipes\ChickenFingers.jpg" />
+    <Content Include="Images\Recipes\coleslaw.jpg" />
+    <Content Include="Images\Recipes\Cornbread.jpg" />
+    <Content Include="Images\Recipes\Jerky.jpg" />
+    <Content Include="Images\Recipes\Onion.jpg" />
+    <Content Include="Images\Recipes\PastaSauce.jpg" />
+    <Content Include="Images\Recipes\Pickles.jpg" />
+    <Content Include="Mobile\Default.aspx" />
+    <Content Include="README.jQuery.vsdoc.txt" />
+    <Content Include="Scripts\Brewing.js" />
+    <Content Include="Scripts\CompanionPlants.js" />
+    <Content Include="Scripts\FFScript.js" />
+    <Content Include="Scripts\gridmvc.js" />
+    <Content Include="Scripts\gridmvc.lang.ru.js" />
+    <Content Include="Scripts\gridmvc.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.min-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.12.js" />
+    <Content Include="Scripts\jquery-ui-1.8.12.min.js" />
+    <Content Include="Scripts\jquery-ui-1.9.2.custom.js" />
+    <Content Include="Scripts\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Scripts\jquery.mobile-1.4.5.js" />
+    <Content Include="Scripts\jquery.mobile-1.4.5.min.js" />
+    <Content Include="Scripts\jquery.PrintArea.js" />
+    <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\MashSpargeWater.js" />
+    <Content Include="Scripts\modernizr-1.7.js" />
+    <Content Include="Scripts\modernizr-1.7.min.js" />
+    <Content Include="Scripts\printThis.js" />
+    <Content Include="Views\Shared\WideRecievers.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\ZenfulNeps\ZenfulNeps.Mobile.cshtml" />
+    <Content Include="Views\CompanionPlants\CompanionPlants.Mobile.cshtml" />
+    <Content Include="Views\ZenfulNeps\MashSpargeWater.Mobile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ZenfulNeps\BodyFatCalc.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ZenfulNeps\ZenfulNeps.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\SideBar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ZenfulNeps\Archive.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ZenfulNeps\DeadComedians.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\CompanionPlants\CompanionPlants.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\CompanionPlants\CompanionPlantDetail.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ZenfulNeps\MashSpargeWater.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Brewing\Brewing.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Recipes\Recipes.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Recipes\RecipeDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Grid.mvc.readme" />
+    <Content Include="App_Data\51Degrees.dat" />
+    <Content Include="51Degrees.config" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="Views\ZenfulNeps\FantasyDrafter.cshtml" />
+    <Content Include="Views\Shared\QuarterBacks.cshtml" />
+    <Content Include="Views\Shared\Kickers.cshtml" />
+    <Content Include="Views\Shared\RunningBacks.cshtml" />
+    <Content Include="Views\Shared\TightEnds.cshtml" />
+    <Content Include="Views\Shared\Defenses.cshtml" />
+    <Content Include="Views\Shared\_GridPager.cshtml" />
+    <Content Include="Views\Shared\_Grid.cshtml" />
+    <Content Include="Views\CompanionPlantsNew\CompanionPlantsNew.cshtml" />
+    <Content Include="Views\ZenfulNeps\MaltExtractConversion.cshtml" />
+    <Content Include="Views\Shared\_Layout.Mobile.cshtml" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49454</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49454/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

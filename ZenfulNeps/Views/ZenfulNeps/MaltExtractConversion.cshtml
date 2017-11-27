@@ -1,0 +1,141 @@
+﻿@{
+    ViewBag.Title = "Home Brewing: Malt/Extract Converter";
+    ViewBag.Image = "http://zenfulneps.com/images/mashtun2.jpg";
+    ViewBag.Description = "TBD";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div class="msgroupbox">
+    <span>
+        <h3>Malt/Extract Converter</h3>
+    </span>
+
+    <div class="outercodex">
+        <div class="codex">
+            <div class="description">
+                <p>
+                    A Simple Calculator for Converting All-Grain Recipes to Extract and Back Again.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <table width="600" class="msTable">
+            <tr>
+                <td class="first">
+                    <label id="amount">Assumed Mash Efficiency (5% increments):</label>
+                </td>
+                <td>
+                    <div id="slider-range-min" style="width: 200px;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="first" colspan="2">
+                    <hr/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>All-Grain to Extract</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">
+                    Amount of Malt (lbs):
+                </td>
+                <td>
+                    <input type="text" class="msInput maltAmount" maxlength="3" value=""/>
+                    <input type="button" value="Calculate" class="superButton calculate"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">
+                    Liquid Malt Extract:
+                </td>
+                <td>
+                    <label id="lmeAmount">0 lbs</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">
+                    Dry Malt Extract:
+                </td>
+                <td>
+                    <label id="dmeAmount">0 lbs</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="first" colspan="2">
+                    <hr/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>Extract to All-Grain</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">
+                    Amount of Liquid Malt Extract (lbs):
+                </td>
+                <td>
+                    <input type="text" class="msInput lmeAmount" maxlength="3" value=""/>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+<script>
+    var sliderLabelText = "Assumed Mash Efficiency (5% increments): ";
+
+    $(function () {
+        $("#slider-range-min").slider({
+            range: "min",
+            value: 75,
+            min: 65,
+            max: 80,
+            step: 5,
+            slide: function (event, ui) {
+                $("#amount").html(sliderLabelText + ui.value + "%");
+            }
+        });
+        $("#amount").html(sliderLabelText + $("#slider-range-min").slider("value") + "%");
+    });
+
+    $('.calculate').click(function () {
+        var maltAmount = $('.maltAmount').val();
+        var eff = $("#slider-range-min").slider("value");
+        var lme_Eff = 0.00;
+        var dme_Eff = 0.00;
+        switch (eff) {
+            case 65:
+                lme_Eff = .63;
+                dme_Eff = .52;
+                break;
+            case 70:
+                lme_Eff = .68;
+                dme_Eff = .56;
+                break;
+            case 75:
+                lme_Eff = .73;
+                dme_Eff = .60;
+                break;
+            case 80:
+                lme_Eff = .78;
+                dme_Eff = .65;
+                break;
+        }
+        $('#lmeAmount').text((maltAmount * lme_Eff).toFixed(2) + " lbs");
+        $('#dmeAmount').text((maltAmount * dme_Eff).toFixed(2) + " lbs");
+        return false;
+    });
+
+
+
+
+</script>
+
+

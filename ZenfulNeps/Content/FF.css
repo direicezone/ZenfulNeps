@@ -1,0 +1,204 @@
+﻿BODY
+{
+    background-color: #231F20;
+    font: 12px;
+    font-family: Verdana, Arial;
+    color: #333333;
+    height: 100%;
+}
+
+a:link {color:#336699; text-decoration:none}
+a:active {color:#336699; text-decoration:none}
+a:visited {color:#336699; text-decoration:none}
+a:hover {color: #990000; text-decoration:underline;}
+
+a.headerLink:link {text-decoration: none; color: #f7f7f7; font-size: 13px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.headerLink:visited {text-decoration: none; color: #f7f7f7; font-size: 13px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.headerLink:hover {text-decoration: none; color: #ffcc00; font-size: 13px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.headerLink:active {text-decoration: none; color: #ffcc00; font-size: 13px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a.emphasisheadline:link {text-decoration: underline; color: #666666; font-size: 18px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.emphasisheadline:visited {text-decoration: underline; color: #666666; font-size: 18px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.emphasisheadline:hover {text-decoration: underline; color: #990000; font-size: 18px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.emphasisheadline:active {text-decoration: underline; color: #666666; font-size: 18px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.header {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #006699; font-weight: bold}
+.headerblue {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #336699; font-weight: bold}
+.headerbluebig {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 20px; color: #336699; font-weight: normal}
+.headergreen {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #669966; font-weight: bold}
+.headerred {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #cc0000; font-weight: bold}
+.headerred-big {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #cc0000; font-weight: bold}
+.headerstats {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #336699; font-weight: bold}
+.articleshdr {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #ffffff;}
+
+.tablehdrgrey {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #eeeeee; background-color: #666666;}
+.tablehdr {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #f7f7f7; background-color: #336699;}
+.tablehdrsmall {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; color: #f7f7f7; background-color: #336699;}
+.tableclmhdr {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #333333; background-color: #e0e0e0;}
+.tableclmhdrsort {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight:normal; color: #333333;}
+table.sort1{border-color: #eeeeee; border-spacing: 0px; border-style: solid; border-width: 1px;}
+td.sort1, th {font-family: Verdana, Arial, Helvetica; font-size: 11px; padding: 2px;}
+td.sort2, th {font-family: Arial, Verdana, Helvetica; font-size: 14px; padding: 2px;}
+th {background-color: #e0e0e0; text-align: left;}
+th.mainHeader {background-color: #336699; color: #ffffff; text-align: left;}
+th a {color: #336699; text-decoration: underline;}
+th a:visited {color: #336699;}
+th a:active, th a:hover {color: #990033; text-decoration: none;}
+tr.alternateRow {background-color: #f7f7f7;}
+td.sortedColumn {background-color: #e0e0e0;}
+th.sortedColumn {background-color: #e0e0e0;}
+tr.alternateRow td.sortedColumn {background-color: #e0e0e0;}
+
+.newstablehdr {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #ffffff; background-color: #6699cc;}
+
+/* ************************************ *
+ *          Buttons           *
+ * ************************************ */
+.button {
+	position: relative;
+	border: 0px;
+	background: #669966;
+	line-height: 35px;
+	width: 150px;
+}
+.button ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;  /* eventually will be % */
+	width: 100%;      /* required for IE */
+}
+/* any li element within .button container */
+.button li {
+	background: #669966;
+	float: left;      /* widths are set below */
+	margin: 0;
+	padding: 0;
+	list-style: none; /* don't show bullet markers */
+	border-left: 0px; /* separator between list items */
+}
+/* any anchor in a .button list item element */
+.button li a {
+	display: block;         /* expand to fill parent li */
+	margin: 0;              /* no space between anchors */
+	text-decoration: none;  /* no underline */
+	color: #f7f7f7;         /* override default link color */
+	line-height: 35px;
+	width: 100%;          /* required for IE */
+}
+/* hide overflowing text, except in MacIE \*/
+.button li a {
+	overflow: hidden;
+} /* end hack */
+	
+.button li a:focus,		
+.button li a:active,
+.button li a:visited {
+	display: block;         /* expand to fill parent li */
+	margin: 0;              /* no space between anchors */
+	text-decoration: none;  /* no underline */
+	color: #f7f7f7;         /* override default link color */
+	line-height: 35px;
+	width: 100%;          /* required for IE */
+}
+.button li a:hover {	
+			background: #999999;
+			padding: 0;
+			margin: 0;
+			text-decoration: none;
+			color: #f7f7f7; /* override default link color */
+		}
+		
+/* .button menu item widths, should change
+   to em or % units in the future. */
+#mEnter {
+	width: 150px;
+}
+
+#mInactive {
+	width: 150px;
+	background: #999999; color: #fff;
+}
+/* end */
+
+.note-td.done {
+    text-decoration: line-through;
+    background-color : grey;
+}
+
+.h2Style {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    padding: 0px;
+    margin: 0px;
+}
+
+.searchResults {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+.timer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+.highlighted {
+     background-color:yellow;
+}
+
+/*Scrolling content with stationary header*/
+.container
+{
+    margin: 0px auto;
+    position: relative;
+}
+
+#header
+{
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header .container
+{
+    background: #231F20;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 60px;
+}
+
+#content
+{
+    height: 1500px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+#content .inner
+{
+    margin-right: 10px;
+}
+
+div.ui-tooltip {
+    max-width: 400px;
+}
+
+.anchorLinks
+{
+    font-size: 12px;
+    float: right;
+    color: wheat;
+    padding-right: 20px;
+}
+.anchorLinks a
+{
+    color: wheat;
+    text-decoration: underline;
+}

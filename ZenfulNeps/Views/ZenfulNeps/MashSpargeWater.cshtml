@@ -1,0 +1,196 @@
+﻿@using ZenfulNeps.Models
+@model ZenfulNeps
+@{
+	ViewBag.Title = "Home Brewing: Mash & Sparge Water Calculator";
+	ViewBag.Image = "http://zenfulneps.com/images/mashtun2.jpg";
+    ViewBag.Description = "A simple and convenient tool for calculating mash and sparge water you’ll need to insure a successful brew day. Happy brewing!";
+
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="text-align: center;">
+    <script type="text/javascript">
+<!--
+        google_ad_client = "ca-pub-5663665114572954";
+        /* Brewing */
+        google_ad_slot = "9026649662";
+        google_ad_width = 728;
+        google_ad_height = 90;
+
+        $(document).ready(function() {
+            $("div.b1").click(function() {
+                $("div.printable").printArea();
+            });
+        });
+
+        //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+
+	
+    </script>
+</div>
+
+<div class="msgroupbox" id="mashsparge">
+    <span>
+		<h3>Mash & Sparge Water Calculator</h3>
+	</span>
+    <div class="outercodex">
+        <div class="codex">
+            <div class="description">
+                <p>
+    	            A simple and convenient tool for calculating mash and sparge water you’ll need to insure a successful brew day. Happy brewing!
+                </p>
+            </div>
+        </div>
+    </div>
+	<div class="printable">
+		<div class="printbutton b1" style="float: right">Print</div>
+		<table width="600" class="msTable">
+			<tr>
+				<td class="first">Batch Volume:</td>
+				<td>
+					<input type="text" class="msInput batchVolume" maxlength="4" value="5"/>
+					<a href="" class="plusminus" data-control-class="batchVolume" data-amountby="1">▲</a>
+					<a href="" class="plusminus" data-control-class="batchVolume" data-amountby="1">▼</a>
+					<span class="msSubScript">gallons</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Amount of Grain:</td>
+				<td>
+					<input type="text" class="msInput grainBill" maxlength="5" value="12"/>
+					<a href="" class="plusminus" data-control-class="grainBill" data-amountby="1">▲</a>
+					<a href="" class="plusminus" data-control-class="grainBill" data-amountby="1">▼</a>
+					<span class="msSubScript">pounds</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Length of Boil:</td>
+				<td>
+					<input type="text" class="msInput boilTime" maxlength="4" value="60"/> 
+					<a href="" class="plusminus" data-control-class="boilTime" data-amountby="1">▲</a>
+					<a href="" class="plusminus" data-control-class="boilTime" data-amountby="1">▼</a>
+					<span class="msSubScript">minutes</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Trub Loss:</td>
+				<td>
+					<input type="text" class="msInput trubLoss" maxlength="4" value="0.5"/> 
+					<a href="" class="plusminus" data-control-class="trubLoss" data-amountby=".25">▲</a>
+					<a href="" class="plusminus" data-control-class="trubLoss" data-amountby=".25">▼</a>
+					<span class="msSubScript">gallons</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Equipment Loss:</td>
+				<td>
+					<input type="text" class="msInput mashTunLoss" maxlength="4" value="0.5"/>
+					<a href="" class="plusminus" data-control-class="mashTunLoss" data-amountby=".25">▲</a>
+					<a href="" class="plusminus" data-control-class="mashTunLoss" data-amountby=".25">▼</a>
+					<span class="msSubScript">gallons</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Thickness of Mash:</td>
+				<td>
+					<input type="text" class="msInput mashThickness" maxlength="4" value="1.33"/> 
+					<a href="" class="plusminus" data-control-class="mashThickness" data-amountby=".01">▲</a>
+					<a href="" class="plusminus" data-control-class="mashThickness" data-amountby=".01">▼</a>
+					<span class="msSubScript">quarts/pounds</span>
+				</td>
+				<td class="msSubScript"><a href="../Images/MashThickness.gif"  target="_blank" data-pic="MashThickness.gif" data-class="mashthickpopup">Variable</a></td>
+			</tr>
+			<tr>
+				<td class="first">Grain Room Temperature:</td>
+				<td>
+					<input type="text" class="msInput grainsTemp" maxlength="4" value="72"/> 
+					<a href="" class="plusminus" data-control-class="grainsTemp" data-amountby="1">▲</a>
+					<a href="" class="plusminus" data-control-class="grainsTemp" data-amountby="1">▼</a>
+					<span class="msSubScript">° Fahrenheit</span>
+				</td>
+				<td class="msSubScript">Variable</td>
+			</tr>
+			<tr>
+				<td class="first">Target Mash Temperature:</td>
+				<td>
+					<input type="text" class="msInput targetMashTemp" maxlength="4" value="152"/> 
+					<a href="" class="plusminus" data-control-class="targetMashTemp" data-amountby="1">▲</a>
+					<a href="" class="plusminus" data-control-class="targetMashTemp" data-amountby="1">▼</a>
+					<span class="msSubScript">° Fahrenheit</span>
+				</td>
+				<td class="msSubScript"><a href="../Images/EnzymeActivity1HourMash.jpg" target="_blank" data-pic="EnzymeActivity1HourMash.jpg" data-class="mashtemppopup">Variable</a></td>
+			</tr>
+			<tr>
+				<td class="first">Wort Shrinkage Factor:</td>
+				<td>
+					<input type="text" class="msInput shrinkPerct" maxlength="4" value=".04"/> 
+					<a href="" class="plusminus" data-control-class="shrinkPerct" data-amountby=".01">▲</a>
+					<a href="" class="plusminus" data-control-class="shrinkPerct" data-amountby=".01">▼</a>
+					<span class="msSubScript">%</span>
+				</td>
+				<td class="msSubScript">Standard 4%</td>
+			</tr>
+			<tr>
+				<td class="first">Grain Absorption Rate:</td>
+				<td>
+					<input type="text" class="msInput grainAbsRate" maxlength="4" value="0.13"/> 
+					<a href="" class="plusminus" data-control-class="grainAbsRate" data-amountby=".01">▲</a>
+					<a href="" class="plusminus" data-control-class="grainAbsRate" data-amountby=".01">▼</a>
+					<span class="msSubScript">gallons/pounds</span>
+				</td>
+				<td class="msSubScript">Standard 0.13 gal/lbs</td>
+			</tr>
+			<tr>
+				<td class="first">Evaporation Rate:</td>
+				<td>
+					<input type="text" class="msInput evapPerct" maxlength="4" value="0.1"/> 
+					<a href="" class="plusminus" data-control-class="evapPerct" data-amountby=".1">▲</a>
+					<a href="" class="plusminus" data-control-class="evapPerct" data-amountby=".1">▼</a>
+					<span class="msSubScript">%/hour</span>
+				</td>
+				<td class="msSubScript">Standard 1-5%/hour</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="Calculate" class="superButton calculate"/></td>
+				<td>
+					<div class="pw-widget pw-size-medium pw-counter-show">			
+						<a class="pw-button-facebook"></a>			
+						<a class="pw-button-twitter"></a>			
+						<a class="pw-button-email"></a>			
+						<a class="pw-button-post"></a>		
+					</div>
+					<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>                    
+				</td>
+			</tr>
+			<tr class="msResults">
+				<td class="first">Total Water Needed:</td>
+				<td class="totalWater"></td>
+				<td></td>
+			</tr>
+			<tr class="msResults">
+				<td class="first">Mash Water Needed:</td>
+				<td class="mashWater"></td>
+				<td></td>
+			</tr>
+			<tr class="msResults">
+				<td class="first">Sparge Water Needed:</td>
+				<td class="spargeWater"></td>
+				<td></td>
+			</tr>
+			<tr class="msResults">
+				<td class="first">Pre-Boiled Wort:</td>
+				<td class="preBoiledWort"></td>
+				<td></td>
+			</tr>
+		</table>	</div></div>
+
+<div class="ingredients">
+</div>
+
+

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{716B6190-928C-4676-ABD4-B19C64DFA3BD}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		ZenfulNeps.vsmdi = ZenfulNeps.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenfulNeps", "ZenfulNeps\ZenfulNeps.csproj", "{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlchemyHelper", "..\AlchemyHelper\AlchemyHelper\AlchemyHelper.csproj", "{020D9C4A-607E-420E-AD59-7A66DEAF4A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{AFE08B6E-2108-45CB-B9FC-8D8E507EAB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabloIII", "DiabloIII\DiabloIII.csproj", "{DB3AFBCE-C611-46C5-AF29-930DE00681D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C0BEB8-A2EE-4774-9446-9D43D4F7781D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020D9C4A-607E-420E-AD59-7A66DEAF4A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020D9C4A-607E-420E-AD59-7A66DEAF4A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020D9C4A-607E-420E-AD59-7A66DEAF4A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020D9C4A-607E-420E-AD59-7A66DEAF4A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE08B6E-2108-45CB-B9FC-8D8E507EAB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE08B6E-2108-45CB-B9FC-8D8E507EAB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE08B6E-2108-45CB-B9FC-8D8E507EAB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE08B6E-2108-45CB-B9FC-8D8E507EAB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3AFBCE-C611-46C5-AF29-930DE00681D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3AFBCE-C611-46C5-AF29-930DE00681D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3AFBCE-C611-46C5-AF29-930DE00681D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3AFBCE-C611-46C5-AF29-930DE00681D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://direice.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\AlchemyHelper\\AlchemyHelper\\AlchemyHelper.csproj
+		SccProjectName1 = ../AlchemyHelper/AlchemyHelper
+		SccLocalPath1 = ..\\AlchemyHelper\\AlchemyHelper
+		SccProjectUniqueName2 = DiabloIII\\DiabloIII.csproj
+		SccProjectName2 = DiabloIII
+		SccLocalPath2 = DiabloIII
+		SccProjectUniqueName3 = TestProject1\\TestProject1.csproj
+		SccProjectName3 = TestProject1
+		SccLocalPath3 = TestProject1
+		SccProjectUniqueName4 = ZenfulNeps\\ZenfulNeps.csproj
+		SccProjectName4 = ZenfulNeps
+		SccLocalPath4 = ZenfulNeps
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ZenfulNeps.vsmdi
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+@model ZenfulNeps.Models.ZenfulNeps
+@{
+    ViewBag.Title = "Zenful Nepenthes";
+    ViewBag.Description = "The Zenful Nepenthes Website: Home to many interesting links such as our Companion Planting Guide, Mash & Sparge Water Calculator, and other interesting links and facts.";
+    ViewBag.Image = "http://zenfulneps.com/content/zenicon.png";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19193261-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<div class="ui-bar ui-bar-a ui-corner-all">
+    Welcome to the Zenful Nepenthes Mobile Website.  Home to many interesting links such as our Companion Planting Guide, Mash & Sparge Water Calculator, and other useful links.
+</div>
+
+<ul data-role="listview" data-inset="true" data-filter="false">
+    @*<li><a href="http://demos.jquerymobile.com/1.4.3/table-reflow/">jQuery - Table: Reflow</a></li>*@
+    <li data-role="list-divider">Links</li>
+    <li><a href="/CompanionPlants/Index" rel="external">Companion Planting</a></li>
+    @*<li><a href="/Recipes/Index" rel="external">The Recipe Codex</a></li>*@
+    <li><a href="/ZenfulNeps/MashSpargeWater" rel="external">Mash & Sparge Water</a></li>
+    @*<li><a href="/Brewing/Index" rel="external">Brewing Efficiency</a></li>
+    <li><a href="/ZenfulNeps/BodyFatCalculator" rel="external">Body Fat Calculator</a></li>*@
+</ul>
+
+@*<div style="text-align: center;">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Mobile -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:320px;height:100px"
+             data-ad-client="ca-pub-5663665114572954"
+             data-ad-slot="7979446860"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>*@

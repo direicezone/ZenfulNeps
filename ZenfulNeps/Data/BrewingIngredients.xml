@@ -1,0 +1,1530 @@
+<Ingredients>
+	<Ingredient>
+		<ID>2</ID>
+		<Name>Flaked Barley</Name>
+		<Lovibond>2.2</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>3</ID>
+		<Name>Flaked Corn</Name>
+		<Lovibond>0.5</Lovibond>
+		<PPG>40</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>4</ID>
+		<Name>Flaked Oats</Name>
+		<Lovibond>2.2</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>5</ID>
+		<Name>Flaked Rice</Name>
+		<Lovibond>0.5</Lovibond>
+		<PPG>40</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>6</ID>
+		<Name>Flaked Rye</Name>
+		<Lovibond>2.8</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>7</ID>
+		<Name>Flaked Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>8</ID>
+		<Name>Grits</Name>
+		<Lovibond>1</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>9</ID>
+		<Name>Rice Hulls</Name>
+		<Lovibond>0</Lovibond>
+		<PPG>0</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>10</ID>
+		<Name>Rolled Oats</Name>
+		<Lovibond>2.2</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>11</ID>
+		<Name>Torrified Barley</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>12</ID>
+		<Name>Torrified Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Adjunct</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>14</ID>
+		<Name>Dry Malt Extract - Amber</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>15</ID>
+		<Name>Dry Malt Extract - Dark</Name>
+		<Lovibond>30</Lovibond>
+		<PPG>44</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>189</ID>
+		<Name>Dry Malt Extract - Extra Light</Name>
+		<Lovibond>2.5</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>13</ID>
+		<Name>Dry Malt Extract - Light</Name>
+		<Lovibond>4</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>187</ID>
+		<Name>Dry Malt Extract - Munich</Name>
+		<Lovibond>8</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>188</ID>
+		<Name>Dry Malt Extract - Pilsen</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>16</ID>
+		<Name>Dry Malt Extract - Wheat</Name>
+		<Lovibond>3</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>162</ID>
+		<Name>Rice Syrup Solids</Name>
+		<Lovibond>1</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>0</Mashable>
+		<Category>Dry Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>17</ID>
+		<Name>US - Aromatic Malt</Name>
+		<Lovibond>20</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>18</ID>
+		<Name>US - Ashbourne Mild</Name>
+		<Lovibond>5.3</Lovibond>
+		<PPG>30</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>19</ID>
+		<Name>US - Black Barley</Name>
+		<Lovibond>530</Lovibond>
+		<PPG>27</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>20</ID>
+		<Name>US - Black Malt</Name>
+		<Lovibond>500</Lovibond>
+		<PPG>28</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>21</ID>
+		<Name>US - Blackprinz</Name>
+		<Lovibond>500</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>22</ID>
+		<Name>US - Bonlander Munich</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>23</ID>
+		<Name>US - CaraBrown</Name>
+		<Lovibond>55</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>24</ID>
+		<Name>US - CaraCrystal Wheat Malt</Name>
+		<Lovibond>55</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>25</ID>
+		<Name>US - Caramel / Crystal 10L</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>26</ID>
+		<Name>US - Caramel / Crystal 15L</Name>
+		<Lovibond>15</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>27</ID>
+		<Name>US - Caramel / Crystal 20L</Name>
+		<Lovibond>20</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>28</ID>
+		<Name>US - Caramel / Crystal 30L</Name>
+		<Lovibond>30</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>29</ID>
+		<Name>US - Caramel / Crystal 40L</Name>
+		<Lovibond>40</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>30</ID>
+		<Name>US - Caramel / Crystal 60L</Name>
+		<Lovibond>60</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>31</ID>
+		<Name>US - Caramel / Crystal 75L</Name>
+		<Lovibond>75</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>32</ID>
+		<Name>US - Caramel / Crystal 80L</Name>
+		<Lovibond>80</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>33</ID>
+		<Name>US - Caramel / Crystal 90L</Name>
+		<Lovibond>90</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>34</ID>
+		<Name>US - Caramel / Crystal 120L</Name>
+		<Lovibond>120</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>35</ID>
+		<Name>US - Caramel / Crystal 150L</Name>
+		<Lovibond>150</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>36</ID>
+		<Name>US - Carapils (Dextrine Malt)</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>37</ID>
+		<Name>US - Chocolate</Name>
+		<Lovibond>350</Lovibond>
+		<PPG>29</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>38</ID>
+		<Name>US - Dark Chocolate</Name>
+		<Lovibond>420</Lovibond>
+		<PPG>29</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>39</ID>
+		<Name>US - Midnight Wheat Malt</Name>
+		<Lovibond>550</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>40</ID>
+		<Name>US - Munich - Light 10L</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>41</ID>
+		<Name>US - Munich - Dark 20L</Name>
+		<Lovibond>20</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>42</ID>
+		<Name>US - Munich - 60L</Name>
+		<Lovibond>60</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>43</ID>
+		<Name>US - Pale 2-Row</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>44</ID>
+		<Name>US - Pale 2-Row - Toasted</Name>
+		<Lovibond>30</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>45</ID>
+		<Name>US - Pale 6-Row</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>46</ID>
+		<Name>US - Pale Ale</Name>
+		<Lovibond>3.5</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>47</ID>
+		<Name>US - Pilsner</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>48</ID>
+		<Name>US - Red Wheat</Name>
+		<Lovibond>2.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>49</ID>
+		<Name>US - Roasted Barley</Name>
+		<Lovibond>300</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>50</ID>
+		<Name>US - Rye</Name>
+		<Lovibond>3.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>51</ID>
+		<Name>US - Smoked Malt</Name>
+		<Lovibond>5</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>52</ID>
+		<Name>US - Special Roast</Name>
+		<Lovibond>50</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>53</ID>
+		<Name>US - Victory</Name>
+		<Lovibond>28</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>54</ID>
+		<Name>US - Vienna</Name>
+		<Lovibond>4</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>55</ID>
+		<Name>US - Wheat</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>56</ID>
+		<Name>US - White Wheat </Name>
+		<Lovibond>2.8</Lovibond>
+		<PPG>40</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>57</ID>
+		<Name>Belgian - Aromatic</Name>
+		<Lovibond>38</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>58</ID>
+		<Name>Belgian - Biscuit</Name>
+		<Lovibond>23</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>59</ID>
+		<Name>Belgian - Cara 20L</Name>
+		<Lovibond>22</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>60</ID>
+		<Name>Belgian - Cara 45L</Name>
+		<Lovibond>42</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>61</ID>
+		<Name>Belgian - Caramel Pils</Name>
+		<Lovibond>8</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>62</ID>
+		<Name>Belgian - CaraMunich</Name>
+		<Lovibond>50</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>63</ID>
+		<Name>Belgian - CaraVienne</Name>
+		<Lovibond>20</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>64</ID>
+		<Name>Belgian - Chocolate</Name>
+		<Lovibond>340</Lovibond>
+		<PPG>30</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>65</ID>
+		<Name>Belgian - De-Bittered Black</Name>
+		<Lovibond>566</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>66</ID>
+		<Name>Belgian - Munich</Name>
+		<Lovibond>6</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>67</ID>
+		<Name>Belgian - Pale Ale</Name>
+		<Lovibond>3.4</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>68</ID>
+		<Name>Belgian - Pilsner</Name>
+		<Lovibond>1.6</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>69</ID>
+		<Name>Belgian - Roasted Barley</Name>
+		<Lovibond>575</Lovibond>
+		<PPG>30</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>70</ID>
+		<Name>Belgian - Special B</Name>
+		<Lovibond>115</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>71</ID>
+		<Name>Belgian - Unmalted Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>72</ID>
+		<Name>Belgian - Wheat</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>73</ID>
+		<Name>Canadian - ESB Malt</Name>
+		<Lovibond>3.5</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>74</ID>
+		<Name>Canadian - Honey Malt</Name>
+		<Lovibond>25</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>75</ID>
+		<Name>Canadian - Munich Dark</Name>
+		<Lovibond>32</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>76</ID>
+		<Name>Canadian - Munich Light</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>77</ID>
+		<Name>Canadian - Pale 2-Row</Name>
+		<Lovibond>1.75</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>78</ID>
+		<Name>Canadian - Pale Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>79</ID>
+		<Name>German - Abbey Malt </Name>
+		<Lovibond>17</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>80</ID>
+		<Name>German - Acidulated Malt </Name>
+		<Lovibond>3.4</Lovibond>
+		<PPG>27</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>81</ID>
+		<Name>German - Bohemian Pilsner</Name>
+		<Lovibond>1.9</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>82</ID>
+		<Name>German - CaraAmber</Name>
+		<Lovibond>23</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>83</ID>
+		<Name>German - CaraAroma</Name>
+		<Lovibond>130</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>84</ID>
+		<Name>German - CaraBelge</Name>
+		<Lovibond>13.6</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>85</ID>
+		<Name>German - CaraBohemian</Name>
+		<Lovibond>75</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>86</ID>
+		<Name>German - Carafa I</Name>
+		<Lovibond>340</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>87</ID>
+		<Name>German - Carafa II</Name>
+		<Lovibond>425</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>88</ID>
+		<Name>German - Carafa III</Name>
+		<Lovibond>535</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>89</ID>
+		<Name>German - CaraFoam</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>90</ID>
+		<Name>German - CaraHell</Name>
+		<Lovibond>11</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>91</ID>
+		<Name>German - Caramel Pils</Name>
+		<Lovibond>2.4</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>92</ID>
+		<Name>German - Caramel Wheat</Name>
+		<Lovibond>46</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>93</ID>
+		<Name>German - CaraMunich I</Name>
+		<Lovibond>39</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>94</ID>
+		<Name>German - CaraMunich II</Name>
+		<Lovibond>46</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>95</ID>
+		<Name>German - CaraMunich III</Name>
+		<Lovibond>57</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>96</ID>
+		<Name>German - Carapils</Name>
+		<Lovibond>1.3</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>97</ID>
+		<Name>German - CaraRed</Name>
+		<Lovibond>20</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>98</ID>
+		<Name>German - Chocolate Rye</Name>
+		<Lovibond>240</Lovibond>
+		<PPG>31</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>99</ID>
+		<Name>German - Chocolate Wheat</Name>
+		<Lovibond>413</Lovibond>
+		<PPG>31</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>100</ID>
+		<Name>German - Dark Munich</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>101</ID>
+		<Name>German - Dark Wheat</Name>
+		<Lovibond>6.5</Lovibond>
+		<PPG>39</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>102</ID>
+		<Name>German - De-Husked Caraf I</Name>
+		<Lovibond>340</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>103</ID>
+		<Name>German - De-Husked Caraf II</Name>
+		<Lovibond>418</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>104</ID>
+		<Name>German - De-Husked Caraf III</Name>
+		<Lovibond>470</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>105</ID>
+		<Name>German - Floor-Malted Bohemian Pilsner</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>106</ID>
+		<Name>German - Floor-Malted Bohemian Pilsner Dk</Name>
+		<Lovibond>6.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>107</ID>
+		<Name>German - Floor-Malted Bohemian Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>108</ID>
+		<Name>German - Kolsch</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>109</ID>
+		<Name>German - Melanoidin</Name>
+		<Lovibond>25</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>110</ID>
+		<Name>German - Munich Dark</Name>
+		<Lovibond>15.5</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>111</ID>
+		<Name>German - Munich Light</Name>
+		<Lovibond>6</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>112</ID>
+		<Name>German - Pale Ale</Name>
+		<Lovibond>2.3</Lovibond>
+		<PPG>39</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>113</ID>
+		<Name>German - Pale Wheat</Name>
+		<Lovibond>1.5</Lovibond>
+		<PPG>39</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>114</ID>
+		<Name>German - Pilsner</Name>
+		<Lovibond>1.6</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>115</ID>
+		<Name>German - Rye</Name>
+		<Lovibond>3.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>116</ID>
+		<Name>German - Smoked Malt</Name>
+		<Lovibond>3</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>117</ID>
+		<Name>German - Spelt Malt</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>118</ID>
+		<Name>German - Vienna</Name>
+		<Lovibond>4</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>119</ID>
+		<Name>German - Wheat Malt</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>120</ID>
+		<Name>UK - Amber</Name>
+		<Lovibond>27</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>121</ID>
+		<Name>UK - Black Patent</Name>
+		<Lovibond>525</Lovibond>
+		<PPG>27</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>122</ID>
+		<Name>UK - Brown</Name>
+		<Lovibond>65</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>123</ID>
+		<Name>UK - Cara Malt</Name>
+		<Lovibond>17.5</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>124</ID>
+		<Name>UK - Carastan (30/37)</Name>
+		<Lovibond>34</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>125</ID>
+		<Name>UK - Carastan Light (15L)</Name>
+		<Lovibond>15</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>126</ID>
+		<Name>UK - Chocolate</Name>
+		<Lovibond>425</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>127</ID>
+		<Name>UK - Coffee Malt</Name>
+		<Lovibond>150</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>128</ID>
+		<Name>UK - Crystal 15L</Name>
+		<Lovibond>15</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>129</ID>
+		<Name>UK - Crystal 30L</Name>
+		<Lovibond>30</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>130</ID>
+		<Name>UK - Crystal 45L</Name>
+		<Lovibond>45</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>131</ID>
+		<Name>UK - Crystal 50L</Name>
+		<Lovibond>50</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>132</ID>
+		<Name>UK - Crystal 60L</Name>
+		<Lovibond>60</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>133</ID>
+		<Name>UK - Crystal 70L</Name>
+		<Lovibond>70</Lovibond>
+		<PPG>34</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>134</ID>
+		<Name>UK - Crystal 90L</Name>
+		<Lovibond>90</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>135</ID>
+		<Name>UK - Crystal 140L</Name>
+		<Lovibond>140</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>136</ID>
+		<Name>UK - Crystal Rye</Name>
+		<Lovibond>90</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>137</ID>
+		<Name>UK - Dextrine Malt</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>138</ID>
+		<Name>UK - Dark Crystal 80L</Name>
+		<Lovibond>80</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>139</ID>
+		<Name>UK - Extra Dark Crystal 120L</Name>
+		<Lovibond>120</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>140</ID>
+		<Name>UK - Extra Dark Crystal 160L</Name>
+		<Lovibond>160</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>141</ID>
+		<Name>UK - Golden Naked Oats</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>142</ID>
+		<Name>UK - Golden Promise</Name>
+		<Lovibond>3</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>143</ID>
+		<Name>UK - Halcyon</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>144</ID>
+		<Name>UK - Lager</Name>
+		<Lovibond>1.4</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>145</ID>
+		<Name>UK - Malted Naked Oats</Name>
+		<Lovibond>1.3</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>146</ID>
+		<Name>UK - Maris Otter Pale</Name>
+		<Lovibond>3.75</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>147</ID>
+		<Name>UK - Mild</Name>
+		<Lovibond>3</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>148</ID>
+		<Name>UK - Munich</Name>
+		<Lovibond>6</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>149</ID>
+		<Name>UK - Oat Malt</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>28</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>150</ID>
+		<Name>UK - Optic</Name>
+		<Lovibond>2.1</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>151</ID>
+		<Name>UK - Pale 2-Row</Name>
+		<Lovibond>2.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>152</ID>
+		<Name>UK - Pale Chocolate</Name>
+		<Lovibond>207</Lovibond>
+		<PPG>33</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>153</ID>
+		<Name>UK - Pearl</Name>
+		<Lovibond>2.1</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>154</ID>
+		<Name>UK - Peated Malt</Name>
+		<Lovibond>2.5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>155</ID>
+		<Name>UK - Pilsen</Name>
+		<Lovibond>1.8</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>156</ID>
+		<Name>UK - Roasted Barley</Name>
+		<Lovibond>550</Lovibond>
+		<PPG>29</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>157</ID>
+		<Name>UK - Wheat</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>158</ID>
+		<Name>Liquid Malt Extract - Amber</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>159</ID>
+		<Name>Liquid Malt Extract - Dark</Name>
+		<Lovibond>30</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>190</ID>
+		<Name>Liquid Malt Extract - Extra Light</Name>
+		<Lovibond>2.5</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>160</ID>
+		<Name>Liquid Malt Extract - Light</Name>
+		<Lovibond>4</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>185</ID>
+		<Name>Liquid Malt Extract - Munich</Name>
+		<Lovibond>8</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>186</ID>
+		<Name>Liquid Malt Extract - Pilsen</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>161</ID>
+		<Name>Liquid Malt Extract - Wheat</Name>
+		<Lovibond>3</Lovibond>
+		<PPG>35</PPG>
+		<Mashable>0</Mashable>
+		<Category>Liquid Extract</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>163</ID>
+		<Name>Belgian Candi Sugar - Amber/Brown</Name>
+		<Lovibond>60</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>164</ID>
+		<Name>Belgian Candi Sugar - Clear/Blond</Name>
+		<Lovibond>0</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>165</ID>
+		<Name>Belgian Candi Sugar - Dark</Name>
+		<Lovibond>275</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>166</ID>
+		<Name>Belgian Candi Syrup - Amber</Name>
+		<Lovibond>40</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>167</ID>
+		<Name>Belgian Candi Syrup - Clear</Name>
+		<Lovibond>0</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>168</ID>
+		<Name>Belgian Candi Syrup - D2</Name>
+		<Lovibond>160</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>169</ID>
+		<Name>Belgian Candi Syrup - Dark</Name>
+		<Lovibond>80</Lovibond>
+		<PPG>32</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>170</ID>
+		<Name>Brown Rice Syrup - Gluten Free</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>44</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>171</ID>
+		<Name>Brown Sugar</Name>
+		<Lovibond>15</Lovibond>
+		<PPG>45</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>172</ID>
+		<Name>Cane Sugar</Name>
+		<Lovibond>0</Lovibond>
+		<PPG>46</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>173</ID>
+		<Name>Corn Sugar - Dextrose </Name>
+		<Lovibond>0.5</Lovibond>
+		<PPG>46</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>174</ID>
+		<Name>Corn Syrup</Name>
+		<Lovibond>0.5</Lovibond>
+		<PPG>37</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>175</ID>
+		<Name>Honey </Name>
+		<Lovibond>2</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>176</ID>
+		<Name>Honey (Buckwheat)</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>42</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>177</ID>
+		<Name>Invert Sugar</Name>
+		<Lovibond>1</Lovibond>
+		<PPG>46</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>179</ID>
+		<Name>Lactose (Milk Sugar)</Name>
+		<Lovibond>1</Lovibond>
+		<PPG>41</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>191</ID>
+		<Name>Maltodextrin </Name>
+		<Lovibond>0</Lovibond>
+		<PPG>39</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>178</ID>
+		<Name>Maple Syrup</Name>
+		<Lovibond>35</Lovibond>
+		<PPG>30</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>180</ID>
+		<Name>Molasses </Name>
+		<Lovibond>80</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>181</ID>
+		<Name>Soft Candi Sugar - Blond</Name>
+		<Lovibond>5</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>182</ID>
+		<Name>Soft Candi Sugar - Brown</Name>
+		<Lovibond>60</Lovibond>
+		<PPG>38</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>183</ID>
+		<Name>White Sorghum Syrup  - Gluten Free</Name>
+		<Lovibond>1.5</Lovibond>
+		<PPG>44</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>184</ID>
+		<Name>Turbinado</Name>
+		<Lovibond>10</Lovibond>
+		<PPG>44</PPG>
+		<Mashable>0</Mashable>
+		<Category>Sugar</Category>
+	</Ingredient>
+	<Ingredient>
+		<ID>185</ID>
+		<Name>Rahr 2-Row Pale</Name>
+		<Lovibond>2</Lovibond>
+		<PPG>36</PPG>
+		<Mashable>1</Mashable>
+		<Category>Grain</Category>
+	</Ingredient>
+</Ingredients>

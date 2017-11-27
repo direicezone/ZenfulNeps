@@ -1,0 +1,138 @@
+﻿@using ZenfulNeps.Models
+@model ZenfulNeps
+@{
+	ViewBag.Title = "Home Brewing: Mash & Sparge Water Calculator";
+	ViewBag.Image = "http://zenfulneps.com/images/mashtun2.jpg";
+    ViewBag.Description = "A simple and convenient tool for calculating mash and sparge water you’ll need to insure a successful brew day. Happy brewing!";
+
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="../../Scripts/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="../../Scripts/json2.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../Scripts/MashSpargeWater.js?Version@(DateTime.Now.ToShortDateString())"></script>
+<style>
+    div.ui-input-text { width: 150px !important }
+</style>
+<div id="content-wrap">
+    
+    <h3>Mash & Sparge Water Calculator</h3>
+    <div class="ui-bar ui-bar-a ui-corner-all">
+        A simple and convenient tool for calculating mash and sparge water.
+    </div>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <label for="batchVolume">Batch Volume (gal):</label>
+            </td>
+            <td nowrap>
+                <input type="number" data-mini="true" name="batchVolume" class="batchVolume" id="batchVolume" value="5" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="grainBill">Amount of Grains (lbs):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="grainBill" class="grainBill" id="grainBill" value="12" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="boilTime">Length of Boil (min):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="boilTime" class="boilTime" id="boilTime" value="60" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="trubLoss">Trub Loss (gal):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="trubLoss" class="trubLoss" id="trubLoss" value="0.5" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mashTunLoss">Equipment Loss (gal):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="mashTunLoss" class="mashTunLoss" id="mashTunLoss" value="0.5" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mashThickness">Mash Thickness (qts/lbs):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="mashThickness" class="mashThickness" id="mashThickness" value="1.33" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="grainsTemp">Grain Room Temp (°F):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="grainsTemp" class="grainsTemp" id="grainsTemp" value="72" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="targetMashTemp">Target Mash Temp (°F):</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="targetMashTemp" class="targetMashTemp" id="targetMashTemp" value="152" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="shrinkPerct">Wort Shrinkage:</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="shrinkPerct" class="shrinkPerct" id="shrinkPerct" value="0.04" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="grainAbsRate">Grain Absorption:</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="grainAbsRate" class="grainAbsRate" id="grainAbsRate" value="0.13" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="evapPerct">Evaporation Rate:</label>
+            </td>
+            <td>
+                <input type="number" data-mini="true" name="evapPerct" class="evapPerct" id="evapPerct" value="0.1"/>
+            </td>
+        </tr>
+        <tr class="msResults">
+            <td class="first">Total Water Needed:</td>
+            <td class="totalWater"></td>
+        </tr>
+        <tr class="msResults">
+            <td class="first">Mash Water Needed:</td>
+            <td class="mashWater"></td>
+        </tr>
+        <tr class="msResults">
+            <td class="first">Sparge Water Needed:</td>
+            <td class="spargeWater"></td>
+        </tr>
+        <tr class="msResults">
+            <td class="first">Pre-Boiled Wort:</td>
+            <td class="preBoiledWort"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Calculate" class="superButton calculate"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+

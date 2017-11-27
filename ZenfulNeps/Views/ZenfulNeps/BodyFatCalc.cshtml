@@ -1,0 +1,269 @@
+﻿@{
+	ViewBag.Title = "Body Fat Calculator";
+    ViewBag.Description = "Body Fat Calculator";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center>
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-5663665114572954";
+        /* Brewing */
+        google_ad_slot = "9026649662";
+        google_ad_width = 728;
+        google_ad_height = 90;
+    //-->
+        </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+</center>
+
+<div class="msgroupbox" id="mashsparge">
+    <span>
+	    <h3>The Body Fat Calculator</h3>
+    </span>    
+	<table width="100%" style="table-layout:fixed; margin-top: 0;">
+		<tr>
+			<th class="first">Area</th>
+			<th>Measurement</th>
+			<th>Results</th>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Chest</td>
+			<td><input type="text" id="Chest" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="JP7Percent">Jackson-Pollock 7-site:</label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Abdomen</td>
+			<td><input type="text" id="Abdomen" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="JP3Percent">Jackson-Pollock 3-site:</label></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Thigh</td>
+			<td><input type="text" id="Thigh" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="PA3Percent">Pollock et al. 3-site:</label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Tricep</td>
+			<td><input type="text" id="Tricep" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="P9Percent">Parrillo 9-site:</label></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Subscapular</td>
+			<td><input type="text" id="Subscapular" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="AverageBF">Average Body Fat:</label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Suprailiac</td>
+			<td><input type="text" id="Suprailiac" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="FatWeight">Fat Weight (average):</label></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Midaxilla</td>
+			<td><input type="text" id="Midaxilla" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="LeanWeight">Lean Weight (average):</label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Bicep</td>
+			<td><input type="text" id="Bicep" class="textboxSmall"/> mm</td>
+			<td class="goRight"><label class="error"></label></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Calf</td>
+			<td><input type="text" id="Calf" class="textboxSmall"/> mm</td>
+			<td class="goRight"></label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Lowerback</td>
+			<td><input type="text" id="Lowerback" class="textboxSmall"/> mm</td>
+			<td class="goRight"></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Sex</td>
+			<td>
+                <select id="Sex">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>				        
+			</td>
+			<td class="goRight"></label></td>
+		</tr>
+		<tr class="row-b">
+			<td class="first">Age</td>
+			<td><input type="text" id="Age" class="textboxSmall"/></td>
+			<td class="goRight"></td>
+		</tr>
+		<tr class="row-a">
+			<td class="first">Weight</td>
+			<td><input type="text" id="Weight" class="textboxSmall"/> lbs</td>
+			<td class="goRight"></td>
+		</tr>
+	</table>
+    <p>
+        <input type="button" class="button" value="Calculate My Body Fat" id="Calculate"/>
+    </p>
+    <label class="showHide">Show Instructions...</label>
+    <div id="instructions">
+        <table>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Chest:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a DIAGONAL fold on the lateral edge of the pectoral muscle,
+			        halfway between the nipple and the anterior axillary line (front of
+			        underarm crease). The fold should be parallel to the edge of the
+			        pectoral muscle.
+			        <br><br>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Abdomen:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a VERTICAL fold one inch to the right of the umbilicus.
+			        <br><br>		
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Thigh:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a VERTICAL fold in the middle of the front thigh, halfway					
+			        between hip and knee joints.					
+			        <br><br>		
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Triceps:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a VERTICAL fold halfway between the shoulder and elbow					
+			        joints, on the posterior midline of the upper arm (over the					
+			        tricep muscle).					
+			        <br><br>		
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Biceps:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a VERTICAL fold halfway between the shoulder and elbow joints,					
+			        on the anterior midline of the upper arm.					
+			        <br><br>		
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Subscapular:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a DIAGONAL fold at the back, just below the inferior angle					
+			        of the scapula (shoulder blade), at a 45° angle WRT horizontal,					
+			            turning clockwise. 					
+			        <br><br>		
+		        </td>
+	        </tr>
+	        <tr>
+		        <td valign="top" class="TDSmall">
+			        Suprailiac:
+		        </td>
+		        <td width="350" colspan="2" valign="top" class="TDSmall">
+			        a DIAGONAL fold just above the iliac crest (front-side top tip of					
+			        hip bone), at about 30° angle WRT horizontal, turning clockwise.					
+		            <br><br>		
+		        </td>
+	        </tr>
+            <tr>
+                <td valign="top" class="TDSmall">
+                    Axilla:
+                </td>
+                <td width="350" colspan="2" valign="top" class="TDSmall">
+                    a VERTICAL fold on the midaxillary line (below the armpit) 					
+                    at the level of the nipple.					
+                    <br><br>		
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" class="TDSmall">
+                    Calf:
+                </td>
+                <td width="350" colspan="2" valign="top" class="TDSmall">
+                    a VERTICAL fold in the middle of the medial head of 					
+                    the gastrocnemius.					
+                    <br><br>		
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" class="TDSmall">
+                    Lower back:
+                </td>
+                <td width="350" colspan="2" valign="top" class="TDSmall">
+                    a HORIZONTAL fold approximately at the position of the 					
+                    kidney (about 2 inches to the right of the spine, and 1 inch 					
+                    above the umbilicus level).					
+                    <br><br>		
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#instructions').hide();
+        $('.showHide').on('click', function () {
+            if ($(this).text() == "Show Instructions...") {
+                $(this).text("Hide Instructions...")
+                $('#instructions').show();
+            } else {
+                $(this).text("Show Instructions...")
+                $('#instructions').hide();
+            }
+        });
+
+        $("#Calculate").on('click', function () {
+            var data = {};
+            data.chest = $("#Chest").val();
+            data.abdomen = $("#Abdomen").val();
+            data.thigh = $("#Thigh").val();
+            data.tricep = $("#Tricep").val();
+            data.subscapular = $("#Subscapular").val();
+            data.suprailiac = $("#Suprailiac").val();
+            data.midaxilla = $("#Midaxilla").val();
+            data.bicep = $("#Bicep").val();
+            data.calf = $("#Calf").val();
+            data.lowerback = $("#Lowerback").val();
+            data.sex = $("#Sex option:selected").val();
+            data.age = $("#Age").val();
+            data.weight = $("#Weight").val();
+            var sdata = JSON.stringify(data);
+            $.ajax({
+                type: 'POST',
+                url: '@(Url.Action("GetMeasurements", "ZenfulNeps"))',
+                data: sdata,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) {
+                	if (msg != 'ERROR') {
+                	    $('.JP7Percent').html('Jackson-Pollock 7-site: ' + msg.JP7Percent + '%');
+                	    $('.JP3Percent').html('Jackson-Pollock 3-site: ' + msg.JP3Percent + '%');
+                	    $('.PA3Percent').html('Pollock et al. 3-site: ' + msg.PA3Percent + '%');
+                	    $('.P9Percent').html('Parrillo 9-site: ' + msg.P9Percent + '%');
+                	    $('.AverageBF').html('Average Body Fat: ' + msg.AverageBF + '%');
+                	    $('.FatWeight').html('Fat Weight (average): ' + msg.FatWeight + '%');
+                	    $('.LeanWeight').html('Lean Weight (average): ' + msg.LeanWeight + '%');
+                	} else {
+                	    $('.error').html("Invalid Data Entered!");
+                	}
+                },
+                error: function (msg) {
+                	alert('error: ' + msg.responseText);
+                }
+            });
+        });
+    });
+</script>

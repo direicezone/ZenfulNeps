@@ -1,0 +1,101 @@
+﻿@model System.Collections.Generic.List<CompanionPlant>
+@using GridMvc.Html
+@using ZenfulNeps.Models
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="content-wrap">
+    @{
+        if (!HttpContext.Current.IsDebuggingEnabled)
+        {
+            <div style="text-align: center;">
+                <script type="text/javascript">
+            <!--
+            google_ad_client = "ca-pub-5663665114572954";
+            /* Brewing */
+            google_ad_slot = "9026649662";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+                </script>
+                <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+        }
+    }
+    <h3>Companion Planting Guide</h3>
+    <p>
+        This Companion Planting Guide allow you to quickly search and sort through many vegetables, herbs, and flowers to maximize you companion planting strategy.
+        Our list contains companion planting research done on over 20 sites and compiled a useful and searchable guide. A must have for all gardeners!
+    </p>
+    <div class="pw-widget pw-size-medium pw-counter-show">
+        <a class="pw-button-facebook"></a>
+        <a class="pw-button-twitter"></a>
+        <a class="pw-button-email"></a>
+        <a class="pw-button-post"></a>
+    </div>
+    <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>
+
+    @using (Html.BeginForm("Search", "CompanionPlantsNew", FormMethod.Post))
+    {
+        <text>Plant: </text>
+        <input type="text" name="searchValue" id="searchValue" value="@ViewData["searchValue"]" class="cpInput" />
+        <text>Benefits: </text>
+        <input type="text" name="pestValue" id="pestValue" value="@ViewData["pestValue"]" class="cpInputSmaller" />
+        <input type="submit" value="Search" name="button" class="superButton" />
+        <input type="submit" value="Clear" name="button" class="superButton" />
+    }
+
+    @helper RenderLists(CompanionPlant plant)
+{
+    var companionText = string.Empty;
+    foreach (var companion in plant.Companions)
+    {
+        if (companionText.Trim().Length > 0)
+        {
+            companionText += ", " + companion;
+        }
+        else
+        {
+            companionText += companion;
+        }
+    }
+    <text>@companionText</text>;
+}
+
+    @helper RenderBenefits(CompanionPlant plant)
+{
+    HtmlString benefits;
+    if (plant.Benefits.Length > 150)
+    {
+        benefits = new HtmlString(plant.Benefits.Substring(0, 150) + Html.ActionLink(" More...", "Details", "CompanionPlants", new { id = plant.PlantId }, null));
+    }
+    else
+    {
+        benefits = new HtmlString(plant.Benefits);
+    }
+    <text>@benefits</text>
+}
+
+    @Html.Grid(Model).Columns(cols =>
+    {
+        cols.Add(c => c.Plant).Titled("Plant Name")
+            .Encoded(false).Sanitized(false)
+            .RenderValueAs(r => Html.ActionLink((r.Plant), "Details", "CompanionPlants", new { id = r.PlantId }, null));
+        cols.Add(c => c.CompanionsFlat).Titled("Companions").Filterable(true)
+            .Encoded(false).Sanitized(false)
+            .RenderValueAs(r => RenderLists(r));
+        cols.Add(c => c.IncompatiblesFlat).Titled("Incompatibles").Filterable(true)
+            .Encoded(false).Sanitized(false)
+            .RenderValueAs(r => RenderLists(r));
+        cols.Add(c => c.Type).Titled("Type").Filterable(true);
+        cols.Add(c => c.Benefits).Titled("Benefits").Filterable(true)
+            .Encoded(false).Sanitized(false)
+            .RenderValueAs(r => RenderBenefits(r));
+        ;
+    }).WithPaging(10)
+</div>

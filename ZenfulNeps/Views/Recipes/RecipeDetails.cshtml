@@ -1,0 +1,78 @@
+﻿@model ZenfulNeps.Models.Recipe
+		   
+@{
+	ViewBag.Title = "Recipe Details";
+    ViewBag.Image = "http://zenfulneps.com/images/recipes/" + @Model.Image;
+    ViewBag.Description = @Model.Description;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center>
+	<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-5663665114572954";
+		/* Brewing */
+		google_ad_slot = "9026649662";
+		google_ad_width = 728;
+		google_ad_height = 90;
+	//-->
+
+		$(document).ready(function () {
+		    $("div.b1").on('click', function () {
+		        $(".msgroupbox").printThis();
+		    });
+		});
+
+	</script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+</center>
+<div class="backto">
+    <a href="../Index">Return to the Recipe Codex</a>
+</div>
+    
+<div class="msgroupbox" id="recipe">
+    <span>
+        <h3>Recipe Details</h3>
+    </span>    
+    <div class="recipe-photo floatleft">
+        <img src="../../Images/Recipes/@Model.Image" alt="@Model.Description" width="180" />
+    </div>
+    <div class="recipe-details">
+        <div class="recipe-title floatleft">
+            <h3>@Model.Description</h3>
+            <span>by <b>@Model.Author</b></span>
+        </div>
+        <div class="recipe-info floatleft">
+            <label>Ingredients:</label> 
+            @{
+                foreach (var item in @Model.Ingredients)
+                {
+                    <div>
+                        <span>@string.Format("{0} {1} {2}", item.Amount, item.Unit, item.Name)
+                            @{if (!string.IsNullOrEmpty(item.Note))
+                            {
+                                string.Format(" ({0})", item.Note);
+                            }}
+                        </span>
+                    </div>
+                }
+            }
+        </div>
+        <div class="clearall"></div>
+        <div class="recipe-desc">
+            <label>Instructions:</label> 
+            <quote>
+                @Html.Raw(Model.Instructions)
+            </quote>
+        </div>
+        <div class="pw-widget pw-size-medium pw-counter-show">			
+	        <a class="pw-button-facebook"></a>			
+	        <a class="pw-button-twitter"></a>			
+	        <a class="pw-button-email"></a>			
+	        <a class="pw-button-post"></a>		
+        </div>
+        <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>
+        <div class="printbutton b1">Print</div>
+    </div>
+</div>  
+

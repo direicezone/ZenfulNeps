@@ -1,0 +1,134 @@
+@using ZenfulNeps.Models
+@model Brewing
+@{
+    ViewBag.Title = "Home Brewing: Brewing Efficiency Calculator";
+    ViewBag.Description = "Home Brewing: Brewing Efficiency Calculator";
+    ViewBag.Image = "http://zenfulneps.com/images/mashtun.jpg";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<center>
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-5663665114572954";
+        /* Brewing */
+        google_ad_slot = "9026649662";
+        google_ad_width = 728;
+        google_ad_height = 90;
+    //-->
+        </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+</center>
+
+<div class="msgroupbox" id="mashsparge">
+    <span>
+        <h3>Brewing Efficiency Calculator</h3>
+    </span>    
+
+
+    <table width="100%" style="table-layout:fixed;">
+        <tr>
+            <td width="68%">
+                <table id="grainTable" style="table-layout:fixed;">
+                    <tr>
+                        <td width="45%" style="vertical-align: top">
+                            <div class="align-right bottom-pad">
+                                Starting Gravity: <input type="text" id="startGravity" name="startGravity" class="msInput" maxlength="6" />
+                            </div>
+                            <div class="align-right">
+                                Fermentable (.lbs): <input type="text" id="grainAmount" name="grainAmount" class="msInput" maxlength="3" />
+                            </div>
+                        </td>
+                        <td width="55%" style="vertical-align: top">
+                            <div class="bottom-pad">
+                                Amount of Wort (gallons): <input type="text" id="amountWort" name="amountWort" class="msInput" maxlength="5" value="5.5" />
+                            </div>
+                            <div class="bottom-pad">
+                                @*<select name="grainList" id="grainList" class="dropdown">*@
+                                <select name="grainList" id="grainList" class="txtBlue">
+                                    <option value="0">---Select---</option>
+                                    @foreach (var item in Model.Grains)
+                                    {
+                                        <option value="@item.Id" data-PPG="@item.Ppg">@item.Name</option>
+                                    }
+                                </select>
+                                <a href="#" class="addGrain"><img src="../Content/add.png" class="addImage" Title="Add Grain"/></a>
+                            </div>
+                            Filter: <input type="text" id="grainAutoCom" name="grainAutoCom" class="msInputNoSize" />
+                        </td>
+                        <td rowspan="2" width="30% style="vertical-align: top">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="ing-results">
+                                <div class="first block">
+                                    <h3 class="upper">Grain Bill</h3>
+                                </div>
+                                <div class="block second">
+                                    <div>
+                                        <table id="ing-list">
+                                            <tbody>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>                        </td>
+                    </tr>
+                    <tr id="buttonRow">
+                        <td></td>
+                        <td colspan="2"><input type="button" title="Calculate" class="superButton" id="calculate" value="Calculate">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="vertical-align: top">
+                <div class="eff-results">
+                    <div class="first block">
+                        <div class="color"></div>                        <h3 class="upper">Results</h3>
+                    </div>
+                    <div class="block second">
+                        <div>
+                            <label>Total Grain Bill</label>
+                            <span class="grain-bill">0.00 lbs.</span>
+                        </div>
+                        <div>
+                            <label>Color</label>
+                            <span class="color-srm">0.00&deg; SRM</span>
+                        </div>
+                        <div>
+                            <label>@@75% Efficiency</label>
+                            <span class="sf-efficiency">0.000</span>
+                        </div>
+                        <div>
+                            <label>Your Efficiency</label>
+                            <span class="your-efficiency">0.00%</span>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="pw-widget pw-size-medium pw-counter-show">			
+	                <a class="pw-button-facebook"></a>			
+	                <a class="pw-button-twitter"></a>			
+	                <a class="pw-button-email"></a>			
+	                <a class="pw-button-post"></a>		
+                </div>
+                <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>   
+            </td>
+        </tr>
+    </table>
+    <div style="font-weight: bold">
+        Use this Efficiency Calculator for Conversion, Pre-Boil, Ending Kettle, or Brew House Efficiency.  
+        Start by entering your starting gravity and amount of wort.
+        Then add the amount and type of grains used in your total grain bill (the filter box may be used to select grains from the dropdown list).  
+        After that, simply press the calculate button to see your efficiency.
+    </div>
+
+</div>    
+
+
+@*    
+    @Html.DropDownListFor(m => m.Grains, new SelectList(Model.Grains.AsEnumerable(), "Id", "Name"))
+    @Html.DropDownList("Grains", new SelectList(Model.Grains.AsEnumerable(), "Id", "Name"))
+*@
+
+<script type="text/javascript" src="../Scripts/Brewing.js"></script>

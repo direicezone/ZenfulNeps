@@ -1,0 +1,48 @@
+@model ZenfulNeps.Models.ZenfulNeps
+@{
+    ViewBag.Title = "Zenful Nepenthes";
+    ViewBag.Description = "The Zenful Nepenthes Website: Home to many interesting links such as our Companion Planting Guide, Mash & Sparge Water Calculator, and other interesting links and facts.";
+    ViewBag.Image = "http://zenfulneps.com/content/zenicon.png";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+ }
+			
+	<div id="content-wrap">
+				
+	    <div id="main">
+	        
+			<center>
+				<script type="text/javascript"><!--
+				    google_ad_client = "pub-5663665114572954";
+				    /* 468x60, created 10/13/10 */
+				    google_ad_slot = "1486764455";
+				    google_ad_width = 468;
+				    google_ad_height = 60;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</center>
+
+	        <br/>
+	        @foreach (var feed in Model.RssFeeds)
+             {
+                 if (feed != null)
+                 {
+	                <h3>@feed.Heading</h3>
+	                <fieldset>
+	                    <legend><a href="@feed.Link" target="_blank" class="feedtitle">@feed.Title</a></legend>
+	                    <div class="fieldset">
+    	                    @Html.Raw(HttpUtility.HtmlDecode(feed.Description))
+	                    </div>
+	                </fieldset>
+	                <br/>
+                 }
+             }
+
+	    </div>
+
+        @Html.Partial("SideBar")
+		
+	</div>
+		

@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fantasy Drafter 2017 by Bill Hamilton</title>
+</head>
+<script src="../../Scripts/jquery-1.7.1.min.js"></script>
+<script src="../../Scripts/FFScript.js"></script>
+<script src="../../Scripts/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<link href="../../Content/FF.css" rel="stylesheet" />
+<link href="../../Content/jquery-ui.css" rel="stylesheet" type="text/css" />
+<body>
+    <form>
+        <div id="header">
+            <div class="container">
+                <h2 class="h2Style">Fantasy Masta-Drafta 2017</h2>
+                <input type="text" name="search-term" id="search-term" />
+                <input type="submit" name="search-button" id="search-button" value="search" />
+                <label class="searchResults"></label>
+                <span class="anchorLinks">
+                    <a href="#WideRecievers">WideRecievers</a> | <a href="#QuarterBacks">QuarterBacks</a> | <a href="#RunningBacks">RunningBacks</a> | 
+                    <a href="#TightEnds">TightEnds</a> | <a href="#Defenses">Defenses</a> | <a href="#Kickers">Kickers</a> 
+                    (Shift-Click to add to roster)
+                </span>
+            </div>
+        </div>
+        <div id="content" class="container">
+            <div class="inner">
+                <table width='100%' border="0" cellpadding="0" cellspacing="0">
+                    <tr class="note-td">
+                        <td>
+                            <table class="myPlayers" width="100%" border="0" cellpadding="2" cellspacing="0">
+                                <tr class='tablehdr'>
+                                    <td align='center' nowrap>Remove</td>
+                                    <td nowrap>Player</td>
+                                    <td nowrap>Bye Week</td>
+                                    <td nowrap>Team</td>
+                                    <td nowrap>Position</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <hr/>
+                <table class="allPlayers" width="100%" border="0" cellpadding="2" cellspacing="0">
+                    <tr class="note-td">
+                        <td width='49%' valign='top'>
+                            <a name="WideRecievers"></a> 
+                            @Html.Partial("WideRecievers")
+                            <a name="QuarterBacks"></a> 
+                            @Html.Partial("QuarterBacks")
+                            <a name="Kickers"></a> 
+                            @Html.Partial("Kickers")
+                        </td>
+
+                        <td width='2%'>&nbsp;</td>
+
+                        <td width='49%' valign='top'>
+                            <a name="RunningBacks"></a> 
+                            @Html.Partial("RunningBacks")
+                            <a name="TightEnds"></a> 
+                            @Html.Partial("TightEnds")
+                            <a name="Defenses"></a> 
+                            @Html.Partial("Defenses")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
