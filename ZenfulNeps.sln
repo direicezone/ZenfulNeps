@@ -44,24 +44,6 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://direice.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ..\\AlchemyHelper\\AlchemyHelper\\AlchemyHelper.csproj
-		SccProjectName1 = ../AlchemyHelper/AlchemyHelper
-		SccLocalPath1 = ..\\AlchemyHelper\\AlchemyHelper
-		SccProjectUniqueName2 = DiabloIII\\DiabloIII.csproj
-		SccProjectName2 = DiabloIII
-		SccLocalPath2 = DiabloIII
-		SccProjectUniqueName3 = TestProject1\\TestProject1.csproj
-		SccProjectName3 = TestProject1
-		SccLocalPath3 = TestProject1
-		SccProjectUniqueName4 = ZenfulNeps\\ZenfulNeps.csproj
-		SccProjectName4 = ZenfulNeps
-		SccLocalPath4 = ZenfulNeps
-	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = ZenfulNeps.vsmdi
 	EndGlobalSection
