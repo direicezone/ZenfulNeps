@@ -16,7 +16,7 @@
         google_ad_height = 90;
     //-->
         $(document).tooltip();
-        </script>
+    </script>
     <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     </script>
 </center>
@@ -36,7 +36,8 @@
             </div>
         </div>
     </div>
-    <div class="recipe-list">    @{
+    <div class="recipe-list">
+    @{
         foreach (var item in Model)
         {
             <div class="recipe">
@@ -50,9 +51,13 @@
                         <a href="../Recipes/Details/@item.Id" title="@item.Info">@item.Description</a>
                     </h3>
                     <span class="author">by @item.Author</span>
-                </div>                <div class="recipe-desc">
+                </div>
+                <div class="recipe-desc">
 		            @item.Info
-		        </div>                <div class="clearall"></div>            </div>        }
+		        </div>
+                <div class="clearall"></div>
+            </div>
+        }
     }
     </div>
 
