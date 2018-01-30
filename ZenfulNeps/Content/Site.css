@@ -901,3 +901,7 @@ body .ui-tooltip { border-width: 2px; }
 .feedtitle {
     padding-left: 5px;
 }
+
+.view-switcher {
+    text-align: center;
+}
