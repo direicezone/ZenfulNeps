@@ -62,6 +62,20 @@
     </div>*@
     <div data-role="page" data-theme="a">
 
+        @if (Request.Browser.IsMobileDevice && Request.HttpMethod == "GET")
+        {
+            <div class="view-switcher ui-bar-a">
+                @if (ViewContext.HttpContext.GetOverriddenBrowser().IsMobileDevice)
+                {
+                    @Html.ActionLink("Desktop view", "SwitchView", "ViewSwitcher", new { mobile = false, returnUrl = Request.Url.PathAndQuery }, new { rel = "external" })
+                }
+                else
+                {
+                    @Html.ActionLink("Mobile view", "SwitchView", "ViewSwitcher", new { mobile = true, returnUrl = Request.Url.PathAndQuery }, new { rel = "external" })
+                }
+            </div>
+        }
+
         <div data-role="header" data-theme="b">
             <h1>Zenful Nepenthes</h1>
             <div data-role="navbar" data-theme="a" data-iconpos="top">

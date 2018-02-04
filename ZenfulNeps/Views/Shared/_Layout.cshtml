@@ -134,11 +134,18 @@
             <!-- navigation ends-->
         </div>
 
+        @if (Request.Browser.IsMobileDevice && Request.HttpMethod == "GET")
+        {
+            <div class="view-switcher">
+                @Html.ActionLink("Mobile view", "SwitchView", "ViewSwitcher", new { mobile = true, returnUrl = Request.Url.PathAndQuery }, new { rel = "external" })
+            </div>
+        }
+
+
         @RenderBody()
 
         <!-- footer starts -->
         <div id="footer-wrap">
-
             <div id="footer-columns">
 
                 <div class="col3">
