@@ -616,6 +616,7 @@
     <Content Include="Images\Plants\Mobile_Images\Mimosa.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Mint.jpg" />
     <Content Include="Images\Plants\Mobile_Images\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Mugwort.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Mustard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Okra.jpg" />
@@ -726,6 +727,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mimosa.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mint.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Mugwort.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mustard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Okra.jpg" />
@@ -780,6 +782,7 @@
     <Content Include="Images\Plants\Mobile_Images\Zinnia.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Zucchini.jpg" />
     <Content Include="Images\Plants\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mugwort.jpg" />
     <Content Include="Images\Plants\Mustard.jpg" />
     <Content Include="Images\Plants\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Okra.jpg" />

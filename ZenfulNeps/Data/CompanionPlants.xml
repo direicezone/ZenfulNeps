@@ -8,21 +8,21 @@
     <Benefits>Trap for leaf miners. Attracts Ground beetle which preys on slugs, snail, cutworm and cabbage-root maggot.</Benefits>
     <Type>Annual</Type>
     <PlantPic>Amaranth.jpg</PlantPic>
-     <ScientificName>Amaranthus caudatus</ScientificName>
+    <ScientificName>Amaranthus caudatus</ScientificName>
   </Plants>
   <Plants>
     <Plant>Allium</Plant>
     <Companions>Rose, Carrot, Tomato</Companions>
     <Incompatible>Peas, Beans, Parsley</Incompatible>
     <Benefits>
-            Repels aphids, weevils, carrot flies, moles, fruit tree borers; 
-            Controls rust flies and some nematodes; protects tomatoes against red spiders. 
-            Protects roses from black spot, mildew and aphids.
+      Repels aphids, weevils, carrot flies, moles, fruit tree borers;
+      Controls rust flies and some nematodes; protects tomatoes against red spiders.
+      Protects roses from black spot, mildew and aphids.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>2</PlantID>
     <PlantPic>Allium.jpg</PlantPic>
-      <ScientificName>Allium flavum</ScientificName>
+    <ScientificName>Allium flavum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Foxglove</Plant>
@@ -32,49 +32,49 @@
     <Type>Perennial</Type>
     <PlantID>3</PlantID>
     <PlantPic>Foxglove.jpg</PlantPic>
-      <ScientificName>Digitalis purpurea</ScientificName>
+    <ScientificName>Digitalis purpurea</ScientificName>
   </Plants>
   <Plants>
     <Plant>Anise</Plant>
     <Companions>Coriander, Broccoli, Various Plants</Companions>
     <Incompatible>Carrot, Rue</Incompatible>
     <Benefits>
-            Licorice flavored herb, good host for predatory wasps which prey on aphids and it is also said to repel aphids.
-            Deters pests from broccoli by camouflaging their odor. Depending upon your plans Anise is supposed to increase the essential oil production in basil.
-        </Benefits>
+      Licorice flavored herb, good host for predatory wasps which prey on aphids and it is also said to repel aphids.
+      Deters pests from broccoli by camouflaging their odor. Depending upon your plans Anise is supposed to increase the essential oil production in basil.
+    </Benefits>
     <Type>Annual</Type>
     <PlantID>4</PlantID>
     <PlantPic>Anise.jpg</PlantPic>
-      <ScientificName>Pimpinella anisum</ScientificName>
+    <ScientificName>Pimpinella anisum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Asparagus</Plant>
     <Companions>Dill, Coriander, Tomato, Parsley, Basil, Marigold, Comfrey, Strawberry</Companions>
     <Incompatible>Onion, Garlic, Potato</Incompatible>
     <Benefits>
-        Marigolds will deter beetles. Plant broad leaved annual vegetables or strawberries between the asparagus rows and they will thrive.
+      Marigolds will deter beetles. Plant broad leaved annual vegetables or strawberries between the asparagus rows and they will thrive.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>5</PlantID>
     <PlantPic>Asparagus.jpg</PlantPic>
-      <ScientificName>
-          Asparagus officinalis
-      </ScientificName>
+    <ScientificName>
+      Asparagus officinalis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Artichoke</Plant>
     <Companions>Asparagus, Sunflower, Corn, Tarragon</Companions>
     <Incompatible>Potato</Incompatible>
-      <Benefits>
-          Artichokes' height also can provide sturdy supports for climbing plants and
-          they can provide shade for smaller, more vulnerable plants. Tubers do not make good
-          companions to artichokes as the root systems of both plants inhibits growth against both crops.
-      </Benefits>
+    <Benefits>
+      Artichokes' height also can provide sturdy supports for climbing plants and
+      they can provide shade for smaller, more vulnerable plants. Tubers do not make good
+      companions to artichokes as the root systems of both plants inhibits growth against both crops.
+    </Benefits>
     <Type>Perennial</Type>
     <PlantID>6</PlantID>
     <PlantPic>Artichoke.jpg</PlantPic>
     <ScientificName>
-        Cynara cardunculus
+      Cynara cardunculus
     </ScientificName>
   </Plants>
   <Plants>
@@ -82,16 +82,16 @@
     <Companions>Pepper, Tomato, Marigold, Asparagus, Oregano, Petunias</Companions>
     <Incompatible>Common Rue, Sage, Rosemary</Incompatible>
     <Benefits>
-            Repels aphids, flies, mosquitos and mites; helps control insect pests such as tomato hornworms, asparagus beetles,
-            and disease. Basil will kill your rosemary. Depending upon your plans Anise is supposed to increase the essential oil production in basil.
-        </Benefits>
+      Repels aphids, flies, mosquitos and mites; helps control insect pests such as tomato hornworms, asparagus beetles,
+      and disease. Basil will kill your rosemary. Depending upon your plans Anise is supposed to increase the essential oil production in basil.
+    </Benefits>
     <Type>Annual</Type>
     <Stars>3</Stars>
     <PlantID>7</PlantID>
     <PlantPic>Basil.jpg</PlantPic>
-      <ScientificName>
-          Ocimum basilicum
-      </ScientificName>
+    <ScientificName>
+      Ocimum basilicum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Bee Balm</Plant>
@@ -101,9 +101,9 @@
     <Type>Perennial</Type>
     <PlantID>8</PlantID>
     <PlantPic>BeeBalm.jpg</PlantPic>
-      <ScientificName>
-          Monarda didyma
-      </ScientificName>
+    <ScientificName>
+      Monarda didyma
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Beets</Plant>
@@ -113,9 +113,9 @@
     <Type>Biennial</Type>
     <PlantID>9</PlantID>
     <PlantPic>Beets.jpg</PlantPic>
-      <ScientificName>
-          Beta vulgaris
-      </ScientificName>
+    <ScientificName>
+      Beta vulgaris
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Bell Pepper</Plant>
@@ -125,9 +125,9 @@
     <Type>Perennial</Type>
     <PlantID>10</PlantID>
     <PlantPic>BellPeppers.jpg</PlantPic>
-      <ScientificName>
-          Capsicum annuum
-      </ScientificName>
+    <ScientificName>
+      Capsicum annuum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Black Walnut</Plant>
@@ -137,42 +137,42 @@
     <Type>Perennial</Type>
     <PlantID>11</PlantID>
     <PlantPic>BlackWalnut.jpg</PlantPic>
-      <ScientificName>
-          Juglans nigra
-      </ScientificName>
+    <ScientificName>
+      Juglans nigra
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Borage</Plant>
     <Companions>Tomato, strawberry, fruit orchards, Squash</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Repels tomato worms. Adds potassium, calcium and other minerals to soil. 
-        Attracts honeybees. Borage may benefit any plant it is growing next to via increasing resistance to pests and disease. 
-        It also makes a nice mulch for most plants. Borage and strawberries help each other and strawberry farmers 
-        always set a few plants in their beds to enhance the fruits flavor and yield. 
-        Plant near tomatoes to improve growth and disease resistance. 
-        After you have planned this annual once it will self seed. Borage flowers are edible.
+      Repels tomato worms. Adds potassium, calcium and other minerals to soil.
+      Attracts honeybees. Borage may benefit any plant it is growing next to via increasing resistance to pests and disease.
+      It also makes a nice mulch for most plants. Borage and strawberries help each other and strawberry farmers
+      always set a few plants in their beds to enhance the fruits flavor and yield.
+      Plant near tomatoes to improve growth and disease resistance.
+      After you have planned this annual once it will self seed. Borage flowers are edible.
     </Benefits>
     <Stars>4</Stars>
     <Type>Annual</Type>
     <PlantID>12</PlantID>
     <PlantPic>Borage.jpg</PlantPic>
-      <ScientificName>
-          Borago officinalis
-      </ScientificName>
+    <ScientificName>
+      Borago officinalis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Brassica\Broccoli</Plant>
     <Companions>Chamomile, Peppermint, Dill, Sage, Rosemary</Companions>
     <Incompatible>Mustards, Nightshades, Tomato, Peppers, Strawberry, Beans</Incompatible>
     <Benefits>
-        Brassicas are a family of species which include broccoli, cabbage, brussel sprouts, kohlrabi, and cauliflower. 
-        Need rich soil with plenty of lime to flourish.
+      Brassicas are a family of species which include broccoli, cabbage, brussel sprouts, kohlrabi, and cauliflower.
+      Need rich soil with plenty of lime to flourish.
     </Benefits>
     <Type>Annual</Type>
     <PlantID>13</PlantID>
     <PlantPic>Broccoli.jpg</PlantPic>
-      <ScientificName>Brassica oleracea</ScientificName>
+    <ScientificName>Brassica oleracea</ScientificName>
   </Plants>
   <Plants>
     <Plant>Broad Beans</Plant>
@@ -182,24 +182,24 @@
     <Type>Perennial</Type>
     <PlantID>14</PlantID>
     <PlantPic>BroadBeans.jpg</PlantPic>
-      <ScientificName>
-          Vicia faba
-      </ScientificName>
+    <ScientificName>
+      Vicia faba
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Buckwheat</Plant>
     <Companions>Various Plants</Companions>
     <Incompatible>Beans</Incompatible>
     <Benefits>
-        Accumulates calcium and can be grown as an excellent cover crop. Attracts hoverflies in droves.
-        Do not plant buckwheat as a companion crop with legumes, as its early competitiveness for nutrients.
+      Accumulates calcium and can be grown as an excellent cover crop. Attracts hoverflies in droves.
+      Do not plant buckwheat as a companion crop with legumes, as its early competitiveness for nutrients.
     </Benefits>
     <Type>Annual</Type>
     <PlantID>15</PlantID>
     <PlantPic>Buckwheat.jpg</PlantPic>
-      <ScientificName>
-          Fagopyrum esculentum
-      </ScientificName>
+    <ScientificName>
+      Fagopyrum esculentum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Bush Beans</Plant>
@@ -209,7 +209,7 @@
     <Type>Annual</Type>
     <PlantID>16</PlantID>
     <PlantPic>BushBeans.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Cabbage Family</Plant>
@@ -219,34 +219,34 @@
     <Type>Biennial</Type>
     <PlantID>17</PlantID>
     <PlantPic>Cabbage.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Caraway</Plant>
     <Companions>Strawberry, Pea</Companions>
     <Incompatible>Dill, Fennel</Incompatible>
     <Benefits>
-            Good for loosening compacted soil with its deep roots so it's also compatible next to shallow rooted crops. 
-            The flowers attract a number of beneficial insects especially the tiny parasitic wasps. 
-        </Benefits>
+      Good for loosening compacted soil with its deep roots so it's also compatible next to shallow rooted crops.
+      The flowers attract a number of beneficial insects especially the tiny parasitic wasps.
+    </Benefits>
     <Type>Annual, Biennial</Type>
     <PlantID>18</PlantID>
     <PlantPic>Caraway.jpg</PlantPic>
-      <ScientificName>
-          Carum carvi
-      </ScientificName>
+    <ScientificName>
+      Carum carvi
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Carrot</Plant>
     <Companions>Bush Beans, Pole Beans, Lettuce, Onion, Peas, Radish, Tomato, Sage, English Peas, Rosemary, Flax</Companions>
     <Incompatible>Dill, Parsnips</Incompatible>
-      <Benefits>Tomatoes may stunt carrots' growth.</Benefits>
+    <Benefits>Tomatoes may stunt carrots' growth.</Benefits>
     <Type>Biennial</Type>
     <PlantID>19</PlantID>
     <PlantPic>Carrots.jpg</PlantPic>
-      <ScientificName>
-          Daucus carota
-      </ScientificName>
+    <ScientificName>
+      Daucus carota
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Castor Bean</Plant>
@@ -256,26 +256,26 @@
     <Type>Annual</Type>
     <PlantID>20</PlantID>
     <PlantPic>CastorBean.jpg</PlantPic>
-      <ScientificName>
-          Ricinus communis
-      </ScientificName>
+    <ScientificName>
+      Ricinus communis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Catnip</Plant>
     <Companions>Eggplant, Beet, Pumpkin, Squash, Hyssop</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-            Fresh catnip steeped in water and sprinkled on plants will drive away flea beetles. 
-            Deters flea beetles, aphids, Japanese beetles, squash bugs, ants and weevils, and mice.
-            Helps distract cats from rest of the garden.
-        </Benefits>
+      Fresh catnip steeped in water and sprinkled on plants will drive away flea beetles.
+      Deters flea beetles, aphids, Japanese beetles, squash bugs, ants and weevils, and mice.
+      Helps distract cats from rest of the garden.
+    </Benefits>
     <Type>Perennial</Type>
     <Stars>3</Stars>
     <PlantID>21</PlantID>
     <PlantPic>Catnip.jpg</PlantPic>
-      <ScientificName>
-          Nepeta cataria
-      </ScientificName>
+    <ScientificName>
+      Nepeta cataria
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Celery</Plant>
@@ -285,23 +285,23 @@
     <Type>Biennial</Type>
     <PlantID>22</PlantID>
     <PlantPic>Celery.jpg</PlantPic>
-      <ScientificName>
-          Apium graveolens
-      </ScientificName>
+    <ScientificName>
+      Apium graveolens
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Chamomile</Plant>
     <Companions>Cabbage, Onion, Cucumber</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-            Improves growth and flavor--but plant only one plant every 150 feet or so. Growing chamomile of any type is considered a tonic for anything you grow in the garden.
-            Host to hoverflies and wasps. Growing near herbs will increase their oil production.
-        </Benefits>
+      Improves growth and flavor--but plant only one plant every 150 feet or so. Growing chamomile of any type is considered a tonic for anything you grow in the garden.
+      Host to hoverflies and wasps. Growing near herbs will increase their oil production.
+    </Benefits>
     <Type>Annual, Perennial</Type>
     <Stars>4</Stars>
     <PlantID>23</PlantID>
     <PlantPic>Chamomile.jpg</PlantPic>
-      <ScientificName>Matricaria recutita</ScientificName>
+    <ScientificName>Matricaria recutita</ScientificName>
   </Plants>
   <Plants>
     <Plant>Chards</Plant>
@@ -309,11 +309,11 @@
     <Incompatible>Melon, Corn, Cucumber</Incompatible>
     <Type>Perennial</Type>
     <PlantID>25</PlantID>
-      <Benefits>
-          Can be problematic with some herbs that need high nutrition. Maintains ground humidity and attracting beneficial insects.
-      </Benefits>
+    <Benefits>
+      Can be problematic with some herbs that need high nutrition. Maintains ground humidity and attracting beneficial insects.
+    </Benefits>
     <PlantPic>Chards.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Chervil</Plant>
@@ -323,9 +323,9 @@
     <Type>Perennial</Type>
     <PlantID>26</PlantID>
     <PlantPic>Chervil.jpg</PlantPic>
-      <ScientificName>
-          Anthriscus cerefolium
-      </ScientificName>
+    <ScientificName>
+      Anthriscus cerefolium
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Chives</Plant>
@@ -335,23 +335,23 @@
     <Type>Perennial</Type>
     <PlantID>27</PlantID>
     <PlantPic>Chives.jpg</PlantPic>
-      <ScientificName>
-          Allium schoenoprasum
-      </ScientificName>
+    <ScientificName>
+      Allium schoenoprasum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Chrysanthemums</Plant>
     <Companions>Various Plants</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-            Kills root nematodes.  White flowering chrysanthemums repel Japanese beetles.
-            Repel pest insects from nearby crops and ornamental plants (aphids, bed bugs, leafhoppers, spider mites, harlequin bugs, ticks, pickleworms and imported cabbage worms)
-        </Benefits>
+      Kills root nematodes.  White flowering chrysanthemums repel Japanese beetles.
+      Repel pest insects from nearby crops and ornamental plants (aphids, bed bugs, leafhoppers, spider mites, harlequin bugs, ticks, pickleworms and imported cabbage worms)
+    </Benefits>
     <Type>Annual, Perennial</Type>
     <Stars>3</Stars>
     <PlantID>28</PlantID>
     <PlantPic>Chrysanthemums.jpg</PlantPic>
-      <ScientificName>Chrysanthemum indicum</ScientificName>
+    <ScientificName>Chrysanthemum indicum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Comfrey</Plant>
@@ -361,7 +361,7 @@
     <Type>Perennial</Type>
     <PlantID>30</PlantID>
     <PlantPic>Comfrey.jpg</PlantPic>
-      <ScientificName>Symphytum x uplandicum</ScientificName>
+    <ScientificName>Symphytum x uplandicum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Coriander / Cilantro</Plant>
@@ -371,9 +371,9 @@
     <Type>Annual, Perennial</Type>
     <PlantID>31</PlantID>
     <PlantPic>Coriander.jpg</PlantPic>
-      <ScientificName>
-          Coriandrum sativum
-      </ScientificName>
+    <ScientificName>
+      Coriandrum sativum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Corn - Maize</Plant>
@@ -383,24 +383,24 @@
     <Type>Annual</Type>
     <PlantID>32</PlantID>
     <PlantPic>Corn.jpg</PlantPic>
-      <ScientificName>
-          Zea mays
-      </ScientificName>
+    <ScientificName>
+      Zea mays
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Costmary</Plant>
     <Companions>Comfrey, Borage, Geranium, Sage, Nasturtium, Thyme</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Repels moths.
-        Place costmary behind lower growing herbs but definitely in front of giants such as elecampane.
+      Repels moths.
+      Place costmary behind lower growing herbs but definitely in front of giants such as elecampane.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>33</PlantID>
     <PlantPic>Costmary.jpg</PlantPic>
-      <ScientificName>
-          Tanacetum balsamita
-      </ScientificName>
+    <ScientificName>
+      Tanacetum balsamita
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Cucumbers</Plant>
@@ -410,9 +410,9 @@
     <Type>Annual</Type>
     <PlantID>34</PlantID>
     <PlantPic>Cucumbers.jpg</PlantPic>
-      <ScientificName>
-          Cucumis sativus
-      </ScientificName>
+    <ScientificName>
+      Cucumis sativus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Datura</Plant>
@@ -422,23 +422,23 @@
     <Type>Annual</Type>
     <PlantID>35</PlantID>
     <PlantPic>Datura.jpg</PlantPic>
-      <ScientificName>
-          Datura stramonium
-      </ScientificName>
+    <ScientificName>
+      Datura stramonium
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Dill</Plant>
     <Companions>Cabbage, Cucumber, Onion, Lettuce, Corn</Companions>
     <Incompatible>Carrot, Tomato</Incompatible>
     <Benefits>
-        Improves growth. Draws in many beneficial insects as the umbrella flower heads go to seed. 
-        Blossoms attract honeybees, butterflies/caterpillars, Hoverflies, Wasps, Tomato Horn Worms (bad for tomatoes). 
-        Repels aphids, spider mites, squash bugs, cabbage looper.
+      Improves growth. Draws in many beneficial insects as the umbrella flower heads go to seed.
+      Blossoms attract honeybees, butterflies/caterpillars, Hoverflies, Wasps, Tomato Horn Worms (bad for tomatoes).
+      Repels aphids, spider mites, squash bugs, cabbage looper.
     </Benefits>
     <Type>Annual, Perennial</Type>
     <PlantID>36</PlantID>
     <PlantPic>Dill.jpg</PlantPic>
-      <ScientificName>Anethum graveolens</ScientificName>
+    <ScientificName>Anethum graveolens</ScientificName>
   </Plants>
   <Plants>
     <Plant>Eggplant</Plant>
@@ -446,26 +446,26 @@
     <Incompatible></Incompatible>
     <Type>Perennial</Type>
     <PlantID>37</PlantID>
-      <Benefits>Avoid planting them in close proximity to peppers, tomatoes and potatoes as they attact common pests.</Benefits>
+    <Benefits>Avoid planting them in close proximity to peppers, tomatoes and potatoes as they attact common pests.</Benefits>
     <PlantPic>Eggplant.jpg</PlantPic>
-      <ScientificName>
-          Solanum melongena
-      </ScientificName>
+    <ScientificName>
+      Solanum melongena
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Fennel</Plant>
     <Companions>Dill</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Most plants dislike fennel--so plant it away from the vegetable garden. Its foliage and flowers may attract beneficials.
-        Repels fleas, so grow it around dog kennel.
+      Most plants dislike fennel--so plant it away from the vegetable garden. Its foliage and flowers may attract beneficials.
+      Repels fleas, so grow it around dog kennel.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>38</PlantID>
     <PlantPic>Fennel.jpg</PlantPic>
-      <ScientificName>
-          Foeniculum vulgare
-      </ScientificName>
+    <ScientificName>
+      Foeniculum vulgare
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Flax</Plant>
@@ -475,9 +475,9 @@
     <Type>Annual</Type>
     <PlantID>39</PlantID>
     <PlantPic>Flax.jpg</PlantPic>
-      <ScientificName>
-          Linum usitatissimum
-      </ScientificName>
+    <ScientificName>
+      Linum usitatissimum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Four-O'Clocks</Plant>
@@ -487,9 +487,9 @@
     <Type>Annual</Type>
     <PlantID>40</PlantID>
     <PlantPic>FourOClocks.jpg</PlantPic>
-      <ScientificName>
-          Mirabilis jalapa
-      </ScientificName>
+    <ScientificName>
+      Mirabilis jalapa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Raspberry</Plant>
@@ -499,7 +499,7 @@
     <Type>Perennial</Type>
     <PlantID>41</PlantID>
     <PlantPic>Raspberry.jpg</PlantPic>
-      <ScientificName>Subgenus Idaeobatus</ScientificName>
+    <ScientificName>Subgenus Idaeobatus</ScientificName>
   </Plants>
   <Plants>
     <Plant>Garlic</Plant>
@@ -509,9 +509,9 @@
     <Type>Perennial</Type>
     <PlantID>42</PlantID>
     <PlantPic>Garlic.jpg</PlantPic>
-      <ScientificName>
-          Allium sativum
-      </ScientificName>
+    <ScientificName>
+      Allium sativum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Geranium</Plant>
@@ -522,7 +522,7 @@
     <Stars>4</Stars>
     <PlantID>43</PlantID>
     <PlantPic>Geranium.jpg</PlantPic>
-      <ScientificName>Geranium dissectum</ScientificName>
+    <ScientificName>Geranium dissectum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Grapes</Plant>
@@ -531,23 +531,23 @@
     <Type>Perennial</Type>
     <PlantID>44</PlantID>
     <PlantPic>Grapes.jpg</PlantPic>
-      <ScientificName>Vitis californica</ScientificName>
+    <ScientificName>Vitis californica</ScientificName>
   </Plants>
   <Plants>
     <Plant>Horehound</Plant>
     <Companions>Tomato, Peppers, Various Plants</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Use horehound directly as a companion plant. It attracts predatory wasps and flies.
-        It grows where many others fail to thrive and can survive harsh winters.
-        Said to stimulate tomatoes and peppers to produce fruit, improving quality as well as yield.
-        The small white flowers attract many beneficial insects.
+      Use horehound directly as a companion plant. It attracts predatory wasps and flies.
+      It grows where many others fail to thrive and can survive harsh winters.
+      Said to stimulate tomatoes and peppers to produce fruit, improving quality as well as yield.
+      The small white flowers attract many beneficial insects.
     </Benefits>
     <Type>Perennial</Type>
     <Stars>3</Stars>
     <PlantID>45</PlantID>
     <PlantPic>Horehound.jpg</PlantPic>
-      <ScientificName>Lamium purpureum</ScientificName>
+    <ScientificName>Lamium purpureum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Horseradish</Plant>
@@ -557,9 +557,9 @@
     <Type>Perennial</Type>
     <PlantID>46</PlantID>
     <PlantPic>Horseradish.jpg</PlantPic>
-      <ScientificName>
-          Armoracia rusticana
-      </ScientificName>
+    <ScientificName>
+      Armoracia rusticana
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Hot Pepper</Plant>
@@ -569,7 +569,7 @@
     <Type>Perennial</Type>
     <PlantID>47</PlantID>
     <PlantPic>HotPeppers.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Hyssop</Plant>
@@ -580,7 +580,7 @@
     <Stars>3</Stars>
     <PlantID>48</PlantID>
     <PlantPic>Hyssop.jpg</PlantPic>
-      <ScientificName>Hyssopus officinalis</ScientificName>
+    <ScientificName>Hyssopus officinalis</ScientificName>
   </Plants>
   <Plants>
     <Plant>Irish Potato</Plant>
@@ -589,9 +589,9 @@
     <Type>Perennial</Type>
     <PlantID>49</PlantID>
     <PlantPic>Potato.jpg</PlantPic>
-      <ScientificName>
-          Solanum tuberosum
-      </ScientificName>
+    <ScientificName>
+      Solanum tuberosum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Lamium</Plant>
@@ -601,7 +601,7 @@
     <Type>Annual, Perennial</Type>
     <PlantID>50</PlantID>
     <PlantPic>Lamium.jpg</PlantPic>
-      <ScientificName>Lamium amplexicaule</ScientificName>
+    <ScientificName>Lamium amplexicaule</ScientificName>
   </Plants>
   <Plants>
     <Plant>Larkspur</Plant>
@@ -611,7 +611,7 @@
     <Type>Perennial</Type>
     <PlantID>51</PlantID>
     <PlantPic>Larkspur.jpg</PlantPic>
-      <ScientificName>Delphinium staphisagria</ScientificName>
+    <ScientificName>Delphinium staphisagria</ScientificName>
   </Plants>
   <Plants>
     <Plant>Leek</Plant>
@@ -621,9 +621,9 @@
     <Type>Perennial</Type>
     <PlantID>52</PlantID>
     <PlantPic>Leek.jpg</PlantPic>
-      <ScientificName>
-          Allium ampeloprasum var. porrum
-      </ScientificName>
+    <ScientificName>
+      Allium ampeloprasum var. porrum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Lemon Balm</Plant>
@@ -634,9 +634,9 @@
     <Stars>3</Stars>
     <PlantID>53</PlantID>
     <PlantPic>LemonBalm.jpg</PlantPic>
-      <ScientificName>
-          Melissa officinalis
-      </ScientificName>
+    <ScientificName>
+      Melissa officinalis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Lettuce</Plant>
@@ -646,25 +646,25 @@
     <Type>Annual</Type>
     <PlantID>54</PlantID>
     <PlantPic>Lettuce.jpg</PlantPic>
-      <ScientificName>
-          Lactuca sativa
-      </ScientificName>
+    <ScientificName>
+      Lactuca sativa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Lovage</Plant>
     <Companions>Cucumber, Asparagus, Bean, Beet, Brassica, Onion, Leek, Peas, Potato, Lettuce, Squash, Zucchini, Corn, Tomato</Companions>
     <Incompatible>Rhubarb, Celery</Incompatible>
     <Benefits>
-        Like borage and geraniums, lovage is considered a "magic bullet" of companion planting. 
-        It improves the flavor and vigor of most plants.
+      Like borage and geraniums, lovage is considered a "magic bullet" of companion planting.
+      It improves the flavor and vigor of most plants.
     </Benefits>
     <Stars>4</Stars>
     <Type>Perennial</Type>
     <PlantID>55</PlantID>
     <PlantPic>Lovage.jpg</PlantPic>
-      <ScientificName>
-          Levisticum officinale
-      </ScientificName>
+    <ScientificName>
+      Levisticum officinale
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Marigold</Plant>
@@ -675,7 +675,7 @@
     <Type>Annual</Type>
     <PlantID>56</PlantID>
     <PlantPic>Marigold.jpg</PlantPic>
-      <ScientificName>Tagetes erecta</ScientificName>
+    <ScientificName>Tagetes erecta</ScientificName>
   </Plants>
   <Plants>
     <Plant>Marjoram</Plant>
@@ -686,9 +686,9 @@
     <Stars>3</Stars>
     <PlantID>57</PlantID>
     <PlantPic>Marjoram.jpg</PlantPic>
-      <ScientificName>
-          Origanum majorana
-      </ScientificName>
+    <ScientificName>
+      Origanum majorana
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Melons</Plant>
@@ -697,7 +697,7 @@
     <Type>Annual</Type>
     <PlantID>58</PlantID>
     <PlantPic>Melons.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Mint</Plant>
@@ -708,7 +708,7 @@
     <Stars>3</Stars>
     <PlantID>59</PlantID>
     <PlantPic>Mint.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Mustard</Plant>
@@ -718,21 +718,21 @@
     <Type>Annual</Type>
     <PlantID>60</PlantID>
     <PlantPic>Mustard.jpg</PlantPic>
-      <ScientificName>Brassica juncea L. Czern</ScientificName>
+    <ScientificName>Brassica juncea L. Czern</ScientificName>
   </Plants>
   <Plants>
     <Plant>Nasturtiums</Plant>
     <Companions>Cucumber, Radish, Squash, Broccoli, Cabbage, other vegetables, fruit trees</Companions>
     <Incompatible>Cauliflower</Incompatible>
     <Benefits>
-        Repels aphids, cucumber beetles, whiteflies and squash bugs. Acts as trap crop for aphids. 
-        Repels borers near fruit trees. leaves, flowers and seeds are all edible and wonderful in salads.
+      Repels aphids, cucumber beetles, whiteflies and squash bugs. Acts as trap crop for aphids.
+      Repels borers near fruit trees. leaves, flowers and seeds are all edible and wonderful in salads.
     </Benefits>
     <Type>Annual</Type>
     <Stars>4</Stars>
     <PlantID>61</PlantID>
     <PlantPic>Nasturtiums.jpg</PlantPic>
-      <ScientificName>Tropaeolum majus</ScientificName>
+    <ScientificName>Tropaeolum majus</ScientificName>
   </Plants>
   <Plants>
     <Plant>Onion</Plant>
@@ -742,9 +742,9 @@
     <Type>Perennial</Type>
     <PlantID>62</PlantID>
     <PlantPic>Onion.jpg</PlantPic>
-      <ScientificName>
-          Allium cepa
-      </ScientificName>
+    <ScientificName>
+      Allium cepa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Oregano</Plant>
@@ -755,25 +755,25 @@
     <Stars>4</Stars>
     <PlantID>63</PlantID>
     <PlantPic>Oregano.jpg</PlantPic>
-      <ScientificName>
-          Origanum vulgare
-      </ScientificName>
+    <ScientificName>
+      Origanum vulgare
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Parsley</Plant>
     <Companions>Tomato, Asparagus, Carrot, Rose, Onion, Chive</Companions>
     <Incompatible>Lettuce, Mint</Incompatible>
     <Benefits>
-            Deters asparagus beetles.Improves growth. Deters carrot flies and rose beetles. Parsley increases the fragrance of roses when planted around their base.
-            Useful for protecting tomato plants as the wasps that kill tomato hornworms also eat nectar from parsley.
-        </Benefits>
+      Deters asparagus beetles.Improves growth. Deters carrot flies and rose beetles. Parsley increases the fragrance of roses when planted around their base.
+      Useful for protecting tomato plants as the wasps that kill tomato hornworms also eat nectar from parsley.
+    </Benefits>
     <Type>Perennial</Type>
     <Stars>3</Stars>
     <PlantID>64</PlantID>
     <PlantPic>Parsley.jpg</PlantPic>
-      <ScientificName>
-          Petroselinum crispum
-      </ScientificName>
+    <ScientificName>
+      Petroselinum crispum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Peanut</Plant>
@@ -783,9 +783,9 @@
     <Type>Perennial</Type>
     <PlantID>65</PlantID>
     <PlantPic>Peanuts.jpg</PlantPic>
-      <ScientificName>
-          Arachis hypogaea
-      </ScientificName>
+    <ScientificName>
+      Arachis hypogaea
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Peas</Plant>
@@ -795,7 +795,7 @@
     <Type>Annual</Type>
     <PlantID>66</PlantID>
     <PlantPic>Peas.jpg</PlantPic>
-      <ScientificName>Pisum sativum</ScientificName>
+    <ScientificName>Pisum sativum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Pennyroyal</Plant>
@@ -805,9 +805,9 @@
     <Type>Perennial</Type>
     <PlantID>67</PlantID>
     <PlantPic>Pennyroyal.jpg</PlantPic>
-      <ScientificName>
-          Mentha pulegium
-      </ScientificName>
+    <ScientificName>
+      Mentha pulegium
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Peppermint</Plant>
@@ -817,9 +817,9 @@
     <Type>Perennial</Type>
     <PlantID>68</PlantID>
     <PlantPic>Peppermint.jpg</PlantPic>
-      <ScientificName>
-          Mentha × piperita
-      </ScientificName>
+    <ScientificName>
+      Mentha × piperita
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Petunias</Plant>
@@ -830,7 +830,7 @@
     <Type>Annual, Perennial</Type>
     <PlantID>69</PlantID>
     <PlantPic>Petunias.jpg</PlantPic>
-      <ScientificName>Petunia × hybrida </ScientificName>
+    <ScientificName>Petunia × hybrida </ScientificName>
   </Plants>
   <Plants>
     <Plant>Pole Beans</Plant>
@@ -839,9 +839,9 @@
     <Type>Annual</Type>
     <PlantID>70</PlantID>
     <PlantPic>PoleBeans.jpg</PlantPic>
-      <ScientificName>
-          Phaseolus coccineus
-      </ScientificName>
+    <ScientificName>
+      Phaseolus coccineus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Potato</Plant>
@@ -850,9 +850,9 @@
     <Type>Perennial</Type>
     <PlantID>71</PlantID>
     <PlantPic>Potato.jpg</PlantPic>
-      <ScientificName>
-          Solanum tuberosum
-      </ScientificName>
+    <ScientificName>
+      Solanum tuberosum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Pumpkins</Plant>
@@ -861,7 +861,7 @@
     <Type>Annual</Type>
     <PlantID>72</PlantID>
     <PlantPic>Pumpkins.jpg</PlantPic>
-      <ScientificName>Cucurbita pepo</ScientificName>
+    <ScientificName>Cucurbita pepo</ScientificName>
   </Plants>
   <Plants>
     <Plant>Pyrethrum</Plant>
@@ -872,37 +872,37 @@
     <Stars>3</Stars>
     <PlantID>73</PlantID>
     <PlantPic>Pyrethrum.jpg</PlantPic>
-      <ScientificName>C. cinerariifolium </ScientificName>
+    <ScientificName>C. cinerariifolium </ScientificName>
   </Plants>
   <Plants>
     <Plant>Radish</Plant>
     <Companions>Bush Beans, Pole Beans, Carrot, Cucumber, Lettuce, Melons, Peas, Squash, Nasturtium, Chervil, Melons, Parsnip, Spinach, Broccoli</Companions>
     <Incompatible>Hyssop, Cabbage, Cauliflower, Brussel Sprouts, Turnip</Incompatible>
     <Benefits>
-        Deters cucumber beetles. Radishes may protect squash from squash borers.
-        Chervil and nasturtium are known to improved growth and flavor of radishes. 
+      Deters cucumber beetles. Radishes may protect squash from squash borers.
+      Chervil and nasturtium are known to improved growth and flavor of radishes.
     </Benefits>
     <Type>Annual, Biennial</Type>
     <Stars>3</Stars>
     <PlantID>74</PlantID>
     <PlantPic>Radish.jpg</PlantPic>
-      <ScientificName>
-          Raphanus sativus
-      </ScientificName>
+    <ScientificName>
+      Raphanus sativus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Rhubarb</Plant>
     <Companions>Cabbage, Broccoli, Beans, Garlic, Onion, Rose</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Rhubarb helps deter red spider mites and also protects against black flies.
-    </Benefits>    
+      Rhubarb helps deter red spider mites and also protects against black flies.
+    </Benefits>
     <Type>Perennial</Type>
     <PlantID>75</PlantID>
     <PlantPic>Rhubarb.jpg</PlantPic>
-      <ScientificName>
-          Rheum rhabarbarum
-      </ScientificName>
+    <ScientificName>
+      Rheum rhabarbarum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Rosemary</Plant>
@@ -913,38 +913,38 @@
     <Stars>2</Stars>
     <PlantID>76</PlantID>
     <PlantPic>Rosemary.jpg</PlantPic>
-      <ScientificName>
-          Rosmarinus officinalis
-      </ScientificName>
+    <ScientificName>
+      Rosmarinus officinalis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Rue</Plant>
     <Companions>Rose, Raspberry, Lavender</Companions>
     <Incompatible>Cucumbers, Cabbage, Basil, Sage</Incompatible>
     <Benefits>
-        Repels Japanese beetles. Keep it far away from Sweet Basil; plant near roses and
-        raspberries.
+      Repels Japanese beetles. Keep it far away from Sweet Basil; plant near roses and
+      raspberries.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>77</PlantID>
     <PlantPic>Rue.jpg</PlantPic>
-      <ScientificName>
-          Ruta graveolens
-      </ScientificName>
+    <ScientificName>
+      Ruta graveolens
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Sage</Plant>
     <Companions>Carrot, Broccoli, Cauliflower, Rosemary, Cabbage</Companions>
     <Incompatible>Cucumber, Rue, Onion</Incompatible>
     <Benefits>
-        Repels carrot flies, cabbage moths, ticks. Plant with rosemary, cabbage and carrots; keep away from
-        cucumbers. Deters cabbage moth, carrot fly.
+      Repels carrot flies, cabbage moths, ticks. Plant with rosemary, cabbage and carrots; keep away from
+      cucumbers. Deters cabbage moth, carrot fly.
     </Benefits>
     <Type>Perennial</Type>
     <Stars>3</Stars>
     <PlantID>78</PlantID>
     <PlantPic>Sage.jpg</PlantPic>
-      <ScientificName>Salvia officinalis</ScientificName>
+    <ScientificName>Salvia officinalis</ScientificName>
   </Plants>
   <Plants>
     <Plant>Savory</Plant>
@@ -954,25 +954,25 @@
     <Type>Annual, Perennial</Type>
     <PlantID>79</PlantID>
     <PlantPic>Savory.jpg</PlantPic>
-      <ScientificName>
-          Satureja hortensis
-        </ScientificName>
+    <ScientificName>
+      Satureja hortensis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Shallot</Plant>
     <Companions>Rose, Carrot, Tomato</Companions>
     <Incompatible>Peas, Beans</Incompatible>
     <Benefits>
-        Repels aphids, weevils, carrot flies, moles, fruit tree borers.
-        Controls rust flies and some nematodes.
-        Protects tomatoes against red spiders. Protects roses from black spot, mildew and aphids.
+      Repels aphids, weevils, carrot flies, moles, fruit tree borers.
+      Controls rust flies and some nematodes.
+      Protects tomatoes against red spiders. Protects roses from black spot, mildew and aphids.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>80</PlantID>
     <PlantPic>Shallot.jpg</PlantPic>
-      <ScientificName>
-          Allium cepa var. aggregatum
-      </ScientificName>
+    <ScientificName>
+      Allium cepa var. aggregatum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Snap Beans</Plant>
@@ -982,22 +982,22 @@
     <Type>Annual</Type>
     <PlantID>81</PlantID>
     <PlantPic>SnapBeans.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Southernwood</Plant>
     <Companions>Cabbage, Lavender</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Wonderful lemony scent. Doesn't like fertilizer. Repels Cabbage loopers, Flea Bettles, Cabbageworms, Moths.
-        Plant here and there in garden; companion to cabbage; improves Growth and flavor, deters cabbage moth.
+      Wonderful lemony scent. Doesn't like fertilizer. Repels Cabbage loopers, Flea Bettles, Cabbageworms, Moths.
+      Plant here and there in garden; companion to cabbage; improves Growth and flavor, deters cabbage moth.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>82</PlantID>
     <PlantPic>Southernwood.jpg</PlantPic>
-      <ScientificName>
-          Artemisia abrotanum
-      </ScientificName>
+    <ScientificName>
+      Artemisia abrotanum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Soybean</Plant>
@@ -1007,9 +1007,9 @@
     <Type>Annual, Perennial</Type>
     <PlantID>83</PlantID>
     <PlantPic>Soybeans.jpg</PlantPic>
-      <ScientificName>
-          Glycine max
-      </ScientificName>
+    <ScientificName>
+      Glycine max
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Spearmint</Plant>
@@ -1020,9 +1020,9 @@
     <Stars>3</Stars>
     <PlantID>84</PlantID>
     <PlantPic>Spearmint.jpg</PlantPic>
-      <ScientificName>
-          Mentha spicata
-      </ScientificName>
+    <ScientificName>
+      Mentha spicata
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Spinach</Plant>
@@ -1032,22 +1032,22 @@
     <Type>Annual</Type>
     <PlantID>85</PlantID>
     <PlantPic>Spinach.jpg</PlantPic>
-      <ScientificName>
-          Spinacia oleracea
-      </ScientificName>
+    <ScientificName>
+      Spinacia oleracea
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Squash</Plant>
     <Companions>Borage, Corn, Onion, Radish, Nasturtium, Marigold, Melons, Oregano</Companions>
     <Incompatible>Irish Potato</Incompatible>
     <Benefits>
-        Borage will help deter worms and impove growth and flavor.
-        Radishes will prevent insects on the squash plant.
+      Borage will help deter worms and impove growth and flavor.
+      Radishes will prevent insects on the squash plant.
     </Benefits>
     <Type>Annual</Type>
     <PlantID>86</PlantID>
     <PlantPic>Squash.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Strawberry</Plant>
@@ -1056,24 +1056,24 @@
     <Type>Perennial</Type>
     <PlantID>87</PlantID>
     <PlantPic>Strawberry.jpg</PlantPic>
-      <ScientificName>
-          Fragaria × ananassa
-      </ScientificName>
+    <ScientificName>
+      Fragaria × ananassa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Sunflower</Plant>
     <Companions>Corn, Artichoke, Broad Beans, Bush Beans, Cucumber, Squash</Companions>
     <Incompatible>Potato</Incompatible>
     <Benefits>
-        Attracts Humming birds and bees. The bright blossoms draw ladybugs and ants, both of which feed on aphids.
-        Create shade for less heat-tolerant plants.
+      Attracts Humming birds and bees. The bright blossoms draw ladybugs and ants, both of which feed on aphids.
+      Create shade for less heat-tolerant plants.
     </Benefits>
     <Type>Annual, Perennial</Type>
     <PlantID>88</PlantID>
     <PlantPic>Sunflower.jpg</PlantPic>
-      <ScientificName>
-          Helianthus annuus
-      </ScientificName>
+    <ScientificName>
+      Helianthus annuus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Sweet Alyssum</Plant>
@@ -1084,9 +1084,9 @@
     <Stars>3</Stars>
     <PlantID>89</PlantID>
     <PlantPic>SweetAlyssum.jpg</PlantPic>
-      <ScientificName>
-          Lobularia maritima
-      </ScientificName>
+    <ScientificName>
+      Lobularia maritima
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Escarole</Plant>
@@ -1096,21 +1096,21 @@
     <Type>Annual</Type>
     <PlantID>90</PlantID>
     <PlantPic>Escarole.jpg</PlantPic>
-      <ScientificName>
-          Cichorium endivia
-      </ScientificName>
+    <ScientificName>
+      Cichorium endivia
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Sweet Pepper</Plant>
     <Companions>Basil, Okra, Cucumber, Eggplant, Escarole, Tomato, Chard , Squash, Oregano, Parsley, Rosemary</Companions>
     <Incompatible>Apricot Trees </Incompatible>
     <Benefits>
-            Improves growth. Do not plant near apricot trees because a fungus that the pepper is prone to can cause a lot of harm to the apricot tree.
-        </Benefits>
+      Improves growth. Do not plant near apricot trees because a fungus that the pepper is prone to can cause a lot of harm to the apricot tree.
+    </Benefits>
     <Type>Annual, Perennial</Type>
     <PlantID>91</PlantID>
     <PlantPic>SweetPepper.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Tansy</Plant>
@@ -1121,9 +1121,9 @@
     <Stars>2</Stars>
     <PlantID>92</PlantID>
     <PlantPic>Tansy.jpg</PlantPic>
-      <ScientificName>
-          Tanacetum vulgare
-      </ScientificName>
+    <ScientificName>
+      Tanacetum vulgare
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Tarragon</Plant>
@@ -1134,9 +1134,9 @@
     <Type>Perennial</Type>
     <PlantID>93</PlantID>
     <PlantPic>Tarragon.jpg</PlantPic>
-      <ScientificName>
-          Artemisia dracunculus
-      </ScientificName>
+    <ScientificName>
+      Artemisia dracunculus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Thyme</Plant>
@@ -1147,7 +1147,7 @@
     <Stars>3</Stars>
     <PlantID>94</PlantID>
     <PlantPic>Thyme.jpg</PlantPic>
-      <ScientificName>Thymus pulegioides</ScientificName>
+    <ScientificName>Thymus pulegioides</ScientificName>
   </Plants>
   <Plants>
     <Plant>Tomato</Plant>
@@ -1157,9 +1157,9 @@
     <Type>Annual</Type>
     <PlantID>95</PlantID>
     <PlantPic>Tomato.jpg</PlantPic>
-      <ScientificName>
-          Solanum lycopersicum
-      </ScientificName>
+    <ScientificName>
+      Solanum lycopersicum
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Turnip</Plant>
@@ -1169,9 +1169,9 @@
     <Type>Annual</Type>
     <PlantID>96</PlantID>
     <PlantPic>Turnip.jpg</PlantPic>
-      <ScientificName>
-          Brassica rapa var. rapa
-      </ScientificName>
+    <ScientificName>
+      Brassica rapa var. rapa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Wormwood</Plant>
@@ -1182,7 +1182,7 @@
     <Stars>3</Stars>
     <PlantID>97</PlantID>
     <PlantPic>Wormwood.jpg</PlantPic>
-      <ScientificName>Artemisia absinthium</ScientificName>
+    <ScientificName>Artemisia absinthium</ScientificName>
   </Plants>
   <Plants>
     <Plant>Yarrow</Plant>
@@ -1193,38 +1193,38 @@
     <Stars>4</Stars>
     <PlantID>98</PlantID>
     <PlantPic>Yarrow.jpg</PlantPic>
-      <ScientificName>
-          Achillea millefolium
-      </ScientificName>
+    <ScientificName>
+      Achillea millefolium
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Lamb's Quarters</Plant>
     <Companions>Corn</Companions>
     <Incompatible>Beet</Incompatible>
     <Benefits>
-        Acts as a trap crop for leaf miners. Host for beet leafhopper insect. Should be allowed to grow in moderate
-        amounts in the garden, especially in corn
+      Acts as a trap crop for leaf miners. Host for beet leafhopper insect. Should be allowed to grow in moderate
+      amounts in the garden, especially in corn
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>99</PlantID>
     <PlantPic>LambsQuarters.jpg</PlantPic>
-      <ScientificName>Chenopodium polyspermum</ScientificName>
+    <ScientificName>Chenopodium polyspermum</ScientificName>
   </Plants>
   <Plants>
     <Plant>Valerian</Plant>
     <Companions>Various Plants</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Adds phosphorus. Good anywhere in garden.
-        Good in compost heaps and good for earthworms.
+      Adds phosphorus. Good anywhere in garden.
+      Good in compost heaps and good for earthworms.
     </Benefits>
     <Type>Perennial</Type>
     <Stars>3</Stars>
     <PlantID>100</PlantID>
     <PlantPic>Valerian.jpg</PlantPic>
-      <ScientificName>
-          Valeriana officinalis
-      </ScientificName>
+    <ScientificName>
+      Valeriana officinalis
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Gourds</Plant>
@@ -1234,7 +1234,7 @@
     <Type>Annual</Type>
     <PlantID>101</PlantID>
     <PlantPic>Gourds.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Daisy</Plant>
@@ -1244,7 +1244,7 @@
     <Type>Perennial</Type>
     <PlantID>102</PlantID>
     <PlantPic>Daisy.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Pansy</Plant>
@@ -1254,7 +1254,7 @@
     <Type>Annual</Type>
     <PlantID>103</PlantID>
     <PlantPic>Pansy.jpg</PlantPic>
-      <ScientificName>Viola tricolor hortensis</ScientificName>
+    <ScientificName>Viola tricolor hortensis</ScientificName>
   </Plants>
   <Plants>
     <Plant>Parsnip</Plant>
@@ -1264,9 +1264,9 @@
     <Type>Biennial</Type>
     <PlantID>104</PlantID>
     <PlantPic>Parsnip.jpg</PlantPic>
-      <ScientificName>
-          Pastinaca sativa
-      </ScientificName>
+    <ScientificName>
+      Pastinaca sativa
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Mimosa</Plant>
@@ -1276,7 +1276,7 @@
     <Type>Annual, Perennial</Type>
     <PlantID>105</PlantID>
     <PlantPic>Mimosa.jpg</PlantPic>
-      <ScientificName></ScientificName>
+    <ScientificName></ScientificName>
   </Plants>
   <Plants>
     <Plant>Clover</Plant>
@@ -1286,19 +1286,19 @@
     <Type>Annual, Perennial, Biennial</Type>
     <PlantID>106</PlantID>
     <PlantPic>Clover.jpg</PlantPic>
-      <ScientificName>Trifolium repens </ScientificName>
+    <ScientificName>Trifolium repens </ScientificName>
   </Plants>
   <Plants>
-      <Plant>Crow Garlic</Plant>
-      <Companions>Fruit trees, Tomato, Pepper, Potato, Cabbage, Broccoli, Kohlrabi, Carrot</Companions>
-      <Incompatible>Beans, Peas, Parsley</Incompatible>
-      <Benefits>Repels slugs, aphids, carrot fly, cabbage worms and can be eaten like chives.</Benefits>
-      <Type>Perennial</Type>
-      <PlantID>107</PlantID>
-      <PlantPic>CrowGarlic.gif</PlantPic>
-      <ScientificName>
-          Allium vineale
-      </ScientificName>
+    <Plant>Crow Garlic</Plant>
+    <Companions>Fruit trees, Tomato, Pepper, Potato, Cabbage, Broccoli, Kohlrabi, Carrot</Companions>
+    <Incompatible>Beans, Peas, Parsley</Incompatible>
+    <Benefits>Repels slugs, aphids, carrot fly, cabbage worms and can be eaten like chives.</Benefits>
+    <Type>Perennial</Type>
+    <PlantID>107</PlantID>
+    <PlantPic>CrowGarlic.gif</PlantPic>
+    <ScientificName>
+      Allium vineale
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Ground Ivy</Plant>
@@ -1308,9 +1308,9 @@
     <Type>Perennial</Type>
     <PlantID>108</PlantID>
     <PlantPic>GroundIvy.jpg</PlantPic>
-      <ScientificName>
-          Glechoma hederacea
-      </ScientificName>
+    <ScientificName>
+      Glechoma hederacea
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Kohlrabi</Plant>
@@ -1320,7 +1320,7 @@
     <Type>Biennial</Type>
     <PlantID>109</PlantID>
     <PlantPic>Kohlrabi.jpg</PlantPic>
-      <ScientificName>Brassica oleracea</ScientificName>
+    <ScientificName>Brassica oleracea</ScientificName>
   </Plants>
   <Plants>
     <Plant>Morning Glory</Plant>
@@ -1330,7 +1330,7 @@
     <Type>Annual</Type>
     <PlantID>110</PlantID>
     <PlantPic>MorningGlory.jpg</PlantPic>
-      <ScientificName>Ipomoea nil</ScientificName>
+    <ScientificName>Ipomoea nil</ScientificName>
   </Plants>
   <Plants>
     <Plant>Lavender</Plant>
@@ -1340,9 +1340,9 @@
     <Type>Perennial</Type>
     <PlantID>111</PlantID>
     <PlantPic>Lavender.jpg</PlantPic>
-      <ScientificName>
-          Lavandula spica
-      </ScientificName>
+    <ScientificName>
+      Lavandula spica
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Okra</Plant>
@@ -1352,137 +1352,156 @@
     <Type>Annual</Type>
     <PlantID>112</PlantID>
     <PlantPic>Okra.jpg</PlantPic>
-      <ScientificName>
-          Abelmoschus esculentus
-      </ScientificName>
+    <ScientificName>
+      Abelmoschus esculentus
+    </ScientificName>
   </Plants>
   <Plants>
     <Plant>Zinnia</Plant>
     <Companions>Various Plants</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-        Attract wasps, hoverflies, and humming birds. Plant freely throughout the garden.
-        Zinnia is notorious as a target for mold and fungal growths.
+      Attract wasps, hoverflies, and humming birds. Plant freely throughout the garden.
+      Zinnia is notorious as a target for mold and fungal growths.
     </Benefits>
     <Type>Annual</Type>
     <Stars>3</Stars>
     <PlantID>113</PlantID>
     <PlantPic>Zinnia.jpg</PlantPic>
-      <ScientificName>Zinnia × hybrida</ScientificName>
+    <ScientificName>Zinnia × hybrida</ScientificName>
   </Plants>
-    <Plants>
-        <Plant>Angelica</Plant>
-        <Companions>Hellebore, Ferns, Epimediums</Companions>
-        <Incompatible>Dill</Incompatible>
-        <Benefits>
-            Attract honeybees, wasps, and ladybugs. Angelica is really a short-lived perennial and dies after its flowering year.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>114</PlantID>
-        <PlantPic>Angelica.jpg</PlantPic>
-        <ScientificName>Angelica archangelica</ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Burdock</Plant>
-        <Companions>
-            Brussel Sprouts, Bean, Celery, Dill, Hyssop, Mint, Nasturtium, Sage
-        </Companions>
-        <Incompatible>Potato</Incompatible>
-        <Benefits>
-            Do not allow to go to seed.  Burdock will spread fast and wide.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>115</PlantID>
-        <PlantPic>Burdock.jpg</PlantPic>
-        <ScientificName>Arctium lappa</ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Blackberry</Plant>
-        <Companions>
-            Tansy, Rue, Wormwood, Nasturtium, Grape
-        </Companions>
-        <Incompatible></Incompatible>
-        <Benefits>
-            Blackberries grows very quickly and can take over if not pruned frequently.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>116</PlantID>
-        <PlantPic>Blackberry.jpg</PlantPic>
-        <ScientificName>
-            Rubus fruticosus
-        </ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Zucchini</Plant>
-        <Companions>
-            Basil, Beans, Onion, Corn, Mint, Radish, Nasturtium
-        </Companions>
-        <Incompatible>Potato, Cucumber</Incompatible>
-        <Benefits>
-            Zucchini will thrive when planted with nasturtium, corn or marigold.
-            Nasturtiums will distract the pests from attacking your zucchini and other squash plants.
-        </Benefits>
-        <Type>Annual</Type>
-        <Stars></Stars>
-        <PlantID>117</PlantID>
-        <PlantPic>Zucchini.jpg</PlantPic>
-        <ScientificName>
-            Cucurbita pepo
-        </ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Rose</Plant>
-        <Companions>
-            Allium, Chive, Garlic, Geranium, Lavender, Leek, Marigold, Onion, Parsley, Rhubarb, Rue, Shallot, Tansy, Tomato
-        </Companions>
-        <Incompatible></Incompatible>
-        <Benefits>
-            Tomatoes and Allium protects roses from black spot while parsley deters rose beetles. Lavender makes a great cover for mature roses' bare legs.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>118</PlantID>
-        <PlantPic>Roses.jpg</PlantPic>
-        <ScientificName>
-        </ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Burnet</Plant>
-        <Companions>
-            Thyme, Mint
-        </Companions>
-        <Incompatible></Incompatible>
-        <Benefits>
-            Salad burnet has the flavor described as light cucumber and is considered interchangeable with mint in some recipes.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>119</PlantID>
-        <PlantPic>Burnet.jpg</PlantPic>
-        <ScientificName>
-            Sanguisorba minor
-        </ScientificName>
-    </Plants>
-    <Plants>
-        <Plant>Lupin</Plant>
-        <Companions>
-            Cucumber, Squash, Brassica, Spinach, Lettuce, Rosemary, Dill, Strawberry
-        </Companions>
-        <Incompatible>Tomato</Incompatible>
-        <Benefits>
-            Lupins make good companion plants for crops that need significant amounts of nitrogen in their soil. Attracts honeybees.
-            They can fix nitrogen from the atmosphere into ammonia via a rhizobium-root nodule symbiosis, fertilizing the soil for other plants.
-            The legume seeds of lupins are edible and have a full range of essential amino acids.
-        </Benefits>
-        <Type>Perennial</Type>
-        <Stars></Stars>
-        <PlantID>120</PlantID>
-        <PlantPic>Lupin.jpg</PlantPic>
-        <ScientificName>
-            Lupinus perennis
-        </ScientificName>
-    </Plants>
+  <Plants>
+    <Plant>Angelica</Plant>
+    <Companions>Hellebore, Ferns, Epimediums</Companions>
+    <Incompatible>Dill</Incompatible>
+    <Benefits>
+      Attract honeybees, wasps, and ladybugs. Angelica is really a short-lived perennial and dies after its flowering year.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>114</PlantID>
+    <PlantPic>Angelica.jpg</PlantPic>
+    <ScientificName>Angelica archangelica</ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Burdock</Plant>
+    <Companions>
+      Brussel Sprouts, Bean, Celery, Dill, Hyssop, Mint, Nasturtium, Sage
+    </Companions>
+    <Incompatible>Potato</Incompatible>
+    <Benefits>
+      Do not allow to go to seed.  Burdock will spread fast and wide.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>115</PlantID>
+    <PlantPic>Burdock.jpg</PlantPic>
+    <ScientificName>Arctium lappa</ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Blackberry</Plant>
+    <Companions>
+      Tansy, Rue, Wormwood, Nasturtium, Grape
+    </Companions>
+    <Incompatible></Incompatible>
+    <Benefits>
+      Blackberries grows very quickly and can take over if not pruned frequently.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>116</PlantID>
+    <PlantPic>Blackberry.jpg</PlantPic>
+    <ScientificName>
+      Rubus fruticosus
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Zucchini</Plant>
+    <Companions>
+      Basil, Beans, Onion, Corn, Mint, Radish, Nasturtium
+    </Companions>
+    <Incompatible>Potato, Cucumber</Incompatible>
+    <Benefits>
+      Zucchini will thrive when planted with nasturtium, corn or marigold.
+      Nasturtiums will distract the pests from attacking your zucchini and other squash plants.
+    </Benefits>
+    <Type>Annual</Type>
+    <Stars></Stars>
+    <PlantID>117</PlantID>
+    <PlantPic>Zucchini.jpg</PlantPic>
+    <ScientificName>
+      Cucurbita pepo
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Rose</Plant>
+    <Companions>
+      Allium, Chive, Garlic, Geranium, Lavender, Leek, Marigold, Onion, Parsley, Rhubarb, Rue, Shallot, Tansy, Tomato
+    </Companions>
+    <Incompatible></Incompatible>
+    <Benefits>
+      Tomatoes and Allium protects roses from black spot while parsley deters rose beetles. Lavender makes a great cover for mature roses' bare legs.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>118</PlantID>
+    <PlantPic>Roses.jpg</PlantPic>
+    <ScientificName>
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Burnet</Plant>
+    <Companions>
+      Thyme, Mint
+    </Companions>
+    <Incompatible></Incompatible>
+    <Benefits>
+      Salad burnet has the flavor described as light cucumber and is considered interchangeable with mint in some recipes.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>119</PlantID>
+    <PlantPic>Burnet.jpg</PlantPic>
+    <ScientificName>
+      Sanguisorba minor
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Lupin</Plant>
+    <Companions>
+      Cucumber, Squash, Brassica, Spinach, Lettuce, Rosemary, Dill, Strawberry
+    </Companions>
+    <Incompatible>Tomato</Incompatible>
+    <Benefits>
+      Lupins make good companion plants for crops that need significant amounts of nitrogen in their soil. Attracts honeybees.
+      They can fix nitrogen from the atmosphere into ammonia via a rhizobium-root nodule symbiosis, fertilizing the soil for other plants.
+      The legume seeds of lupins are edible and have a full range of essential amino acids.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>120</PlantID>
+    <PlantPic>Lupin.jpg</PlantPic>
+    <ScientificName>
+      Lupinus perennis
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Mugwort</Plant>
+    <Companions>
+      None
+    </Companions>
+    <Incompatible>Conditional</Incompatible>
+    <Benefits>
+      Dissuade aphids, moths, and other bothersome insects in the garden. Can inhibit growth of nearby plants. Mugwort likes to grow alone, 
+      consider planing in a pot or isolated container so not to interfer with the growth of other plants.  Weak mugwort tea spray works as 
+      a natural insecticide. Leaves and stalks can be used as kindling.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>121</PlantID>
+    <PlantPic>Mugwort.jpg</PlantPic>
+    <ScientificName>
+      Artemisia vulgaris
+    </ScientificName>
+  </Plants>
 </CompanionPlants>
