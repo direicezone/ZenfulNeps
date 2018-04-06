@@ -5,9 +5,8 @@ namespace ZenfulNeps.Models
 	public class CompanionPlants
 	{
 		public List<CompanionPlant> Plants { get; set; }
-	}
-
-	public class CompanionPlant
+    }
+    public class CompanionPlant
 	{
 		public string PlantId { get; set; }
 		public string Plant { get; set; }

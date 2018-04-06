@@ -13,6 +13,7 @@ namespace ZenfulNeps.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.LastUpdate = "Last Update 4/6/2018: Mobile Friendlier and Mugwort Added.";
             return View("CompanionPlants", GetData(false));
         }
 
