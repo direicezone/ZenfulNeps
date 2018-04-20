@@ -13,7 +13,7 @@ namespace ZenfulNeps.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.LastUpdate = "Last Update 4/6/2018: Mobile Friendlier and Mugwort Added.";
+            ViewBag.LastUpdate = "Last Update 4/20/2018: Chickweed Added.";
             return View("CompanionPlants", GetData(false));
         }
 
@@ -122,7 +122,9 @@ namespace ZenfulNeps.Controllers
 				}
 				HttpRuntime.Cache["companion_plant"] = items;
 			}
-			return items.OrderBy(o => o.Plant).ToList();
+            Session["PlantCount"] = items.Count;
+
+            return items.OrderBy(o => o.Plant).ToList();
 	    }
 
 		[HttpGet, OutputCache(Duration = 0)]

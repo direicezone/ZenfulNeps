@@ -502,6 +502,7 @@
     <Content Include="Images\Plants\Chamomile.jpg" />
     <Content Include="Images\Plants\Chards.jpg" />
     <Content Include="Images\Plants\Chervil.jpg" />
+    <Content Include="Images\Plants\Chickweed.jpg" />
     <Content Include="Images\Plants\Chives.jpg" />
     <Content Include="Images\Plants\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Clover.jpg" />
@@ -573,6 +574,7 @@
     <Content Include="Images\Plants\Mobile_Images\Chamomile.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chickweed.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Clover.jpg" />
@@ -684,6 +686,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chamomile.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chickweed.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Clover.jpg" />

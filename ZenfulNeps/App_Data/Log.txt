@@ -7,3 +7,15 @@
    at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
    at System.IO.DirectoryInfo.GetFiles()
    at FiftyOne.Foundation.Mobile.Detection.WebProvider.CleanTemporaryFiles()
+2018-04-20T13:13:17.1880337Z - 18904 - Warn - Source file 'C:\GitHub\ZenfulNeps\ZenfulNeps\Content\wrap-bg.jpg' generated exception 'System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at FiftyOne.Foundation.Image.Processor.ShrinkToSeekStream(Image image, Stream seekStream)
+   at FiftyOne.Foundation.Image.Processor.Shrink(Image image, Stream outStream)
+   at FiftyOne.Foundation.Image.Processor.Shrink(Stream inStream, Stream outStream)
+   at FiftyOne.Foundation.Mobile.Detection.Feature.ImageOptimiser.OptimisedImageResponse(HttpContext context)' shrinking to '800' by '0'.
+2018-04-20T13:13:17.2010689Z - 18904 - Warn - Source file 'C:\GitHub\ZenfulNeps\ZenfulNeps\Content\wrap-bg.jpg' generated exception 'System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at FiftyOne.Foundation.Image.Processor.ShrinkToSeekStream(Image image, Stream seekStream)
+   at FiftyOne.Foundation.Image.Processor.Shrink(Image image, Stream outStream)
+   at FiftyOne.Foundation.Image.Processor.Shrink(Stream inStream, Stream outStream)
+   at FiftyOne.Foundation.Mobile.Detection.Feature.ImageOptimiser.OptimisedImageResponse(HttpContext context)' shrinking to '800' by '0'.
