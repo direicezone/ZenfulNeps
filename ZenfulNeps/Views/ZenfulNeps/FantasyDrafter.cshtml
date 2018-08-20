@@ -1,12 +1,13 @@
 ﻿@{
     Layout = null;
+    //Data from http://www.fftoday.com/
 }
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <title>Fantasy Drafter 2017 by Bill Hamilton</title>
+    <title>Fantasy Drafter 2018 by Bill Hamilton</title>
 </head>
 <script src="../../Scripts/jquery-1.7.1.min.js"></script>
 <script src="../../Scripts/FFScript.js"></script>
@@ -17,19 +18,15 @@
     <form>
         <div id="header">
             <div class="container">
-                <h2 class="h2Style">Fantasy Masta-Drafta 2017</h2>
+                <h2 class="h2Style">Fantasy Masta-Drafta 2018</h2>
                 <input type="text" name="search-term" id="search-term" />
                 <input type="submit" name="search-button" id="search-button" value="search" />
                 <label class="searchResults"></label>
                 <span class="anchorLinks">
-                    <a href="#WideRecievers">WideRecievers</a> | <a href="#QuarterBacks">QuarterBacks</a> | <a href="#RunningBacks">RunningBacks</a> | 
-                    <a href="#TightEnds">TightEnds</a> | <a href="#Defenses">Defenses</a> | <a href="#Kickers">Kickers</a> 
+                    <a href="#WideRecievers">WideRecievers</a> | <a href="#QuarterBacks">QuarterBacks</a> | <a href="#RunningBacks">RunningBacks</a> |
+                    <a href="#TightEnds">TightEnds</a> | <a href="#Defenses">Defenses</a> | <a href="#Kickers">Kickers</a>
                     (Shift-Click to add to roster)
                 </span>
-            </div>
-        </div>
-        <div id="content" class="container">
-            <div class="inner">
                 <table width='100%' border="0" cellpadding="0" cellspacing="0">
                     <tr class="note-td">
                         <td>
@@ -45,7 +42,26 @@
                         </td>
                     </tr>
                 </table>
-                <hr/>
+            </div>
+        </div>
+        <div id="content" class="container">
+            <div class="inner">
+                @*<table width='100%' border="0" cellpadding="0" cellspacing="0">
+                    <tr class="note-td">
+                        <td>
+                            <table class="myPlayers" width="100%" border="0" cellpadding="2" cellspacing="0">
+                                <tr class='tablehdr'>
+                                    <td align='center' nowrap>Remove</td>
+                                    <td nowrap>Player</td>
+                                    <td nowrap>Bye Week</td>
+                                    <td nowrap>Team</td>
+                                    <td nowrap>Position</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <hr/>*@
                 <table class="allPlayers" width="100%" border="0" cellpadding="2" cellspacing="0">
                     <tr class="note-td">
                         <td width='49%' valign='top'>

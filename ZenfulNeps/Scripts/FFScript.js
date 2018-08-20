@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Matt Ryan", " Dak Prescott", "Devonta Freeman", "Derek Carr", "Michael Crabtree", "Jay Ajayi", "Isaiah Crowell", "Michael Thomas", "Tevin Coleman"];
+    var keepers = ["Andrew Luck",];
 
     GetKeepers();
     if (getKeepers.length > 0) {
@@ -18,6 +18,7 @@ $(document).ready(function () {
         $.each(myPlayers, function(key, value) {
             $(".myPlayers").append(value);
         });
+        AdjustContentTopMargin(myPlayers.length);
     }
 
     $(document).tooltip();
@@ -78,6 +79,7 @@ $(document).ready(function () {
                 myPlayers.push(this.outerHTML);
             });
             SaveMyPlayers();
+            AdjustContentTopMargin(myPlayers.length);
         }
         
         $(this).closest('tr').find('td').each(function () {
@@ -105,6 +107,7 @@ $(document).ready(function () {
             myPlayers.push(this.outerHTML);
         });
         SaveMyPlayers();
+        AdjustContentTopMargin(myPlayers.length);
 
         var tableRow = $("td").filter(function () {
             return $.trim($(this).text()) == player;
@@ -142,6 +145,12 @@ $(document).ready(function () {
         return false;
     });
 });
+
+function AdjustContentTopMargin(numberOfPlayers) {
+    var baseTopMargin = 75;
+    var newTopMargin = baseTopMargin + (myPlayers.length * 20);
+    $('#content').css("margin-top", newTopMargin).trigger('resize');
+}
 
 function SaveKeepers(keepers) {
     var data = {};
