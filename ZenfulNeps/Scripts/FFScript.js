@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Andrew Luck",];
+    var keepers = ["Andrew Luck", " Derrick Henry", ];
 
     GetKeepers();
     if (getKeepers.length > 0) {
@@ -33,16 +33,9 @@ $(document).ready(function () {
         var playerName = '';
         var playerTeam = '';
         var playerBye = '';
-        if (playerType == 'TEAM DEFENSE / ST') {
-            playerName = $.trim(tds.eq(2).text());
-            playerTeam = '';
-            playerBye = tds.eq(3).text();
-
-        } else {
-            playerName = $.trim(tds.eq(2).text());
-            playerTeam = tds.eq(3).text();
-            playerBye = tds.eq(4).text();
-        }
+        playerName = $.trim(tds.eq(2).text());
+        playerTeam = tds.eq(3).text();
+        playerBye = tds.eq(4).text();
         if (e.shiftKey && isChecked) {
             var bgColor = '#ffffff';
             switch (playerType) {

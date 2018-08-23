@@ -19,3 +19,12 @@
    at FiftyOne.Foundation.Image.Processor.Shrink(Image image, Stream outStream)
    at FiftyOne.Foundation.Image.Processor.Shrink(Stream inStream, Stream outStream)
    at FiftyOne.Foundation.Mobile.Detection.Feature.ImageOptimiser.OptimisedImageResponse(HttpContext context)' shrinking to '800' by '0'.
+2018-08-23T13:02:30.9437071Z - 26756 - Warn - Exception cleaning temporary files
+2018-08-23T13:02:30.9538518Z - 26756 - Warn - 
+2018-08-23T13:02:30.9538518Z - 26756 - Warn - Could not find a part of the path 'C:\GitHub\ZenfulNeps\ZenfulNeps\ZenfulNeps\App_Data\51Degrees'.
+2018-08-23T13:02:30.9708557Z - 26756 - Warn -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles()
+   at FiftyOne.Foundation.Mobile.Detection.WebProvider.CleanTemporaryFiles()

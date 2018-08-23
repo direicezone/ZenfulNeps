@@ -326,3 +326,9 @@ ASALocalRun/
 *.binlog
 /ZenfulNeps/App_Data/Cache/
 
+/ZenfulNeps/Data/WideReceivers.txt
+/ZenfulNeps/Data/TightEnds.txt
+/ZenfulNeps/Data/RunningBacks.txt
+/ZenfulNeps/Data/QuarterBacks.txt
+/ZenfulNeps/Data/Kickers.txt
+/ZenfulNeps/Data/Defense.txt
