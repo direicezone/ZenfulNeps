@@ -145,7 +145,6 @@ $(document).ready(function () {
         return false;
     });
 });
-
 function AdjustContentTopMargin(numberOfPlayers) {
     var baseTopMargin = 75;
     var newTopMargin = baseTopMargin + (myPlayers.length * 20);
@@ -157,7 +156,7 @@ function SaveKeepers(keepers) {
     data.Keepers = keepers;
     $.ajax({
         type: "POST",
-        url: "SaveKeepers",
+        url: "FantasyDrafter/SaveKeepers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -175,7 +174,7 @@ function GetKeepers() {
     var data = {};
     $.ajax({
         type: "GET",
-        url: "GetKeepers",
+        url: "FantasyDrafter/GetKeepers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -196,7 +195,7 @@ function SaveMyPlayers() {
     data.MyPlayers = myPlayers;
     $.ajax({
         type: "POST",
-        url: "SaveMyPlayers",
+        url: "FantasyDrafter/SaveMyPlayers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -214,7 +213,7 @@ function GetMyPlayers() {
     var data = {};
     $.ajax({
         type: "GET",
-        url: "GetMyPlayers",
+        url: "FantasyDrafter/GetMyPlayers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",

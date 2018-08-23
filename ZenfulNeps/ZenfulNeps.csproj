@@ -173,6 +173,7 @@
     <Compile Include="Controllers\BrewingController.cs" />
     <Compile Include="Controllers\CompanionPlantsController.cs" />
     <Compile Include="Controllers\CompanionPlantsNewController.cs" />
+    <Compile Include="Controllers\FantasyDrafterController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
     <Compile Include="Controllers\ViewSwitcherController.cs" />
     <Compile Include="Controllers\ZenfulNepsController.cs" />
@@ -871,7 +872,6 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Scripts\printThis.js" />
-    <Content Include="Views\Shared\WideRecievers.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -897,6 +897,7 @@
     <Content Include="Views\ZenfulNeps\ZenfulNeps.Mobile.cshtml" />
     <Content Include="Views\CompanionPlants\CompanionPlants.Mobile.cshtml" />
     <Content Include="Views\ZenfulNeps\MashSpargeWater.Mobile.cshtml" />
+    <Content Include="Views\Shared\WideReceivers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ZenfulNeps\BodyFatCalc.cshtml" />
@@ -939,7 +940,7 @@
     <Content Include="App_Data\51Degrees.dat" />
     <Content Include="51Degrees.config" />
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
-    <Content Include="Views\ZenfulNeps\FantasyDrafter.cshtml" />
+    <Content Include="Views\FantasyDrafter\FantasyDrafter.cshtml" />
     <Content Include="Views\Shared\QuarterBacks.cshtml" />
     <Content Include="Views\Shared\Kickers.cshtml" />
     <Content Include="Views\Shared\RunningBacks.cshtml" />
