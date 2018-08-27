@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Andrew Luck", " Derrick Henry", ];
+    var keepers = ["Andrew Luck", "Derrick Henry", ];
 
     GetKeepers();
     if (getKeepers.length > 0) {
