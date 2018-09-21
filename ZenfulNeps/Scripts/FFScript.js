@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Matt Ryan", " Dak Prescott", "Devonta Freeman", "Derek Carr", "Michael Crabtree", "Jay Ajayi", "Isaiah Crowell", "Michael Thomas", "Tevin Coleman"];
+    var keepers = ["Andrew Luck", "Derrick Henry", ];
 
     GetKeepers();
     if (getKeepers.length > 0) {
@@ -18,6 +18,7 @@ $(document).ready(function () {
         $.each(myPlayers, function(key, value) {
             $(".myPlayers").append(value);
         });
+        AdjustContentTopMargin(myPlayers.length);
     }
 
     $(document).tooltip();
@@ -32,16 +33,9 @@ $(document).ready(function () {
         var playerName = '';
         var playerTeam = '';
         var playerBye = '';
-        if (playerType == 'TEAM DEFENSE / ST') {
-            playerName = $.trim(tds.eq(2).text());
-            playerTeam = '';
-            playerBye = tds.eq(3).text();
-
-        } else {
-            playerName = $.trim(tds.eq(2).text());
-            playerTeam = tds.eq(3).text();
-            playerBye = tds.eq(4).text();
-        }
+        playerName = $.trim(tds.eq(2).text());
+        playerTeam = tds.eq(3).text();
+        playerBye = tds.eq(4).text();
         if (e.shiftKey && isChecked) {
             var bgColor = '#ffffff';
             switch (playerType) {
@@ -78,6 +72,7 @@ $(document).ready(function () {
                 myPlayers.push(this.outerHTML);
             });
             SaveMyPlayers();
+            AdjustContentTopMargin(myPlayers.length);
         }
         
         $(this).closest('tr').find('td').each(function () {
@@ -105,6 +100,7 @@ $(document).ready(function () {
             myPlayers.push(this.outerHTML);
         });
         SaveMyPlayers();
+        AdjustContentTopMargin(myPlayers.length);
 
         var tableRow = $("td").filter(function () {
             return $.trim($(this).text()) == player;
@@ -142,13 +138,18 @@ $(document).ready(function () {
         return false;
     });
 });
+function AdjustContentTopMargin(numberOfPlayers) {
+    var baseTopMargin = 75;
+    var newTopMargin = baseTopMargin + (myPlayers.length * 20);
+    $('#content').css("margin-top", newTopMargin).trigger('resize');
+}
 
 function SaveKeepers(keepers) {
     var data = {};
     data.Keepers = keepers;
     $.ajax({
         type: "POST",
-        url: "SaveKeepers",
+        url: "FantasyDrafter/SaveKeepers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -166,7 +167,7 @@ function GetKeepers() {
     var data = {};
     $.ajax({
         type: "GET",
-        url: "GetKeepers",
+        url: "FantasyDrafter/GetKeepers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -187,7 +188,7 @@ function SaveMyPlayers() {
     data.MyPlayers = myPlayers;
     $.ajax({
         type: "POST",
-        url: "SaveMyPlayers",
+        url: "FantasyDrafter/SaveMyPlayers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
@@ -205,7 +206,7 @@ function GetMyPlayers() {
     var data = {};
     $.ajax({
         type: "GET",
-        url: "GetMyPlayers",
+        url: "FantasyDrafter/GetMyPlayers",
         async: false,
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",

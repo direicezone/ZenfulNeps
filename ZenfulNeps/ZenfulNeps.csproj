@@ -173,6 +173,7 @@
     <Compile Include="Controllers\BrewingController.cs" />
     <Compile Include="Controllers\CompanionPlantsController.cs" />
     <Compile Include="Controllers\CompanionPlantsNewController.cs" />
+    <Compile Include="Controllers\FantasyDrafterController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
     <Compile Include="Controllers\ViewSwitcherController.cs" />
     <Compile Include="Controllers\ZenfulNepsController.cs" />
@@ -502,6 +503,7 @@
     <Content Include="Images\Plants\Chamomile.jpg" />
     <Content Include="Images\Plants\Chards.jpg" />
     <Content Include="Images\Plants\Chervil.jpg" />
+    <Content Include="Images\Plants\Chickweed.jpg" />
     <Content Include="Images\Plants\Chives.jpg" />
     <Content Include="Images\Plants\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Clover.jpg" />
@@ -573,6 +575,7 @@
     <Content Include="Images\Plants\Mobile_Images\Chamomile.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chickweed.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Clover.jpg" />
@@ -616,6 +619,7 @@
     <Content Include="Images\Plants\Mobile_Images\Mimosa.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Mint.jpg" />
     <Content Include="Images\Plants\Mobile_Images\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Mugwort.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Mustard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Okra.jpg" />
@@ -683,6 +687,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chamomile.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chervil.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chickweed.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Clover.jpg" />
@@ -726,6 +731,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mimosa.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mint.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Mugwort.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Mustard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Okra.jpg" />
@@ -780,6 +786,7 @@
     <Content Include="Images\Plants\Mobile_Images\Zinnia.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Zucchini.jpg" />
     <Content Include="Images\Plants\MorningGlory.jpg" />
+    <Content Include="Images\Plants\Mugwort.jpg" />
     <Content Include="Images\Plants\Mustard.jpg" />
     <Content Include="Images\Plants\Nasturtiums.jpg" />
     <Content Include="Images\Plants\Okra.jpg" />
@@ -865,7 +872,6 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Scripts\printThis.js" />
-    <Content Include="Views\Shared\WideRecievers.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -891,6 +897,7 @@
     <Content Include="Views\ZenfulNeps\ZenfulNeps.Mobile.cshtml" />
     <Content Include="Views\CompanionPlants\CompanionPlants.Mobile.cshtml" />
     <Content Include="Views\ZenfulNeps\MashSpargeWater.Mobile.cshtml" />
+    <Content Include="Views\Shared\WideReceivers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ZenfulNeps\BodyFatCalc.cshtml" />
@@ -933,7 +940,7 @@
     <Content Include="App_Data\51Degrees.dat" />
     <Content Include="51Degrees.config" />
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
-    <Content Include="Views\ZenfulNeps\FantasyDrafter.cshtml" />
+    <Content Include="Views\FantasyDrafter\FantasyDrafter.cshtml" />
     <Content Include="Views\Shared\QuarterBacks.cshtml" />
     <Content Include="Views\Shared\Kickers.cshtml" />
     <Content Include="Views\Shared\RunningBacks.cshtml" />

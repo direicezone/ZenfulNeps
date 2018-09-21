@@ -1,6 +1,6 @@
 @using System.Web.Optimization
 @{
-    var homePage = "../../ZenfulNeps/Index";
+    var homePage = Url.Content("~/ZenfulNeps/Index");
 }
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -64,7 +64,7 @@
 
         @if (Request.Browser.IsMobileDevice && Request.HttpMethod == "GET")
         {
-            <div class="view-switcher ui-bar-a">
+            <div class="view-switcher ui-bar-a" style="text-align: center;">
                 @if (ViewContext.HttpContext.GetOverriddenBrowser().IsMobileDevice)
                 {
                     @Html.ActionLink("Desktop view", "SwitchView", "ViewSwitcher", new { mobile = false, returnUrl = Request.Url.PathAndQuery }, new { rel = "external" })
@@ -108,5 +108,12 @@
         </div><!-- /footer -->
 
     </div>
+    
+    <script type="text/javascript">
+        $(document).bind('pageinit', function (event) {
+            $('.ui-link').removeClass('ui-link').addClass('ui-btn ui-shadow ui-btn-inline');
+        });
+    </script>
+
 </body>
 </html>

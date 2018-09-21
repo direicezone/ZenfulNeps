@@ -50,54 +50,6 @@ namespace ZenfulNeps.Controllers
 			return View("MaltExtractConversion");
 		}
 
-		public ActionResult FantasyDrafter()
-		{
-			Session.Timeout = 240;
-			return View("FantasyDrafter");
-		}
-
-		[WebMethod(EnableSession = true), AcceptVerbs("POST")]
-		public void SaveKeepers(string[] Keepers)
-		{
-			System.Web.HttpContext.Current.Session["FFKeepers"] = Keepers;
-		}
-
-		[WebMethod(EnableSession = true), AcceptVerbs("POST")]
-		public void SaveMyPlayers(string[] MyPlayers)
-		{
-			System.Web.HttpContext.Current.Session["MyPlayers"] = MyPlayers;
-		}
-
-		[WebMethod(EnableSession = true), AcceptVerbs("GET")]
-		public JsonResult GetKeepers()
-		{
-			if (System.Web.HttpContext.Current.Session["FFKeepers"] == null)
-				return Json(new
-				{
-					Keepers = string.Empty
-				}, JsonRequestBehavior.AllowGet);
-			var keepers = (string[]) System.Web.HttpContext.Current.Session["FFKeepers"];
-			return Json(new
-			{
-				Keepers = keepers
-			}, JsonRequestBehavior.AllowGet);
-		}
-
-		[WebMethod(EnableSession = true), AcceptVerbs("GET")]
-		public JsonResult GetMyPlayers()
-		{
-			if (System.Web.HttpContext.Current.Session["MyPlayers"] == null)
-				return Json(new
-				{
-					MyPlayers = string.Empty
-				}, JsonRequestBehavior.AllowGet);
-			var myplayers = (string[])System.Web.HttpContext.Current.Session["MyPlayers"];
-			return Json(new
-			{
-				MyPlayers = myplayers
-			}, JsonRequestBehavior.AllowGet);
-		}
-
 	    public List<Rss> GetFeeds()
 		{
 			var rssFeed = new List<Rss>();

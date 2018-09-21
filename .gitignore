@@ -324,4 +324,11 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
-/ZenfulNeps/App_Data/Cache/1000/0
+/ZenfulNeps/App_Data/Cache/
+
+/ZenfulNeps/Data/WideReceivers.txt
+/ZenfulNeps/Data/TightEnds.txt
+/ZenfulNeps/Data/RunningBacks.txt
+/ZenfulNeps/Data/QuarterBacks.txt
+/ZenfulNeps/Data/Kickers.txt
+/ZenfulNeps/Data/Defense.txt

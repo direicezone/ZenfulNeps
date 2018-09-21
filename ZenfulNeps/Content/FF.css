@@ -177,7 +177,7 @@ tr.alternateRow td.sortedColumn {background-color: #e0e0e0;}
 #content
 {
     height: 1500px;
-    margin-top: 70px;
+    margin-top: 75px;
     width: 100%;
 }
 
@@ -196,6 +196,7 @@ div.ui-tooltip {
     float: right;
     color: wheat;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 .anchorLinks a
 {
