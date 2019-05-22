@@ -8,6 +8,7 @@ namespace ZenfulNeps.Models
 	public class ZenfulNeps
 	{
 		public List<Rss> RssFeeds { get; set; }
+        public int RssCount { get; set; }
 	}
 
 	public class Rss
@@ -29,4 +30,10 @@ namespace ZenfulNeps.Models
 		public string LeanWeight { get; set; }
 	}
 
+    public class RawRssInfo
+    {
+        public string RssLink { get; set; }
+        public string RssHeading { get; set; }
+        public string RssHost { get; set; }
+    }
 }

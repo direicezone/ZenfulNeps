@@ -155,7 +155,7 @@
     <Companions>Chamomile, Peppermint, Dill, Sage, Rosemary</Companions>
     <Incompatible>Mustards, Nightshades, Tomato, Peppers, Strawberry, Beans</Incompatible>
     <Benefits>
-      Brassicas are a family of species which include broccoli, cabbage, brussel sprouts, kohlrabi, and cauliflower. Need rich soil with plenty of lime to flourish.
+      Brassicas are a family of species which include broccoli, cabbage, Brussels sprouts, kohlrabi, and cauliflower. Need rich soil with plenty of lime to flourish.
     </Benefits>
     <Type>Annual</Type>
     <PlantID>13</PlantID>
@@ -225,7 +225,7 @@
   <Plants>
     <Plant>Carrot</Plant>
     <Companions>Bush Beans, Pole Beans, Lettuce, Onion, Peas, Radish, Tomato, Sage, English Peas, Rosemary, Flax</Companions>
-    <Incompatible>Dill, Parsnips</Incompatible>
+    <Incompatible>Dill, Parsnip</Incompatible>
     <Benefits>Tomatoes may stunt carrots' growth.</Benefits>
     <Type>Biennial</Type>
     <PlantID>19</PlantID>
@@ -289,7 +289,7 @@
   <Plants>
     <Plant>Chards</Plant>
     <Companions>Beans, Cabbage, Onion</Companions>
-    <Incompatible>Melon, Corn, Cucumber</Incompatible>
+    <Incompatible>Melons, Corn, Cucumber</Incompatible>
     <Type>Perennial</Type>
     <PlantID>25</PlantID>
     <Benefits>
@@ -347,9 +347,9 @@
   </Plants>
   <Plants>
     <Plant>Coriander / Cilantro</Plant>
-    <Companions>Various Plants</Companions>
-    <Incompatible></Incompatible>
-    <Benefits>Repels aphids, spider mites, and potato beetle. Attracts bees.</Benefits>
+    <Companions>Dill, Chervil, Anise, Cabbage, Carrot, Asparagus, Tomato, Spinach, Beans, Peas</Companions>
+    <Incompatible>Fennel</Incompatible>
+    <Benefits>Repels aphids, spider mites, and potato beetle. Attracts bees. Planting beans or peas near cilantro will be beneficial to the growth of your cilantro plants.</Benefits>
     <Type>Annual, Perennial</Type>
     <PlantID>31</PlantID>
     <PlantPic>Coriander.jpg</PlantPic>
@@ -358,7 +358,7 @@
     </ScientificName>
   </Plants>
   <Plants>
-    <Plant>Corn - Maize</Plant>
+    <Plant>Corn</Plant>
     <Companions>Amaranth, Bush Beans, Pole Beans, Cucumber, Melons, Peas, Squash, Irish Potato, English Peas, Pumpkin, Morning Glory, Parsley, Sunflower</Companions>
     <Incompatible>Tomato, Celery</Incompatible>
     <Benefits>
@@ -438,7 +438,7 @@
     <Companions>Dill</Companions>
     <Incompatible></Incompatible>
     <Benefits>
-      Most plants dislike fennel--so plant it away from the vegetable garden. Its foliage and flowers may attract beneficials. Repels fleas, so grow it around dog kennel.
+      Most plants dislike fennel so plant it away from the vegetable garden. Its foliage and flowers may attract beneficials. Repels fleas, so grow it around dog kennel.
     </Benefits>
     <Type>Perennial</Type>
     <PlantID>38</PlantID>
@@ -541,7 +541,7 @@
   <Plants>
     <Plant>Hot Pepper</Plant>
     <Companions>Onion, Cucumber, Eggplant, Escarole, Tomato, Okra, Swiss Chard, Squash, Basil, Oregano, Parsley, Rosemary, Geranium, Petunia</Companions>
-    <Incompatible>Veans, Kale, Cabbage, Brussel sprouts</Incompatible>
+    <Incompatible>Veans, Kale, Cabbage, Brussels sprouts</Incompatible>
     <Benefits>Have root exudates that prevent root rot and other Fusarium diseases.</Benefits>
     <Type>Perennial</Type>
     <PlantID>47</PlantID>
@@ -689,7 +689,7 @@
   </Plants>
   <Plants>
     <Plant>Mustard</Plant>
-    <Companions>Cabbage, Brassica, Radish, Brussel Sprouts, Turnip, Collard, Kohlrabi</Companions>
+    <Companions>Cabbage, Brassica, Radish, Brussels sprouts, Turnip, Collard, Kohlrabi</Companions>
     <Incompatible></Incompatible>
     <Benefits>Plant mustard as a trap crop. It attracts numerous insect pests. Remove and destroy it before your main crops can be harmed.</Benefits>
     <Type>Annual</Type>
@@ -774,7 +774,7 @@
   </Plants>
   <Plants>
     <Plant>Pennyroyal</Plant>
-    <Companions>Broccoli, Brussel Sprouts, Cabbage</Companions>
+    <Companions>Broccoli, Brussels sprouts, Cabbage</Companions>
     <Incompatible></Incompatible>
     <Benefits>Discourages ants, plant lice, cabbage maggots. Note: Highly toxic to cats.</Benefits>
     <Type>Perennial</Type>
@@ -852,7 +852,7 @@
   <Plants>
     <Plant>Radish</Plant>
     <Companions>Bush Beans, Pole Beans, Carrot, Cucumber, Lettuce, Melons, Peas, Squash, Nasturtium, Chervil, Melons, Parsnip, Spinach, Broccoli</Companions>
-    <Incompatible>Hyssop, Cabbage, Cauliflower, Brussel Sprouts, Turnip</Incompatible>
+    <Incompatible>Hyssop, Cabbage, Cauliflower, Brussels sprouts, Turnip</Incompatible>
     <Benefits>
       Deters cucumber beetles. Radishes may protect squash from squash borers. Chervil and nasturtium are known to improved growth and flavor of radishes.
     </Benefits>
@@ -1268,7 +1268,7 @@
   </Plants>
   <Plants>
     <Plant>Ground Ivy</Plant>
-    <Companions>Tomato, Pepper, Cucumber, Broccoli, Brussel sprouts, Cauliflower</Companions>
+    <Companions>Tomato, Pepper, Cucumber, Broccoli, Brussels sprouts, Cauliflower</Companions>
     <Incompatible>Marigold</Incompatible>
     <Benefits>Repels cabbage worms, cucumber worms and beetles, tomato horn worms. Makes a good ground cover.</Benefits>
     <Type>Perennial</Type>
@@ -1351,7 +1351,7 @@
   <Plants>
     <Plant>Burdock</Plant>
     <Companions>
-      Brussel Sprouts, Bean, Celery, Dill, Hyssop, Mint, Nasturtium, Sage
+      Brussels sprouts, Bean, Celery, Dill, Hyssop, Mint, Nasturtium, Sage
     </Companions>
     <Incompatible>Potato</Incompatible>
     <Benefits>
@@ -1479,6 +1479,80 @@
     <PlantPic>Chickweed.jpg</PlantPic>
     <ScientificName>
       Stellaria media
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Kale</Plant>
+    <Companions>
+      Beets, Celery, Cucumbers, Dill, Garlic, Hyssop, Lettuce, Mint, Nasturtiums, Onion, Potato, Rosemary, Sage, Spinach, Swiss Chard
+    </Companions>
+    <Incompatible>Tomato, Strawberry, Basil</Incompatible>
+    <Benefits>
+      It enjoys the protection offered by garlic, onions, dill, nasturtium, and, of course, mint family herbs like thyme, sage, and rosemary.
+    </Benefits>
+    <Type>Annual</Type>
+    <Stars></Stars>
+    <PlantID>123</PlantID>
+    <PlantPic>Kale.jpg</PlantPic>
+    <ScientificName>
+      Brassica oleracea
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Swiss Chard</Plant>
+    <Companions>
+      Chicory, Broccoli, Brussels sprouts, Cauliflower, Cabbage, Kale, Kohlrabi, Onion, Sweet Alyssum
+    </Companions>
+    <Incompatible>
+      Pole Beans, Potato, Corn, Cucumber, Melons
+    </Incompatible>
+    <Benefits>
+      Plant swiss chard as a border, interspersed with sweet alyssum.
+    </Benefits>
+    <Type>Bi-Annual</Type>
+    <Stars></Stars>
+    <PlantID>124</PlantID>
+    <PlantPic>SwissChard.jpg</PlantPic>
+    <ScientificName>
+      Beta vulgaris subsp. vulgaris
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Chicory</Plant>
+    <Companions>
+      Lettuce, Cabbage, Kale, Swiss Chard
+    </Companions>
+    <Incompatible>
+      Peas, Beans
+    </Incompatible>
+    <Benefits>
+      Produces a rosette of green leaves which can be used in salads. The fleshy taproot of chicory (when dried) can be ground and used as a substitute for coffee.
+    </Benefits>
+    <Type>Perennial</Type>
+    <Stars></Stars>
+    <PlantID>125</PlantID>
+    <PlantPic>Chicory.jpg</PlantPic>
+    <ScientificName>
+      Cichorium intybus
+    </ScientificName>
+  </Plants>
+  <Plants>
+    <Plant>Brussels sprouts</Plant>
+    <Companions>
+      Chamomile, Garlic, Sage, Nasturtium
+    </Companions>
+    <Incompatible>
+      Strawberry, Tomato, Pole Beans
+    </Incompatible>
+    <Benefits>
+      Will inhibited growth when planted near strawberries. Chamomile can improves the flavor of Brussels sprouts.
+    </Benefits>
+    <Type>Biennials</Type>
+    <Stars></Stars>
+    <PlantID>126</PlantID>
+    <PlantPic>BrusselsSprouts.jpg</PlantPic>
+    <ScientificName>
+      Brassica oleracea
     </ScientificName>
   </Plants>
 </CompanionPlants>

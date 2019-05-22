@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
@@ -17,7 +18,8 @@ namespace ZenfulNeps.Common.Core
 				var doc = new XmlDocument();
 				var mypath = HttpContext.Current.Server.MapPath("../Data/CompanionPlants.xml");
 				doc.Load(mypath);
-				var root = doc.SelectSingleNode("CompanionPlants");
+
+                var root = doc.SelectSingleNode("CompanionPlants");
 				var nodeList = root.SelectNodes("Plants");
 				foreach (XmlNode element in nodeList)
 				{

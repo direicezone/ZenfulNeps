@@ -1,0 +1,21 @@
+﻿body {
+    background-color: #d9f4c3;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.box-pad {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.linkImages {
+    vertical-align: middle;
+    padding-right: 5px;
+    width: 35px;
+}

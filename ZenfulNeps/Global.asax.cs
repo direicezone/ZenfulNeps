@@ -32,10 +32,9 @@ namespace ZenfulNeps
 				"{controller}/{action}/{id}", // URL with parameters
 				new { controller = "ZenfulNeps", action = "Index", id = UrlParameter.Optional } // Parameter defaults
 			);
+        }
 
-		}
-
-		protected void Application_Start()
+        protected void Application_Start()
 		{
 			AreaRegistration.RegisterAllAreas();
 			RegisterGlobalFilters(GlobalFilters.Filters);

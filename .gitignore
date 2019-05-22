@@ -332,3 +332,5 @@ ASALocalRun/
 /ZenfulNeps/Data/QuarterBacks.txt
 /ZenfulNeps/Data/Kickers.txt
 /ZenfulNeps/Data/Defense.txt
+
+*.dat

@@ -38,9 +38,9 @@ namespace ZenfulNeps.Controllers
 				{
 					var item = new Recipe();
 					item.Id = element.SelectSingleNode("Id").InnerText;
-					item.Description = element.SelectSingleNode("Description").InnerText;
 					item.Author = element.SelectSingleNode("Author").InnerText;
-					item.Ingredients = new List<Ingredient>();
+                    item.Description = element.SelectSingleNode("Description").InnerText;
+                    item.Ingredients = new List<Ingredient>();
 					var ingredients = element.SelectNodes("Ingredient");
 					foreach (XmlNode gred in ingredients)
 					{
@@ -49,7 +49,13 @@ namespace ZenfulNeps.Controllers
 						ingred.Amount = gred.Attributes["Amount"].Value;
 						ingred.Unit = gred.Attributes["Unit"].Value;
 						ingred.Note = gred.Attributes["Note"].Value;
-						item.Ingredients.Add(ingred);
+                        if (gred.Attributes["AmazonLink"] != null)
+                        {
+                            var amazonLink = Server.UrlDecode(gred.Attributes["AmazonLink"].Value);
+                            ingred.AmazonLink = string.Format("<a href='{0}' target='_blank'>{1}</a>", amazonLink, ingred.Name);
+                        }
+
+                        item.Ingredients.Add(ingred);
 					}
 					item.Instructions = FormatInstructions(element.SelectSingleNode("Instructions").InnerText);
 					item.Info = element.SelectSingleNode("Info").InnerText;

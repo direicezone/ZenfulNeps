@@ -38,21 +38,36 @@
         <img src="../../Images/Recipes/@Model.Image" alt="@Model.Description" width="180" />
     </div>
     <div class="recipe-details">
+
         <div class="recipe-title floatleft">
             <h3>@Model.Description</h3>
             <span>by <b>@Model.Author</b></span>
         </div>
+        @* This is where the Amazon Text and Image Link would go
+        <div class="float-right">
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=zenfulneps-20&marketplace=amazon&region=US&placement=B00F6JD6SI&asins=B00F6JD6SI&linkId=cffb873458ef99f474e7b4156fa06cf0&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+        </div>*@
         <div class="recipe-info floatleft">
-            <label>Ingredients:</label> 
+            <label>Ingredients:</label>
             @{
                 foreach (var item in @Model.Ingredients)
                 {
                     <div>
-                        <span>@string.Format("{0} {1} {2}", item.Amount, item.Unit, item.Name)
+                        <span>
+                            @{
+                                if (!string.IsNullOrEmpty(item.AmazonLink))
+                                {
+                                    @Html.Raw(string.Format("{0} {1} {2}", item.Amount, item.Unit, item.AmazonLink))
+                                }
+                                else
+                                {
+                                    @Html.Raw(string.Format("{0} {1} {2}", item.Amount, item.Unit, item.Name))
+                                }
+                            }
                             @{if (!string.IsNullOrEmpty(item.Note))
-                            {
-                                string.Format(" ({0})", item.Note);
-                            }}
+                                {
+                                    string.Format(" ({0})", item.Note);
+                                }}
                         </span>
                     </div>
                 }
@@ -60,16 +75,16 @@
         </div>
         <div class="clearall"></div>
         <div class="recipe-desc">
-            <label>Instructions:</label> 
+            <label>Instructions:</label>
             <quote>
                 @Html.Raw(Model.Instructions)
             </quote>
         </div>
-        <div class="pw-widget pw-size-medium pw-counter-show">			
-	        <a class="pw-button-facebook"></a>			
-	        <a class="pw-button-twitter"></a>			
-	        <a class="pw-button-email"></a>			
-	        <a class="pw-button-post"></a>		
+        <div class="pw-widget pw-size-medium pw-counter-show">
+            <a class="pw-button-facebook"></a>
+            <a class="pw-button-twitter"></a>
+            <a class="pw-button-email"></a>
+            <a class="pw-button-post"></a>
         </div>
         <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>
         <div class="printbutton b1">Print</div>

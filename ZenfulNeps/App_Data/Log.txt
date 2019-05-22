@@ -1,28 +1,7 @@
-2018-01-13T22:43:21.4708097Z - 16380 - Warn - Exception cleaning temporary files
-2018-01-13T22:43:21.4768092Z - 16380 - Warn - 
-2018-01-13T22:43:21.4768092Z - 16380 - Warn - Could not find a part of the path 'D:\ZenfulNeps_Git\ZenfulNeps\ZenfulNeps\App_Data\51Degrees'.
-2018-01-13T22:43:21.4808108Z - 16380 - Warn -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
-   at System.IO.DirectoryInfo.GetFiles()
-   at FiftyOne.Foundation.Mobile.Detection.WebProvider.CleanTemporaryFiles()
-2018-04-20T13:13:17.1880337Z - 18904 - Warn - Source file 'C:\GitHub\ZenfulNeps\ZenfulNeps\Content\wrap-bg.jpg' generated exception 'System.ArgumentException: Parameter is not valid.
-   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
-   at FiftyOne.Foundation.Image.Processor.ShrinkToSeekStream(Image image, Stream seekStream)
-   at FiftyOne.Foundation.Image.Processor.Shrink(Image image, Stream outStream)
-   at FiftyOne.Foundation.Image.Processor.Shrink(Stream inStream, Stream outStream)
-   at FiftyOne.Foundation.Mobile.Detection.Feature.ImageOptimiser.OptimisedImageResponse(HttpContext context)' shrinking to '800' by '0'.
-2018-04-20T13:13:17.2010689Z - 18904 - Warn - Source file 'C:\GitHub\ZenfulNeps\ZenfulNeps\Content\wrap-bg.jpg' generated exception 'System.ArgumentException: Parameter is not valid.
-   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
-   at FiftyOne.Foundation.Image.Processor.ShrinkToSeekStream(Image image, Stream seekStream)
-   at FiftyOne.Foundation.Image.Processor.Shrink(Image image, Stream outStream)
-   at FiftyOne.Foundation.Image.Processor.Shrink(Stream inStream, Stream outStream)
-   at FiftyOne.Foundation.Mobile.Detection.Feature.ImageOptimiser.OptimisedImageResponse(HttpContext context)' shrinking to '800' by '0'.
-2018-08-23T13:02:30.9437071Z - 26756 - Warn - Exception cleaning temporary files
-2018-08-23T13:02:30.9538518Z - 26756 - Warn - 
-2018-08-23T13:02:30.9538518Z - 26756 - Warn - Could not find a part of the path 'C:\GitHub\ZenfulNeps\ZenfulNeps\ZenfulNeps\App_Data\51Degrees'.
-2018-08-23T13:02:30.9708557Z - 26756 - Warn -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+2019-05-11T00:50:38.2684933Z - 7356 - Warn - Exception cleaning temporary files
+2019-05-11T00:50:38.2994574Z - 7356 - Warn - 
+2019-05-11T00:50:38.2994574Z - 7356 - Warn - Could not find a part of the path 'E:\ZenfulNeps_Git\ZenfulNeps\ZenfulNeps\App_Data\51Degrees'.
+2019-05-11T00:50:38.3024536Z - 7356 - Warn -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
    at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)

@@ -23,5 +23,6 @@ namespace ZenfulNeps.Models
 		public string Amount { get; set; }
 		public string Unit { get; set; }
 		public string Note { get; set; }
-	}
+        public string AmazonLink { get; set; }
+    }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +14,7 @@ namespace ZenfulNeps.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.LastUpdate = "Last Update 4/20/2018: Chickweed Added.";
+            ViewBag.LastUpdate = "Last Update 2/9/2019: Added Swiss Chard, Chicory, and Kale";
             return View("CompanionPlants", GetData(false));
         }
 
@@ -86,6 +87,8 @@ namespace ZenfulNeps.Controllers
 
 		}
 
+
+
 	    protected List<CompanionPlant> GetData(bool clearCache)
 	    {
 		    var items = HttpRuntime.Cache["companion_plant"] as List<CompanionPlant>;
@@ -95,7 +98,9 @@ namespace ZenfulNeps.Controllers
 				var doc = new XmlDocument();
 				var mypath = Server.MapPath("../Data/CompanionPlants.xml");
 				doc.Load(mypath);
-				var root = doc.SelectSingleNode("CompanionPlants");
+                // string json = JsonConvert.SerializeXmlNode(doc);
+                // var myList = JsonConvert.DeserializeObject<CompanionPlant>(json);
+                var root = doc.SelectSingleNode("CompanionPlants");
 				var nodeList = root.SelectNodes("Plants");
 				foreach (XmlNode element in nodeList)
 				{

@@ -82,9 +82,8 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="FiftyOne.Foundation, Version=3.2.15.6, Culture=neutral, PublicKeyToken=e0b3a8da0bbce49c, processorArchitecture=MSIL">
-      <HintPath>..\packages\51Degrees.mobi-core.3.2.15.6\lib\NET40\FiftyOne.Foundation.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="FiftyOne.Foundation, Version=3.2.21.1, Culture=neutral, PublicKeyToken=e0b3a8da0bbce49c, processorArchitecture=MSIL">
+      <HintPath>..\packages\51Degrees.mobi-core.3.2.21.1\lib\NET40\FiftyOne.Foundation.dll</HintPath>
     </Reference>
     <Reference Include="GridMvc, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Grid.Mvc.3.0.0\lib\net40\GridMvc.dll</HintPath>
@@ -102,7 +101,11 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -197,6 +200,11 @@
     <Content Include="Content\content-bg.jpg" />
     <Content Include="Content\down_arrow_select.jpg" />
     <Content Include="Content\FF.css" />
+    <Content Include="Content\freelancer.css" />
+    <Content Include="Green\howcanihelp_mobile.html" />
+    <Content Include="Green\images\update.png" />
+    <Content Include="Green\whatsnext_mobile.html" />
+    <Content Include="Green\greenmobile.css" />
     <Content Include="Content\Gridmvc.css" />
     <Content Include="Content\header-bg.jpg" />
     <Content Include="Content\header-photo.jpg" />
@@ -460,7 +468,9 @@
     <Content Include="Data\Colors.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Data\CompanionPlants.xml" />
+    <Content Include="Data\CompanionPlants.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Data\Hops.xml" />
     <Content Include="Data\Recipes.xml">
       <SubType>Designer</SubType>
@@ -468,8 +478,67 @@
     <Content Include="Data\Yeasts.xml" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Green\default_mobile.html" />
+    <Content Include="Green\howcanihelp.html" />
+    <Content Include="Green\images\altBG.jpg" />
+    <Content Include="Green\images\conceptual.jpg" />
+    <Content Include="Green\images\conceptual_rgb.png" />
+    <Content Include="Green\images\CouncilMeeting.jpg" />
+    <Content Include="Green\images\FastFacts.jpg" />
+    <Content Include="Green\images\FastFacts2.jpg" />
+    <Content Include="Green\images\gardenhomes.jpg" />
+    <Content Include="Green\images\gardenhomes_small.jpg" />
+    <Content Include="Green\images\green.jpg" />
+    <Content Include="Green\images\gtbanner.jpg" />
+    <Content Include="Green\images\gtville-small.jpg" />
+    <Content Include="Green\images\gtville.jpg" />
+    <Content Include="Green\scripts\fancybox\blank.gif" />
+    <Content Include="Green\scripts\fancybox\fancybox-x.png" />
+    <Content Include="Green\scripts\fancybox\fancybox-y.png" />
+    <Content Include="Green\scripts\fancybox\fancybox.png" />
+    <Content Include="Green\scripts\fancybox\fancy_close.png" />
+    <Content Include="Green\scripts\fancybox\fancy_loading.png" />
+    <Content Include="Green\scripts\fancybox\fancy_nav_left.png" />
+    <Content Include="Green\scripts\fancybox\fancy_nav_right.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_e.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_n.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_s.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_se.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Green\scripts\fancybox\fancy_shadow_w.png" />
+    <Content Include="Green\scripts\fancybox\fancy_title_left.png" />
+    <Content Include="Green\scripts\fancybox\fancy_title_main.png" />
+    <Content Include="Green\scripts\fancybox\fancy_title_over.png" />
+    <Content Include="Green\scripts\fancybox\fancy_title_right.png" />
+    <Content Include="Green\scripts\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="Green\scripts\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="Green\scripts\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="Green\scripts\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="Green\scripts\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="Green\scripts\jquery-1.4.3.min.js" />
+    <Content Include="Green\scripts\style.css" />
+    <Content Include="Green\video\FIELD1-small.mov" />
+    <Content Include="Green\whatsnext.html" />
+    <Content Include="Green\default.css" />
+    <Content Include="Green\default.html" />
+    <Content Include="Green\default_Old.html" />
+    <Content Include="Green\images\FacebookIcon.png" />
+    <Content Include="Green\images\img01.jpg" />
+    <Content Include="Green\images\img02.gif" />
+    <Content Include="Green\images\img02.jpg" />
+    <Content Include="Green\images\img03.gif" />
+    <Content Include="Green\images\img03.jpg" />
+    <Content Include="Green\images\img04.gif" />
+    <Content Include="Green\images\img04.jpg" />
+    <Content Include="Green\images\img05.jpg" />
+    <Content Include="Green\images\img06.gif" />
+    <Content Include="Green\images\petition.jpg" />
+    <Content Include="Green\style.css" />
     <Content Include="Images\btn_caution2.gif" />
     <Content Include="Images\btn_checkmark_green.gif" />
+    <Content Include="Images\creepylaugh.jpg" />
     <Content Include="Images\delete.png" />
     <Content Include="Images\EnzymeActivity1HourMash.jpg" />
     <Content Include="Images\MashThickness.gif" />
@@ -490,6 +559,7 @@
     <Content Include="Images\Plants\Borage.jpg" />
     <Content Include="Images\Plants\BroadBeans.jpg" />
     <Content Include="Images\Plants\Broccoli.jpg" />
+    <Content Include="Images\Plants\BrusselsSprouts.jpg" />
     <Content Include="Images\Plants\Buckwheat.jpg" />
     <Content Include="Images\Plants\burdock.jpg" />
     <Content Include="Images\Plants\Burnet.jpg" />
@@ -504,6 +574,7 @@
     <Content Include="Images\Plants\Chards.jpg" />
     <Content Include="Images\Plants\Chervil.jpg" />
     <Content Include="Images\Plants\Chickweed.jpg" />
+    <Content Include="Images\Plants\Chicory.jpg" />
     <Content Include="Images\Plants\Chives.jpg" />
     <Content Include="Images\Plants\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Clover.jpg" />
@@ -532,6 +603,7 @@
     <Content Include="Images\Plants\horseradish.jpg" />
     <Content Include="Images\Plants\HotPeppers.jpg" />
     <Content Include="Images\Plants\Hyssop.jpg" />
+    <Content Include="Images\Plants\Kale.jpg" />
     <Content Include="Images\Plants\Kohlrabi.jpg" />
     <Content Include="Images\Plants\LambsQuarters.jpg" />
     <Content Include="Images\Plants\Lamium.jpg" />
@@ -562,6 +634,7 @@
     <Content Include="Images\Plants\Mobile_Images\Borage.jpg" />
     <Content Include="Images\Plants\Mobile_Images\BroadBeans.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Broccoli.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\BrusselsSprouts.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Buckwheat.jpg" />
     <Content Include="Images\Plants\Mobile_Images\burdock.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Burnet.jpg" />
@@ -576,6 +649,7 @@
     <Content Include="Images\Plants\Mobile_Images\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chervil.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chickweed.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Chicory.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Clover.jpg" />
@@ -603,6 +677,7 @@
     <Content Include="Images\Plants\Mobile_Images\Horseradish.jpg" />
     <Content Include="Images\Plants\Mobile_Images\HotPeppers.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Hyssop.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Kale.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Kohlrabi.jpg" />
     <Content Include="Images\Plants\Mobile_Images\LambsQuarters.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Lamium.jpg" />
@@ -656,6 +731,7 @@
     <Content Include="Images\Plants\Mobile_Images\Sunflower.jpg" />
     <Content Include="Images\Plants\Mobile_Images\SweetAlyssum.jpg" />
     <Content Include="Images\Plants\Mobile_Images\SweetPepper.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\SwissChard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tansy.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tarragon.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Thyme.jpg" />
@@ -674,6 +750,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Borage.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\BroadBeans.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Broccoli.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\BrusselsSprouts.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Buckwheat.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\burdock.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Burnet.jpg" />
@@ -688,6 +765,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chards.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chervil.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chickweed.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Chicory.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chives.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Chrysanthemums.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Clover.jpg" />
@@ -715,6 +793,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Horseradish.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\HotPeppers.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Hyssop.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\Kale.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Kohlrabi.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\LambsQuarters.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Lamium.jpg" />
@@ -768,6 +847,7 @@
     <Content Include="Images\Plants\Mobile_Images\Tiny\Sunflower.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\SweetAlyssum.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\SweetPepper.jpg" />
+    <Content Include="Images\Plants\Mobile_Images\Tiny\SwissChard.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Tansy.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Tarragon.jpg" />
     <Content Include="Images\Plants\Mobile_Images\Tiny\Thyme.jpg" />
@@ -825,6 +905,7 @@
     <Content Include="Images\Plants\Sunflower.jpg" />
     <Content Include="Images\Plants\SweetAlyssum.jpg" />
     <Content Include="Images\Plants\SweetPepper.jpg" />
+    <Content Include="Images\Plants\SwissChard.jpg" />
     <Content Include="Images\Plants\Tansy.jpg" />
     <Content Include="Images\Plants\Tarragon.jpg" />
     <Content Include="Images\Plants\Thyme.jpg" />
@@ -853,6 +934,7 @@
     <Content Include="Scripts\gridmvc.min.js" />
     <Content Include="Scripts\jquery-1.7.1.min-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="App_Data\51Degrees.dat" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.0.js" />
     <Content Include="Scripts\jquery-1.8.0.min.js" />
@@ -872,6 +954,7 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Scripts\printThis.js" />
+    <Content Include="Scripts\zenfulneps.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -937,8 +1020,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Grid.mvc.readme" />
-    <Content Include="App_Data\51Degrees.dat" />
-    <Content Include="51Degrees.config" />
+    <Content Include="51Degrees.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
     <Content Include="Views\FantasyDrafter\FantasyDrafter.cshtml" />
     <Content Include="Views\Shared\QuarterBacks.cshtml" />

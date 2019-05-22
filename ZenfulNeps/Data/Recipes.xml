@@ -55,9 +55,9 @@
     </Recipe>
     <Recipe>
         <Id>3</Id>
-        <Description>Spicy Beef Jerky Marinade</Description>
+        <Description>Carribean Jerk Beef Jerky Marinade</Description>
         <Author>Bill Hamilton</Author>
-        <Ingredient Name="Bottle Lawry’s Caribbean Jerk Marinade" Amount="12" Unit="oz" Note="" />
+        <Ingredient Name="Lawry’s Caribbean Jerk Marinade" Amount="12" Unit="oz" Note="" AmazonLink="https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB00CJ8INBE%2Fref%3Das_li_tl%3Fie%3DUTF8%26camp%3D1789%26creative%3D9325%26creativeASIN%3DB00CJ8INBE%26linkCode%3Das2%26tag%3Dzenfulneps-20%26linkId%3D0c95b3f3992a743b3d853bf9bb64fb93" />
         <Ingredient Name="Worcestershire Sauce" Amount="1/4" Unit="cup" Note="" />
         <Ingredient Name="Soy Sauce" Amount="1/8" Unit="cup" Note="" />
         <Ingredient Name="Garlic Powder" Amount="1" Unit="tbsp" Note="" />
@@ -71,7 +71,7 @@
         <Ingredient Name="Dave's Insanity Hot Sauce" Amount="1/2 to 1" Unit="tsp" Note="depending on heat desired" />
         <Ingredient Name="Liquid Smoke" Amount="1" Unit="tsp" Note="" />
         <Info>
-            One of the best beef jerky marinades you will ever make.  Used with thinly sliced London Broil to create the perfect jerky.
+          One of the best beef jerky marinades you will ever make.  Used with thinly sliced London Broil or Eye of Round to create the perfect jerky.
         </Info>
         <Instructions>
             Mix all ingredients together and marinade 1 - 2 lbs of sliced meat. Cover and refrigerated overnight.
@@ -81,7 +81,7 @@
             Replace the Lawry's with 12 oz of papaya juice for a sweet/spicy marinade.
         </Instructions>
         <Image>Jerky.jpg</Image>
-    </Recipe>
+    </Recipe>    
     <Recipe>
         <Id>4</Id>
         <Description>Catfish Batter</Description>
@@ -149,7 +149,31 @@
         </Instructions>
         <Image>Cornbread.jpg</Image>
     </Recipe>
-    <Recipe>
+  <Recipe>
+    <Id>9</Id>
+    <Description>Thai Peanut Butter Beef Jerky Marinade</Description>
+    <Author>Bill Hamilton</Author>
+    <Ingredient Name="Soy Vay Veri Veri Teriyaki Marinade" Amount="21" Unit="oz" Note="" AmazonLink="https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB00F6JD6SI%2Fref%3Das_li_tl%3Fie%3DUTF8%26camp%3D1789%26creative%3D9325%26creativeASIN%3DB00F6JD6SI%26linkCode%3Das2%26tag%3Dzenfulneps-20%26linkId%3D5a803cfa2898ca344ec40d1b55991a84" />
+    <Ingredient Name="Worcestershire Sauce" Amount="1/4" Unit="cup" Note="" />
+    <Ingredient Name="Soy Sauce" Amount="1/8" Unit="cup" Note="" />
+    <Ingredient Name="Garlic Powder" Amount="1" Unit="tbsp" Note="" />
+    <Ingredient Name="Honey Peanut Butter Smooth" Amount="1/2" Unit="cup" Note="" />
+    <Ingredient Name="Ground Ginger" Amount="1/2" Unit="tbsp" Note="" />
+    <Ingredient Name="Ground Curry" Amount="1/2" Unit="tbsp" Note="" />
+    <Ingredient Name="Onion Powder" Amount="1/2" Unit="tbsp" Note="" />
+    <Ingredient Name="MSG" Amount="1" Unit="tsp" Note="" />
+    <Ingredient Name="Liquid Smoke" Amount="1" Unit="tsp" Note="" />
+    <Info>
+      Another beef jerky marinades with peanut butter and Thai flavors.  Used with thinly sliced London Broil or Eye of Round to create the perfect jerky.
+      It's Beef Candy!
+    </Info>
+    <Instructions>
+      Mix all ingredients together and marinade 1 - 2 lbs of sliced meat. Cover and refrigerated overnight.
+      Dehydrate for 5-7 hours.
+    </Instructions>
+    <Image>Jerky.jpg</Image>
+  </Recipe>
+  <Recipe>
         <Id>7</Id>
         <Description>Picked Onions</Description>
         <Author><![CDATA[Bill Hamilton & Cheryl Hamilton]]></Author>
