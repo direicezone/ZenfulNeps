@@ -29,8 +29,12 @@ h3 { }
 
 p, ul, ol {
 	margin-top: 0;
-	line-height: 240%;
-	text-align: justify;
+	/*line-height: 240%;
+	text-align: justify;*/
+}
+
+p, ul, ul {
+	margin-top: 0;
 }
 
 ul, ol { }
