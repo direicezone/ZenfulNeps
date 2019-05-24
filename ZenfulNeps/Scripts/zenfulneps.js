@@ -10,6 +10,7 @@ function GetRssFeed(iteration) {
     var h3 = '#rssFeedH3' + iteration;
     var titleHyper = '#rssFeedTitle' + iteration;
     var divDesc = '#rssFeed' + iteration;
+    var fieldSet = '#fieldSet' + iteration;
     $.ajax({
         type: "GET",
         url: "../ZenfulNeps/GetRssFeed",
@@ -24,7 +25,11 @@ function GetRssFeed(iteration) {
             $(titleHyper).attr("href", result.Link);
         },
         error: function (xhr, ajaxOptions, thrownError) {
-            alert(xhr.responseText);
+            $(h3).hide();
+            $(titleHyper).hide();
+            $(divDesc).hide();
+            $(fieldSet).hide();
+            //alert(xhr.responseText);
         }
     });
 }

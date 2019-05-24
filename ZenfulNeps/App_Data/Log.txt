@@ -7,3 +7,11 @@
    at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
    at System.IO.DirectoryInfo.GetFiles()
    at FiftyOne.Foundation.Mobile.Detection.WebProvider.CleanTemporaryFiles()
+2019-05-24T15:43:43.5527562Z - 34616 - Fatal - No data source available to create provider.
+2019-05-24T15:45:40.6059253Z - 34616 - Fatal - No data source available to create provider.
+2019-05-24T16:46:13.0429353Z - 49476 - Fatal - No data source available to create provider.
+2019-05-24T16:51:11.2581142Z - 9132 - Fatal - No data source available to create provider.
+2019-05-24T16:56:08.0172399Z - 77444 - Fatal - No data source available to create provider.
+2019-05-24T17:43:27.4126815Z - 34268 - Fatal - No data source available to create provider.
+2019-05-24T17:45:32.6935737Z - 62752 - Fatal - No data source available to create provider.
+2019-05-24T17:47:37.1096013Z - 47764 - Fatal - No data source available to create provider.

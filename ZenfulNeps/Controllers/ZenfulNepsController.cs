@@ -8,6 +8,8 @@ using System.Xml.Linq;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Web.Services;
+using System.Net.Mail;
+using System.Text;
 using ZenfulNeps.Models;
 
 namespace ZenfulNeps.Controllers
@@ -16,7 +18,7 @@ namespace ZenfulNeps.Controllers
     {
         public List<RawRssInfo> rawRssInfoList = new List<RawRssInfo>
         {
-            new RawRssInfo{ RssLink = "https://blog.gardeningknowhow.com/feed/", RssHeading = "Gardening Know How's Blog", RssHost = "www.gardeningknowhow.com" },
+            new RawRssInfo{ RssLink = "http://blog.gardeningknowhow.com/feed/", RssHeading = "Gardening Know How's Blog", RssHost = "www.gardeningknowhow.com" },
             new RawRssInfo{ RssLink = "http://brulosophy.com/feed/", RssHeading = "From Brülosophy", RssHost = "brulosophy.com" },
             new RawRssInfo{ RssLink = "http://www.homebrewfinds.com/feed", RssHeading = "Homebrew Finds", RssHost = "www.homebrewfinds.com" },
             new RawRssInfo{ RssLink = "http://feeds2.feedburner.com/zenhabits?format=xml", RssHeading = "From Zen Habits" },
@@ -179,11 +181,20 @@ namespace ZenfulNeps.Controllers
             }
             catch (Exception ex)
             {
+	            var feed = new Rss
+		            {
+			            Heading = heading,
+			            Title = "Broken Feed",
+			            Link = "Broken Link",
+			            Description = ex.Message
+		            };
+	            //return feed;
                 return null;
             }
         }
 
-        public JsonResult GetMeasurements(string chest, string abdomen, string thigh, string tricep,
+
+	    public JsonResult GetMeasurements(string chest, string abdomen, string thigh, string tricep,
             string subscapular, string suprailiac, string midaxilla, string bicep, string calf,
             string lowerback, string sex, string age, string weight)
         {
