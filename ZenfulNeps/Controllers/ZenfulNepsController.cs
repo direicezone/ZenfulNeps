@@ -12,8 +12,10 @@ using ZenfulNeps.Models;
 
 namespace ZenfulNeps.Controllers
 {
+
 	public class ZenfulNepsController : Controller
 	{
+        public List<RawRssInfo> randomRssInfoList;
 		public List<RawRssInfo> rawRssInfoList = new List<RawRssInfo>
 		{
 			new RawRssInfo
@@ -22,6 +24,24 @@ namespace ZenfulNeps.Controllers
 				RssHeading = "Gardening Know How's Blog",
 				RssHost = "www.gardeningknowhow.com"
 			},
+			new RawRssInfo
+			{
+				RssLink = "https://www.skinnytaste.com/feed/",
+				RssHeading = "skinnytaste",
+				RssHost = "www.skinnytaste.com"
+            },
+			new RawRssInfo
+			{
+				RssLink = "https://www.chef-in-training.com/feed/",
+				RssHeading = "Chef in Training",
+				RssHost = "www.chef-in-training.com"
+            },
+			new RawRssInfo
+			{
+				RssLink = "https://therecipecritic.com/feed/",
+				RssHeading = "The Recipe Critic",
+				RssHost = "therecipecritic.com"
+            },
 			new RawRssInfo
 			{
 				RssLink = "http://brulosophy.com/feed/",
@@ -64,7 +84,10 @@ namespace ZenfulNeps.Controllers
 			}
 			var zenfulModel = new Models.ZenfulNeps();
 			zenfulModel.RssCount = rawRssInfoList.Count();
-			return View("ZenfulNeps", zenfulModel);
+            var rnd = new Random();
+            randomRssInfoList = rawRssInfoList.OrderBy(x => rnd.Next()).ToList();
+            Session["randomList"] = randomRssInfoList;
+            return View("ZenfulNeps", zenfulModel);
 		}
 
 		public bool IsMobile()
@@ -324,20 +347,22 @@ namespace ZenfulNeps.Controllers
 		[WebMethod(EnableSession = true), AcceptVerbs("GET")]
 		public JsonResult GetRssFeed(string rssIteration)
 		{
-			var cacheKey = DateTime.Now.ToShortDateString() + "-" + rssIteration;
-			if (HttpContext.Cache[cacheKey] != null)
-			{
-				var cfeed = (Rss)HttpContext.Cache[cacheKey];
-				return Json(new
-				{
-					Link = cfeed.Link,
-					Heading = cfeed.Heading,
-					Title = cfeed.Title,
-					Description = cfeed.Description
-				}, JsonRequestBehavior.AllowGet);
-			}
+            var cacheKey = DateTime.Now.ToShortDateString() + "-" + rssIteration;
+            if (HttpContext.Cache[cacheKey] != null)
+            {
+                var cfeed = (Rss)HttpContext.Cache[cacheKey];
+                return Json(new
+                {
+                    Link = cfeed.Link,
+                    Heading = cfeed.Heading,
+                    Title = cfeed.Title,
+                    Description = cfeed.Description
+                }, JsonRequestBehavior.AllowGet);
+            }
 
-			var feedToGet = rawRssInfoList[Convert.ToInt16(rssIteration)];
+           // var feedToGet = rawRssInfoList[Convert.ToInt16(rssIteration)];
+            var feedToGet = ((List<RawRssInfo>)Session["randomList"])[Convert.ToInt16(rssIteration)];
+            
 			var feed = GetFeed(feedToGet.RssLink, feedToGet.RssHeading, feedToGet.RssHost);
 			HttpContext.Cache[cacheKey] = feed;
 			return Json(new
