@@ -204,7 +204,9 @@
     <Content Include="Green\howcanihelp_mobile.html" />
     <Content Include="Green\images\newletter.jpg" />
     <Content Include="Green\images\newproposal.jpg" />
+    <Content Include="Green\images\NewProposalOkayed.jpg" />
     <Content Include="Green\images\update.png" />
+    <Content Include="Green\images\wvtm_interview.PNG" />
     <Content Include="Green\whatsnext_mobile.html" />
     <Content Include="Green\greenmobile.css" />
     <Content Include="Content\Gridmvc.css" />
