@@ -194,6 +194,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ads.txt" />
     <Content Include="Content\add.png" />
     <Content Include="Content\bg.jpg" />
     <Content Include="Content\bullet.gif" />
