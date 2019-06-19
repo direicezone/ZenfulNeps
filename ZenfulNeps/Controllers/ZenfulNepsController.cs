@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using System.Web.Services;
 using System.Xml.Linq;
 using ZenfulNeps.Models;
+using HtmlAgilityPack;
 
 namespace ZenfulNeps.Controllers
 {
@@ -364,6 +365,7 @@ namespace ZenfulNeps.Controllers
             var feedToGet = ((List<RawRssInfo>)Session["randomList"])[Convert.ToInt16(rssIteration)];
             
 			var feed = GetFeed(feedToGet.RssLink, feedToGet.RssHeading, feedToGet.RssHost);
+		    feed.Description = CleanImagesFromHtml(feed.Description);
 			HttpContext.Cache[cacheKey] = feed;
 			return Json(new
 			{
@@ -373,5 +375,25 @@ namespace ZenfulNeps.Controllers
 				Description = feed.Description
 			}, JsonRequestBehavior.AllowGet);
 		}
+
+	    private string CleanImagesFromHtml(string cfeedDescription)
+	    {
+	        HtmlDocument document = new HtmlDocument();
+	        document.LoadHtml(cfeedDescription);
+
+	        var images = document.DocumentNode.SelectNodes("//img");
+	        if (images != null)
+	        {
+	            foreach (HtmlNode image in images)
+	            {
+	                image.Attributes["width"]?.Remove();
+	                image.Attributes["height"]?.Remove();
+	                image.SetAttributeValue("style", "max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;");
+	                image.AppendChild(HtmlNode.CreateNode("<br/>"));
+	            }
+	        }
+            return document.DocumentNode.InnerHtml;
+
+        }
 	}
 }
