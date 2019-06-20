@@ -5,7 +5,7 @@
     ViewBag.Image = "http://zenfulneps.com/content/zenicon.png";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-19193261-1']);
@@ -44,16 +44,25 @@
             <ul id="@("fieldSet" + i)" data-role="listview" data-theme="a" data-divider-theme="a">
                 <li style="white-space: normal">
                     <a href="" target="_blank" class="feedtitle" id="@("rssFeedTitle" + i)"></a>
-                    <div class="fieldset" id="@("rssFeed" + i)">
+                    <div class="fieldset" style="margin: 10px  10px  10px  10px;" id="@("rssFeed" + i)">
+                    </div>
+                    <div>
+                        <ins class="adsbygoogle"
+                             style="display:block; text-align:center;"
+                             data-ad-layout="in-article"
+                             data-ad-format="fluid"
+                             data-ad-client="ca-pub-5663665114572954"
+                             data-ad-slot="7288425014"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </li>
             </ul>
         </div>
     }
 </div>
-
 <div style="text-align: center;">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Mobile -->
         <ins class="adsbygoogle"
              style="display:block"
