@@ -50,10 +50,11 @@
         gridColumns.Add(grid.Column(header: "Plant", canSort: false, columnName: "Plant", style: "colunmtopalign",
             format: (item) =>
             {
-                var image = "<img src='\\Images\\Plants\\Mobile_Images\\" + item.PlantPicture + "'/>";
+                var image = "<img src='\\Images\\Plants\\Mobile_Images\\" + item.PlantPicture + "' style='display: block'/>";
                 var actionLink = Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null);
                 //return Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null);
-                return @Html.Raw(actionLink + "<br>" + image);
+                return @Html.Raw("<div style='display: inline-block; text-align: center;'><strong>" + actionLink + "</strong><br>" + image + "</div>");
+
             }));
 
         gridColumns.Add(grid.Column("Companions", style: "colunmtopalign", canSort: false, format:
