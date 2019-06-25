@@ -1,0 +1,161 @@
+﻿@model IEnumerable<ZenfulNeps.Models.CompanionPlant>
+
+@{
+    ViewBag.Title = "Companion Planting Guide";
+    ViewBag.Image = "http://zenfulneps.com/images/plants/lovage.jpg";
+    ViewBag.Description = "This Companion Planting Guide allow you to quickly search and sort through many vegetables, herbs, and flowers to maximize you companion planting strategy.";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    WebGrid grid = new WebGrid(source: Model, rowsPerPage: 10, defaultSort: "Plant");
+}
+
+<div id="content-wrap">
+    <center>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Brewing -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5663665114572954"
+             data-ad-slot="9026649662"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </center>
+    <h3>Companion Planting Guide</h3>
+    <p>
+        With @Session["PlantCount"] plants and counting, this companion planting guide allow you to quickly search and sort through many vegetables, herbs, and flowers to maximize you companion planting strategy.
+        Our list contains companion planting research done on over 20 sites and compiled a useful and searchable guide. A must have for all gardeners!
+    </p>
+    <div class="pw-widget pw-size-medium pw-counter-show">
+        <a class="pw-button-facebook"></a>
+        <a class="pw-button-twitter"></a>
+        <a class="pw-button-email"></a>
+        <a class="pw-button-post"></a>
+    </div>
+    <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>
+
+    @using (Html.BeginForm("Search", "CompanionPlants", FormMethod.Post))
+    {
+        <text>Plant: </text>
+        <input type="text" name="searchValue" id="searchValue" value="@ViewData["searchValue"]" class="cpInput" />
+        <text>Benefits: </text>
+        <input type="text" name="pestValue" id="pestValue" value="@ViewData["pestValue"]" class="cpInputSmaller" />
+        <input type="submit" value="Search" name="button" class="superButton" />
+        <input type="submit" value="Clear" name="button" class="superButton" />
+    }
+
+    @{
+        var gridColumns = new List<WebGridColumn>();
+        gridColumns.Add(grid.Column(header: "Plant", canSort: false, columnName: "Plant", style: "colunmtopalign",
+            format: (item) =>
+            {
+                var image =
+                    "<div style='display: block; width: 160px; line-height: 160px; background-color: DarkGreen;'>" +
+                        "<img src='\\Images\\Plants\\Mobile_Images\\"
+                            + item.PlantPicture +
+                        "' style='display: block; max-width: 150px; max-height: 120px; margin-left: auto; margin-right: auto; vertical-align: middle;'/>" +
+                    "</div>";
+                var actionLink = Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null);
+            //return Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null);
+            return @Html.Raw("<div style='display: inline-block; text-align: center;'><strong>" + actionLink + "</strong><br>" + image + "</div>");
+
+            }));
+
+        gridColumns.Add(grid.Column("Companions", style: "colunmtopalign", canSort: false, format:
+            (item) =>
+            {
+                var companionText = string.Empty;
+                foreach (var companion in item.Companions)
+                {
+                    if (companionText.Trim().Length > 0)
+                    {
+                        companionText += ", " + companion;
+                    }
+                    else
+                    {
+                        companionText += companion;
+                    }
+                }
+                return new HtmlString(companionText);
+            }));
+        gridColumns.Add(grid.Column("Incompatibles", style: "colunmtopalign", canSort: false, format:
+            (item) =>
+            {
+                var incompatiblesText = string.Empty;
+                foreach (var incompatible in item.Incompatibles)
+                {
+                    if (incompatiblesText.Trim().Length > 0)
+                    {
+                        incompatiblesText += ", " + incompatible;
+                    }
+                    else
+                    {
+                        incompatiblesText += incompatible;
+                    }
+                }
+                return new HtmlString(incompatiblesText);
+            }));
+        gridColumns.Add(grid.Column("Type", "Type", canSort: false, style: "colunmtopalign"));
+        //gridColumns.Add(grid.Column("Rating", canSort: false, style: "colunmtopalign", format:
+        //    (item) =>
+        //    {
+        //        var stars = string.Empty;
+        //        var rating = 0;
+        //        if (!string.IsNullOrEmpty(item.Rating))
+        //        {
+        //            rating = Convert.ToInt16(item.Rating);
+        //        }
+        //        for (int i = 0; i < rating; i++)
+        //        {
+        //            stars += @"<img src='\Images\Plants\Star.jpg' />";
+        //        }
+        //        return new HtmlString(stars);
+        //    }
+        //    ));
+        gridColumns.Add(grid.Column("Benefits", style: "colunmtopalign", canSort: false, format:
+            (item) =>
+            {
+                if (item.Benefits.Length > 150)
+                {
+                    var my = "   ";
+                    return new HtmlString(item.Benefits.Substring(0, 150) + Html.ActionLink(" More...", "Details", "CompanionPlants", new { id = item.PlantId }, null));
+                }
+                else
+                {
+                    return new HtmlString(item.Benefits);
+                }
+            }
+            ));
+    }
+    @if (Model.Count() > 0)
+    {
+        @grid.GetHtml(
+            columns: grid.Columns(gridColumns.ToArray()),
+            tableStyle: "webgrid",
+            mode: WebGridPagerModes.All,
+            alternatingRowStyle: "row-a",
+            rowStyle: "row-b",
+            firstText: "<< First",
+            previousText: "< Previous", nextText: "Next >",
+            lastText: "Last >>")
+    }
+    else
+    {
+        <div class="grid">
+            <table cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>No results Found.</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <br /><br /><br /><br />
+        </div>
+    }
+
+    <p>@ViewBag.LastUpdate</p>
+</div>
+
+<script src="../../Scripts/CompanionPlants.js" type="text/javascript"></script>

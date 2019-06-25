@@ -991,6 +991,7 @@
     <Content Include="Views\CompanionPlants\CompanionPlants.Mobile.cshtml" />
     <Content Include="Views\ZenfulNeps\MashSpargeWater.Mobile.cshtml" />
     <Content Include="Views\Shared\WideReceivers.cshtml" />
+    <Content Include="Views\CompanionPlants\CompanionPlantsBackup.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ZenfulNeps\BodyFatCalc.cshtml" />
