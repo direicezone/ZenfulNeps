@@ -34,7 +34,11 @@
         <a class="pw-button-post"></a>
     </div>
     <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=n7cnnuk51lb9ahqgsgdn" type="text/javascript"></script>
-
+    <style>
+        .hoverActivate:hover  {
+            background:#f7f0e3;
+        }
+    </style>
     @using (Html.BeginForm("Search", "CompanionPlants", FormMethod.Post))
     {
         <text>Plant: </text>
@@ -53,16 +57,24 @@
                 var actionLink = Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null);
                 var benefits = new HtmlString(item.Benefits);
                 var image =
-                    "<div style='margin: 20px;'>" +
-                    "<ul style='list-style-type: none;'>" +
-                    "<li style='padding: px; overflow: auto;'>" +
+                    "<div style='margin: 0 15px 0 0;float: left;display: block; width: 160px; line-height: 160px; background-color: DarkGreen;'>" +
+                        "<img src='\\Images\\Plants\\Mobile_Images\\"
+                            + item.PlantPicture +
+                        "' style='display: block; max-width: 150px; max-height: 120px; margin-left: auto; margin-right: auto; vertical-align: middle;'/>" +
+                    "</div>";
+                var plantRow =
+                    "<a href='/CompanionPlants/Details/" + item.PlantId + "'>" + 
+                    "<div style='margin: 6px;'>" +
+                    "<ul style='list-style-type: none; width: 650px;'>" +
+                    "<li style='padding: px; overflow: auto;'>" + 
                         "<img src='\\Images\\Plants\\Mobile_Images\\" + item.PlantPicture + "' style='float: left; margin: 0 15px 0 0;' />" +
                         "<h3 style='font: bold 20px/1.5 Helvetica, Verdana, sans-serif;'>" + actionLink.ToHtmlString() + "</h3>" +
                         "<p style='font: 200 12px/1.5 Georgia, Times New Roman, serif;'>" + benefits.ToHtmlString()  + "</p>" +
                     "</li>" +
                     "</ul>" +
-                    "</div>";
-                return @Html.Raw(image);
+                    "</div>" +
+                    "</a>";
+                return @Html.Raw(plantRow);
 
             }));
 
@@ -139,8 +151,8 @@
             columns: grid.Columns(gridColumns.ToArray()),
             tableStyle: "webgrid",
             mode: WebGridPagerModes.All,
-            alternatingRowStyle: "row-a",
-            rowStyle: "row-b",
+            alternatingRowStyle: "row-a hoverActivate",
+            rowStyle: "row-b hoverActivate",
             firstText: "<< First",
             previousText: "< Previous", nextText: "Next >",
             lastText: "Last >>")

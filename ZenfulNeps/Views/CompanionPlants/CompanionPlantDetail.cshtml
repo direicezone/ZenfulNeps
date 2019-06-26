@@ -6,112 +6,113 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="content-wrap">
-    @*<center>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-5663665114572954"
-             data-ad-slot="9026649662"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </center>
-    <hr/>
-    <br/>*@
-    <a href="../Index" class="biglink">Return to Main List</a>
-    @{
-        if (!string.IsNullOrEmpty(Model.Plant.PrevPlant))
-        {
-    <a href="@Model.Plant.PrevPlantId" class="biglink">◄ @Model.Plant.PrevPlant</a>
-        }
-        if (!string.IsNullOrEmpty(Model.Plant.NextPlant))
-        {
-    <a href="@Model.Plant.NextPlantId" class="biglink">@Model.Plant.NextPlant ►</a>
-        }
-    }
-    <br/>
-    <br/>
-	<div id="details">
-	    <img src="\Images\Plants\@Model.Plant.PlantPicture" alt="@Model.Plant.Plant" class="float-right" />
-        @{
-            //var stars = string.Empty;
-            //var rating = 0;
-            //if (!string.IsNullOrEmpty(Model.Plant.Rating))
-            //{
-            //    rating = Convert.ToInt16(Model.Plant.Rating);
-            //}
-            //for (int i = 0; i < rating; i++)
-            //{
-            //    stars += @"<img src='\Images\Plants\star.jpg' />";
-            //}
-        }
+    <div id="content-wrap">
+        @*<center>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5663665114572954"
+                 data-ad-slot="9026649662"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </center>
+        <hr/>
+        <br/>*@
+        <p>
+            <a href="../Index" class="biglink">Return to Main List</a>
+            @{
+                if (!string.IsNullOrEmpty(Model.Plant.PrevPlant))
+                {
+                    <a href="@Model.Plant.PrevPlantId" class="biglink">◄ @Model.Plant.PrevPlant</a>
+                }
+                if (!string.IsNullOrEmpty(Model.Plant.NextPlant))
+                {
+                    <a href="@Model.Plant.NextPlantId" class="biglink">@Model.Plant.NextPlant ►</a>
+                }
+            }
+        </p>
+        <br />
+        <div id="details">
+            <img src="\Images\Plants\@Model.Plant.PlantPicture" alt="@Model.Plant.Plant" class="float-right" />
+            @{
+                //var stars = string.Empty;
+                //var rating = 0;
+                //if (!string.IsNullOrEmpty(Model.Plant.Rating))
+                //{
+                //    rating = Convert.ToInt16(Model.Plant.Rating);
+                //}
+                //for (int i = 0; i < rating; i++)
+                //{
+                //    stars += @"<img src='\Images\Plants\star.jpg' />";
+                //}
+            }
 
-		<h2>@Model.Plant.Plant</h2>
-		<label class="science"><i>@Model.Plant.ScientificName</i></label>
-		<h3>Companions:</h3>
-		@{
-			var itemText = string.Empty;
-            foreach (var item in Model.Plant.Companions)
-			{
-                //Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null)
-                var plant = Model.Plants.Where(p => p.Plant.ToLower().Trim() == item.ToLower().Trim()).FirstOrDefault();
-			    MvcHtmlString itemconstruct;
-                if (plant != null)
+            <h2>@Model.Plant.Plant</h2>
+            <label class="science"><i>@Model.Plant.ScientificName</i></label>
+            <h3>Companions:</h3>
+            @{
+                var itemText = string.Empty;
+                foreach (var item in Model.Plant.Companions)
                 {
-                    itemconstruct = Html.ActionLink(((string)item), "Details", "CompanionPlants", new { id = plant.PlantId }, null);
+                    //Html.ActionLink(((string)item.Plant), "Details", "CompanionPlants", new { id = item.PlantId }, null)
+                    var plant = Model.Plants.Where(p => p.Plant.ToLower().Trim() == item.ToLower().Trim()).FirstOrDefault();
+                    MvcHtmlString itemconstruct;
+                    if (plant != null)
+                    {
+                        itemconstruct = Html.ActionLink(((string)item), "Details", "CompanionPlants", new { id = plant.PlantId }, null);
+                    }
+                    else
+                    {
+                        itemconstruct = new MvcHtmlString(item);
+                    }
+                    if (itemText.Trim().Length > 0)
+                    {
+                        itemText += ", " + itemconstruct;
+                    }
+                    else
+                    {
+                        itemText += itemconstruct;
+                    }
                 }
-                else
+                <p>@Html.Raw(itemText)</p>
+            }
+            <h3>Incompatibles:</h3>
+            @{
+                var itemText2 = string.Empty;
+                foreach (var item in Model.Plant.Incompatibles)
                 {
-                    itemconstruct = new MvcHtmlString(item);
+                    var plant = Model.Plants.Where(p => p.Plant.ToLower().Trim() == item.ToLower().Trim()).FirstOrDefault();
+                    MvcHtmlString itemconstruct;
+                    if (plant != null)
+                    {
+                        itemconstruct = Html.ActionLink(((string)item), "Details", "CompanionPlants", new { id = plant.PlantId }, null);
+                    }
+                    else
+                    {
+                        itemconstruct = new MvcHtmlString(item);
+                    }
+                    if (itemText2.Trim().Length > 0)
+                    {
+                        itemText2 += ", " + itemconstruct;
+                    }
+                    else
+                    {
+                        itemText2 += itemconstruct;
+                    }
                 }
-				if (itemText.Trim().Length > 0)
-				{
-                    itemText += ", " + itemconstruct;
-				}
-				else
-				{
-                    itemText += itemconstruct;
-				}
-			}
-			<p>@Html.Raw(itemText)</p>
-		}
-		<h3>Incompatibles:</h3>
-		@{
-			var itemText2 = string.Empty;
-            foreach (var item in Model.Plant.Incompatibles)
-			{
-                var plant = Model.Plants.Where(p => p.Plant.ToLower().Trim() == item.ToLower().Trim()).FirstOrDefault();
-                MvcHtmlString itemconstruct;
-                if (plant != null)
+                if (string.IsNullOrEmpty(itemText2.Trim()))
                 {
-                    itemconstruct = Html.ActionLink(((string)item), "Details", "CompanionPlants", new { id = plant.PlantId }, null);
+                    itemText2 = "None";
                 }
-                else
-                {
-                    itemconstruct = new MvcHtmlString(item);
-                } 
-                if (itemText2.Trim().Length > 0)
-				{
-                    itemText2 += ", " + itemconstruct;
-				}
-				else
-				{
-                    itemText2 += itemconstruct;
-				}
-			}
-			if (string.IsNullOrEmpty(itemText2.Trim()))
-			{
-				itemText2 = "None";
-			}
-			<p>@Html.Raw(itemText2)</p>
-		}
-		<h3>Benefits and Notes:</h3>
-		<p>@Model.Plant.Benefits</p>
-		<h3>Type:</h3>
-		<p>@Model.Plant.Type</p>
-		<hr/>
-	</div>
-</div>
+                <p>@Html.Raw(itemText2)</p>
+            }
+            <h3>Benefits and Notes:</h3>
+            <p>@Model.Plant.Benefits</p>
+            <h3>Type:</h3>
+            <p>@Model.Plant.Type</p>
+            <hr />
+        </div>
+    </div>
