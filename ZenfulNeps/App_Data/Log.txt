@@ -67,3 +67,9 @@
 2019-06-26T18:48:23.5931421Z - 23012 - Fatal - No data source available to create provider.
 2019-06-26T18:53:40.7548069Z - 23012 - Fatal - No data source available to create provider.
 2019-07-09T19:03:18.5841719Z - 22148 - Fatal - No data source available to create provider.
+2019-07-10T13:57:09.6099700Z - 15576 - Fatal - No data source available to create provider.
+2019-07-10T14:04:01.5738640Z - 21532 - Fatal - No data source available to create provider.
+2019-07-10T14:13:04.2298591Z - 22976 - Fatal - No data source available to create provider.
+2019-07-10T14:37:51.8404637Z - 21344 - Fatal - No data source available to create provider.
+2019-07-10T14:41:55.0621679Z - 23052 - Fatal - No data source available to create provider.
+2019-07-10T15:06:49.9587056Z - 12656 - Fatal - No data source available to create provider.

@@ -207,6 +207,8 @@
     <Content Include="Content\FF.css" />
     <Content Include="Content\freelancer.css" />
     <Content Include="Green\howcanihelp_mobile.html" />
+    <Content Include="Green\images\citycouncilmeeting.jpg" />
+    <Content Include="Green\images\citycouncilmeeting42.png" />
     <Content Include="Green\images\newletter.jpg" />
     <Content Include="Green\images\newproposal.jpg" />
     <Content Include="Green\images\NewProposalOkayed.jpg" />
