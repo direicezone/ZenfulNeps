@@ -212,9 +212,10 @@
     <Content Include="Green\images\newletter.jpg" />
     <Content Include="Green\images\newproposal.jpg" />
     <Content Include="Green\images\NewProposalOkayed.jpg" />
+    <Content Include="Green\images\trussville-2040-2.jpg" />
     <Content Include="Green\images\update.png" />
     <Content Include="Green\images\wvtm_interview.PNG" />
-    <Content Include="Green\whatsnext_mobile.html" />
+    <Content Include="Green\archive_mobile.html" />
     <Content Include="Green\greenmobile.css" />
     <Content Include="Content\Gridmvc.css" />
     <Content Include="Content\header-bg.jpg" />
@@ -531,7 +532,7 @@
     <Content Include="Green\scripts\jquery-1.4.3.min.js" />
     <Content Include="Green\scripts\style.css" />
     <Content Include="Green\video\FIELD1-small.mov" />
-    <Content Include="Green\whatsnext.html" />
+    <Content Include="Green\archive.html" />
     <Content Include="Green\default.css" />
     <Content Include="Green\default.html" />
     <Content Include="Green\default_Old.html" />

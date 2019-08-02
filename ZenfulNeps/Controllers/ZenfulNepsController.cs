@@ -68,6 +68,12 @@ namespace ZenfulNeps.Controllers
 				RssHeading = "BeerSmith™ Home Brewing Blog",
 				RssHost = "beersmith.com"
 			},
+            new RawRssInfo
+            {
+                RssLink = "https://amindfullmom.com/feed/",
+                RssHeading = "A Mind 'Full' Mom",
+                RssHost = "amindfullmom.com"
+            }
 		};
 
 		public ActionResult Index()

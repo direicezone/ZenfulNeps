@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using System.Security.Cryptography.X509Certificates;
 using System.Web.Mvc;
 using System.Web.Services;
 
@@ -9,7 +11,10 @@ namespace ZenfulNeps.Controllers
 	public class FantasyDrafterController : Controller
     {
 		private const string PLAYER_BUILT = "BUILT";
-		private const string FFTODAY_URL = "http://www.fftoday.com/rankings/playerrank.php?&PosID={0}";
+		private const string FFKEEPERS = "FFKeepers";
+		private const string MYPLAYERS = "MyPlayers";
+		private const string FFTODAY_URL = "https://www.fftoday.com/rankings/playerrank.php?o=1&PosID={0}";
+		private const string HOST_NAME = "www.fftoday.com";
 	    private const string FILES_LOCATION = "/Data/{0}.txt";
 		private bool RebuildFiles;
 
@@ -25,9 +30,8 @@ namespace ZenfulNeps.Controllers
 
 		public ActionResult Index()
         {
-			Session.Timeout = 240;
-	        RebuildFiles = Request.QueryString["rebuild"] != null;
-			if (System.Web.HttpContext.Current.Session["PlayersBuilt"] == null || RebuildFiles)
+            RebuildFiles = System.Web.HttpContext.Current.Session["rebuild"] != null;
+            if (System.Web.HttpContext.Current.Session["PlayersBuilt"] == null || RebuildFiles)
 			{
 				foreach (Players player in Enum.GetValues(typeof(Players)))
 				{
@@ -35,30 +39,44 @@ namespace ZenfulNeps.Controllers
 				}               
 				System.Web.HttpContext.Current.Session["PlayersBuilt"] = PLAYER_BUILT;
 			}
-			return View("FantasyDrafter");
+            System.Web.HttpContext.Current.Session["rebuild"] = null;
+            return View("FantasyDrafter");
 		}
 
-		private void BuildPlayers(Players players)
+        public ActionResult Rebuild()
+        {
+            System.Web.HttpContext.Current.Session["rebuild"] = "YES";
+            if (FilesExists(FFKEEPERS))
+                System.IO.File.Delete(Server.MapPath(string.Format(FILES_LOCATION, FFKEEPERS)));
+            if (FilesExists(MYPLAYERS))
+                System.IO.File.Delete(Server.MapPath(string.Format(FILES_LOCATION, MYPLAYERS)));
+            return RedirectToAction("Index");
+        }
+
+        private void BuildPlayers(Players players)
 		{
-			if (!FilesExists(players.ToString()) || RebuildFiles)
+            if (!FilesExists(players.ToString()) || RebuildFiles)
 			{
-				using (WebClient client = new WebClient()) // WebClient class inherits IDisposable
-				{
-					string htmlCode = client.DownloadString(string.Format(FFTODAY_URL, (int)players));
-					var startPos = htmlCode.IndexOf("<TD class=\"bodycontent\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
-					if (players == Players.Defense || startPos < 0)
-					{
-						startPos = htmlCode.IndexOf("<TD class=\"sort1\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
-					}
-					htmlCode = htmlCode.Substring(startPos - 5);
-					var endPos = htmlCode.IndexOf("</table>");
-					htmlCode = htmlCode.Substring(0, endPos - 1);
-					htmlCode = CleanUpHtml(htmlCode);
-					System.Web.HttpContext.Current.Session[players.ToString()] = htmlCode;
-					//Build Files
-					var mypath = Server.MapPath(string.Format(FILES_LOCATION, players.ToString()));
-					System.IO.File.WriteAllText(mypath, htmlCode);
-				}
+                string htmlCode;
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | (SecurityProtocolType)3072;
+                using (WebClient client = new WebClient()) // WebClient class inherits IDisposable
+                {
+                    htmlCode = client.DownloadString(string.Format(FFTODAY_URL, (int)players));
+                }
+                var startPos = htmlCode.IndexOf("<TD class=\"bodycontent\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
+                if (players == Players.Defense || startPos < 0)
+                {
+                    startPos = htmlCode.IndexOf("<TD class=\"sort1\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
+                }
+                htmlCode = htmlCode.Substring(startPos - 5);
+                var endPos = htmlCode.IndexOf("</table>");
+                htmlCode = htmlCode.Substring(0, endPos - 1);
+                htmlCode = CleanUpHtml(htmlCode);
+                System.Web.HttpContext.Current.Session[players.ToString()] = htmlCode;
+                //Build Files
+                var mypath = Server.MapPath(string.Format(FILES_LOCATION, players.ToString()));
+                System.IO.File.WriteAllText(mypath, htmlCode);
 			}
 			else
 			{
@@ -92,40 +110,46 @@ namespace ZenfulNeps.Controllers
 		[WebMethod(EnableSession = true), AcceptVerbs("POST")]
 		public void SaveKeepers(string[] Keepers)
 		{
-			System.Web.HttpContext.Current.Session["FFKeepers"] = Keepers;
-		}
+            if (Keepers == null)
+                HttpContext.Cache.Remove(FFKEEPERS);
+            HttpContext.Cache[FFKEEPERS] = Keepers;
+        }
 
-		[WebMethod(EnableSession = true), AcceptVerbs("POST")]
+        [WebMethod(EnableSession = true), AcceptVerbs("POST")]
 		public void SaveMyPlayers(string[] MyPlayers)
 		{
-			System.Web.HttpContext.Current.Session["MyPlayers"] = MyPlayers;
-		}
+            if (MyPlayers == null)
+                HttpContext.Cache.Remove(MYPLAYERS);
+            HttpContext.Cache[MYPLAYERS] = MyPlayers;
+        }
 
-		[WebMethod(EnableSession = true), AcceptVerbs("GET")]
+        [WebMethod(EnableSession = true), AcceptVerbs("GET")]
 		public JsonResult GetKeepers()
 		{
-			if (System.Web.HttpContext.Current.Session["FFKeepers"] == null)
-				return Json(new
-				{
-					Keepers = string.Empty
-				}, JsonRequestBehavior.AllowGet);
-			var keepers = (string[])System.Web.HttpContext.Current.Session["FFKeepers"];
-			return Json(new
-			{
-				Keepers = keepers
-			}, JsonRequestBehavior.AllowGet);
-		}
+            if (HttpContext.Cache[FFKEEPERS] == null)
+                return Json(new
+                {
+                    Keepers = string.Empty
+                }, JsonRequestBehavior.AllowGet);
 
-		[WebMethod(EnableSession = true), AcceptVerbs("GET")]
+            var keepers = (string[])HttpContext.Cache[FFKEEPERS];
+            return Json(new
+            {
+                Keepers = keepers
+            }, JsonRequestBehavior.AllowGet);
+        }
+
+        [WebMethod(EnableSession = true), AcceptVerbs("GET")]
 		public JsonResult GetMyPlayers()
 		{
-			if (System.Web.HttpContext.Current.Session["MyPlayers"] == null)
+			if (HttpContext.Cache[MYPLAYERS] == null)
 				return Json(new
 				{
 					MyPlayers = string.Empty
 				}, JsonRequestBehavior.AllowGet);
-			var myplayers = (string[])System.Web.HttpContext.Current.Session["MyPlayers"];
-			return Json(new
+
+            var myplayers = (string[])HttpContext.Cache[MYPLAYERS];
+            return Json(new
 			{
 				MyPlayers = myplayers
 			}, JsonRequestBehavior.AllowGet);

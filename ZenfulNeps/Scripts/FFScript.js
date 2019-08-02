@@ -4,8 +4,7 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Andrew Luck", "Derrick Henry", ];
-
+    var keepers = [];
     GetKeepers();
     if (getKeepers.length > 0) {
         keepers = getKeepers;
@@ -158,7 +157,7 @@ function SaveKeepers(keepers) {
             //return false;
         },
         error: function (xhr, ajaxOptions, thrownError) {
-            alert(xhr.responseText);
+            alert("SaveKeepers " +xhr.responseText);
         }
     });
 }
@@ -178,7 +177,8 @@ function GetKeepers() {
             }
         },
         error: function (xhr, ajaxOptions, thrownError) {
-            alert(xhr.responseText);
+            alert("GetKeepers " + xhr.thrownError);
+            alert("GetKeepers " + xhr.responseText);
         }
     });
 }
@@ -197,7 +197,7 @@ function SaveMyPlayers() {
             //return false;
         },
         error: function (xhr, ajaxOptions, thrownError) {
-            alert(xhr.responseText);
+            alert("SaveMyPlayers " + xhr.responseText);
         }
     });
 }
@@ -217,7 +217,7 @@ function GetMyPlayers() {
             }
         },
         error: function (xhr, ajaxOptions, thrownError) {
-            alert(xhr.responseText);
+            alert("GetMyPlayers " + xhr.responseText);
         }
     });
 }
