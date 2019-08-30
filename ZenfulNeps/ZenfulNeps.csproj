@@ -177,6 +177,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Common.Core\Common.cs" />
+    <Compile Include="Common.Core\PlayerData.cs" />
     <Compile Include="Controllers\BrewingController.cs" />
     <Compile Include="Controllers\CompanionPlantsController.cs" />
     <Compile Include="Controllers\CompanionPlantsNewController.cs" />
@@ -206,6 +207,12 @@
     <Content Include="Content\down_arrow_select.jpg" />
     <Content Include="Content\FF.css" />
     <Content Include="Content\freelancer.css" />
+    <Content Include="Data\Defense.txt" />
+    <Content Include="Data\Kickers.txt" />
+    <Content Include="Data\QuarterBacks.txt" />
+    <Content Include="Data\RunningBacks.txt" />
+    <Content Include="Data\TightEnds.txt" />
+    <Content Include="Data\WideReceivers.txt" />
     <Content Include="Green\howcanihelp_mobile.html" />
     <Content Include="Green\images\citycouncilmeeting.jpg" />
     <Content Include="Green\images\citycouncilmeeting42.png" />

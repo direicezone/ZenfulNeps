@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Web.Mvc;
 using System.Web.Services;
+using HtmlAgilityPack;
 
 namespace ZenfulNeps.Controllers
 {
@@ -13,12 +16,14 @@ namespace ZenfulNeps.Controllers
 		private const string PLAYER_BUILT = "BUILT";
 		private const string FFKEEPERS = "FFKeepers";
 		private const string MYPLAYERS = "MyPlayers";
-		private const string FFTODAY_URL = "https://www.fftoday.com/rankings/playerrank.php?o=1&PosID={0}";
+		private const string PLAYERSDATA = "PLAYERSDATA";
+        private const string FFTODAY_URL = "https://www.fftoday.com/rankings/playerrank.php?o=1&PosID={0}";
 		private const string HOST_NAME = "www.fftoday.com";
 	    private const string FILES_LOCATION = "/Data/{0}.txt";
 		private bool RebuildFiles;
+        private List<Common.Core.PlayerData> PlayersData;
 
-		public enum Players
+        public enum Players
 		{
 			QuarterBacks = 10,
 			RunningBacks = 20,
@@ -38,7 +43,9 @@ namespace ZenfulNeps.Controllers
 					BuildPlayers(player);
 				}               
 				System.Web.HttpContext.Current.Session["PlayersBuilt"] = PLAYER_BUILT;
-			}
+                var sortPlayers = PlayersData.Where(w => w.Player != null).Select(s => s).OrderBy(o => o.ADP).ToList();
+                HttpContext.Cache[PLAYERSDATA] = sortPlayers;
+            }
             System.Web.HttpContext.Current.Session["rebuild"] = null;
             return View("FantasyDrafter");
 		}
@@ -77,16 +84,65 @@ namespace ZenfulNeps.Controllers
                 //Build Files
                 var mypath = Server.MapPath(string.Format(FILES_LOCATION, players.ToString()));
                 System.IO.File.WriteAllText(mypath, htmlCode);
-			}
-			else
+                if (PlayersData == null)
+                    PlayersData = new List<Common.Core.PlayerData>();
+                PlayersData.AddRange(BuildData(htmlCode, players));
+            }
+            else
 			{
 				var mypath = Server.MapPath(string.Format(FILES_LOCATION, players.ToString()));
 				var htmlCode = System.IO.File.ReadAllText(mypath);
 				System.Web.HttpContext.Current.Session[players.ToString()] = htmlCode;
-			}
-		}
+                if (PlayersData == null)
+                    PlayersData = new List<Common.Core.PlayerData>();
+                PlayersData.AddRange(BuildData(htmlCode, players));
+            }
+        }
 
-	    private bool FilesExists(string fileName)
+        private List<Common.Core.PlayerData> BuildData(string htmlCode, Players players)
+        {
+            var playersData = new List<Common.Core.PlayerData>();
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml(htmlCode);
+            foreach (HtmlNode row in doc.DocumentNode.SelectNodes("tr"))
+            {
+                ///This is the row.
+                var player = new Common.Core.PlayerData();
+                player.Type = players.ToString();
+                player.Taken = false;
+                var ppos = 0;
+                foreach (HtmlNode cell in row.SelectNodes("td"))
+                {
+                    var data1 = cell.InnerText;
+                    switch (ppos)
+                    {
+                        case 1:
+                            player.Rank = Convert.ToInt16(data1);
+                            break;
+                        case 2:
+                            player.Player = data1.Trim();
+                            break;
+                        case 3:
+                            player.Team = data1.Trim();
+                            break;
+                        case 4:
+                            player.ByeWeek = Convert.ToInt16(data1);
+                            break;
+                        case 5:
+                            player.ADP = Convert.ToDouble(data1.Replace("-", "100"));
+                            break;
+                        default:
+                            break;
+                    }
+
+                    ++ppos;
+                }
+                playersData.Add(player);
+            }
+            return playersData;
+        }
+
+        private bool FilesExists(string fileName)
 	    {
 			var mypath = Server.MapPath(string.Format(FILES_LOCATION, fileName));
 			return System.IO.File.Exists(mypath);
@@ -110,16 +166,29 @@ namespace ZenfulNeps.Controllers
 		[WebMethod(EnableSession = true), AcceptVerbs("POST")]
 		public void SaveKeepers(string[] Keepers)
 		{
+            var playersData = (List<Common.Core.PlayerData>)HttpContext.Cache[PLAYERSDATA];
+            playersData.ForEach(fe => fe.Taken = false);
             if (Keepers == null)
+            {
                 HttpContext.Cache.Remove(FFKEEPERS);
+                return;
+            }
             HttpContext.Cache[FFKEEPERS] = Keepers;
+            foreach (var keeper in Keepers)
+            {
+                playersData.First(w => w.Player == keeper.Trim()).Taken = true;
+            }
+            HttpContext.Cache[PLAYERSDATA] = playersData;
         }
 
         [WebMethod(EnableSession = true), AcceptVerbs("POST")]
 		public void SaveMyPlayers(string[] MyPlayers)
 		{
             if (MyPlayers == null)
+            {
                 HttpContext.Cache.Remove(MYPLAYERS);
+                return;
+            }
             HttpContext.Cache[MYPLAYERS] = MyPlayers;
         }
 
@@ -155,5 +224,23 @@ namespace ZenfulNeps.Controllers
 			}, JsonRequestBehavior.AllowGet);
 		}
 
-	}
+        [WebMethod(EnableSession = true), AcceptVerbs("POST")]
+        public JsonResult GetADP(string position)
+        {
+            if (HttpContext.Cache[PLAYERSDATA] == null)
+                return Json(new
+                {
+                    ADP = string.Empty
+                }, JsonRequestBehavior.AllowGet);
+
+            var players = (List<Common.Core.PlayerData>)HttpContext.Cache[PLAYERSDATA];
+            var adp = players.Where(w => w.Taken == false).ToList();
+            return Json(new
+            {
+                ADP = adp
+            }, JsonRequestBehavior.AllowGet);
+        }
+
+
+    }
 }

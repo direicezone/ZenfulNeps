@@ -17,6 +17,15 @@
 </head>
 <body>
     <form>
+        <div id="dialog-ADP" title="ADP">
+            <p>
+                <table id="adpTable" width="100%">
+                    <tbody>
+                        <tr><th>Rank</th><th>Type</th><th>Player</th><th>Team</th><th>Bye</th><th>ADP</th></tr>
+                    </tbody>
+                </table>
+            </p>
+        </div>
         <div id="header">
             <div class="container">
                 <h2 class="h2Style">Fantasy Masta-Drafta @DateTime.Now.Year</h2>
@@ -24,6 +33,7 @@
                 <input type="submit" name="search-button" id="search-button" value="search" />
                 <label class="searchResults"></label>
                 <span class="anchorLinks">
+                    <a href="#" id="adp-opener">ADP Remaining</a> |
                     <a href="#WideRecievers">WideRecievers</a> | <a href="#QuarterBacks">QuarterBacks</a> | <a href="#RunningBacks">RunningBacks</a> |
                     <a href="#TightEnds">TightEnds</a> | <a href="#Defenses">Defenses</a> | <a href="#Kickers">Kickers</a>
                     (Shift-Click to add to roster)
@@ -50,22 +60,22 @@
                 <table class="allPlayers" width="100%" border="0" cellpadding="2" cellspacing="0">
                     <tr class="note-td">
                         <td width='49%' valign='top'>
-                            <a name="WideRecievers"></a> 
+                            <a name="WideRecievers"></a>
                             @Html.Partial("WideReceivers")
-                            <a name="QuarterBacks"></a> 
+                            <a name="QuarterBacks"></a>
                             @Html.Partial("QuarterBacks")
-                            <a name="Kickers"></a> 
+                            <a name="Kickers"></a>
                             @Html.Partial("Kickers")
                         </td>
 
                         <td width='2%'>&nbsp;</td>
 
                         <td width='49%' valign='top'>
-                            <a name="RunningBacks"></a> 
+                            <a name="RunningBacks"></a>
                             @Html.Partial("RunningBacks")
-                            <a name="TightEnds"></a> 
+                            <a name="TightEnds"></a>
                             @Html.Partial("TightEnds")
-                            <a name="Defenses"></a> 
+                            <a name="Defenses"></a>
                             @Html.Partial("Defenses")
                         </td>
                     </tr>

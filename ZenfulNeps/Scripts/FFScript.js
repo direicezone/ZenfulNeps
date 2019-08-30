@@ -1,10 +1,11 @@
 ﻿var getKeepers = [];
 var myPlayers = [];
+var adpPlayers = [];
 $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = [];
+    var keepers = ["Julian Edelman", "Calvin Ridley", "Nick Chubb", "Adam Thielen"];
     GetKeepers();
     if (getKeepers.length > 0) {
         keepers = getKeepers;
@@ -21,6 +22,56 @@ $(document).ready(function () {
     }
 
     $(document).tooltip();
+
+    $("#dialog-ADP").dialog({
+        resizable: false,
+        height: "auto",
+        width: 750,
+        autoOpen: false,
+        modal: true,
+        buttons: {
+                Cancel: function () {
+                $(this).dialog("close");
+            }
+        }
+    });
+
+    $("#adp-opener").on("click", function () {
+        GetADP("All");
+        $("#dialog-ADP").dialog("open");
+        return false;
+    });
+
+    function GetADP(position) {
+        var data = {};
+        data.position = position;
+        $.ajax({
+            type: "POST",
+            url: "FantasyDrafter/GetADP",
+            async: false,
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                if (result.ADP.length > 0) {
+                    //alert(result.ADP[0].Player);
+                    var cnt = 10;
+                    if (result.ADP.length < 10) {
+                        cnt = result.ADP.length;
+                    }
+                    $("#adpTable").find("tr:gt(0)").remove();
+                    for (var i = 0; i < cnt; i++) {
+                        $('#adpTable > tbody:last-child').append('<tr><td>' + result.ADP[i].Rank + '</td><td>' + result.ADP[i].Type + '</td><td>' + result.ADP[i].Player + '</td><td>' + result.ADP[i].Team + '</td><td>' + result.ADP[i].ByeWeek + '</td><td>' + result.ADP[i].ADP + '</td></tr>');
+                    }
+                    adpPlayers = result.ADP;
+                }
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert("GetADP " + xhr.thrownError);
+                alert("GetADP " + xhr.responseText);
+            }
+        });
+    }
 
     //remove hyperlinks and keep text
     $('.allPlayers a').contents().unwrap();
