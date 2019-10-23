@@ -73,6 +73,18 @@ namespace ZenfulNeps.Controllers
                 RssLink = "https://amindfullmom.com/feed/",
                 RssHeading = "A Mind 'Full' Mom",
                 RssHost = "amindfullmom.com"
+            },
+            new RawRssInfo
+            {
+                RssLink = "https://theviewfromgreatisland.com/feed/",
+                RssHeading = "The View from Great Island",
+                RssHost = "theviewfromgreatisland.com"
+            },
+            new RawRssInfo
+            {
+                RssLink = "https://www.dinneratthezoo.com/feed/",
+                RssHeading = "Dinner at the Zoo",
+                RssHost = "www.dinneratthezoo.com"
             }
 		};
 
