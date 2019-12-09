@@ -58,9 +58,10 @@ namespace ZenfulNeps.Controllers
 			new RawRssInfo {RssLink = "http://feeds2.feedburner.com/zenhabits?format=xml", RssHeading = "From Zen Habits"},
 			new RawRssInfo
 			{
-				RssLink = "http://feeds.tasteofhome.com/taste-of-home/lower-fat-recipes/",
-				RssHeading = "Taste of Home - Lower Fat Recipe"
-			},
+				RssLink = "https://www.tasteofhome.com/recipes/feed/",
+				RssHeading = "Taste of Home",
+                RssHost = "www.tasteofhome.com"
+            },
 			new RawRssInfo {RssLink = "http://www.history.com/this-day-in-history/rss", RssHeading = "Today in History"},
 			new RawRssInfo
 			{
@@ -108,6 +109,13 @@ namespace ZenfulNeps.Controllers
             Session["randomList"] = randomRssInfoList;
             return View("ZenfulNeps", zenfulModel);
 		}
+
+		public ActionResult D3Season()
+		{
+
+            return View("D3SeasonCheatSheet");
+		}
+
 
 		public bool IsMobile()
 		{
