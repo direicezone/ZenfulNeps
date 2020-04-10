@@ -219,6 +219,10 @@
     <Content Include="Green\images\newletter.jpg" />
     <Content Include="Green\images\newproposal.jpg" />
     <Content Include="Green\images\NewProposalOkayed.jpg" />
+    <Content Include="Green\images\treesdown1.jpg" />
+    <Content Include="Green\images\treesdown2.jpg" />
+    <Content Include="Green\images\treesdown3.jpg" />
+    <Content Include="Green\images\treesdown4.jpg" />
     <Content Include="Green\images\trussville-2040-2.jpg" />
     <Content Include="Green\images\update.png" />
     <Content Include="Green\images\wvtm_interview.PNG" />
@@ -555,6 +559,7 @@
     <Content Include="Green\images\img06.gif" />
     <Content Include="Green\images\petition.jpg" />
     <Content Include="Green\style.css" />
+    <Content Include="Green\video\treedown.mp4" />
     <Content Include="Images\btn_caution2.gif" />
     <Content Include="Images\btn_checkmark_green.gif" />
     <Content Include="Images\creepylaugh.jpg" />
