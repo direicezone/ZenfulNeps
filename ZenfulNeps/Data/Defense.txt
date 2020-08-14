@@ -1,264 +1,270 @@
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">1</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9019&amp;LeagueID=1">Chicago Bears</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_9019' class="sort1" ALIGN="center" BGCOLOR="#ffffff">8.07</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">1</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9032&amp;LeagueID=1">Los Angeles Rams</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD id='showadp_9032' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15.12</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">2</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9030&amp;LeagueID=1">Baltimore Ravens</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">BAL</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_9030' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10.12</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">2</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9008&amp;LeagueID=1">Pittsburgh Steelers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PIT</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_9008' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.10</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">3</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9032&amp;LeagueID=1">Los Angeles Rams</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">LAR</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_9032' class="sort1" ALIGN="center" BGCOLOR="#ffffff">9.12</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">3</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9010&amp;LeagueID=1">Kansas City Chiefs</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">KC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
+<TD id='showadp_9010' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.10</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">4</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9031&amp;LeagueID=1">Houston Texans</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">HOU</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_9031' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">14.03</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9027&amp;LeagueID=1">San Francisco 49ers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_9027' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9.07</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">5</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9016&amp;LeagueID=1">Philadelphia Eagles</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">PHI</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_9016' class="sort1" ALIGN="center" BGCOLOR="#ffffff">14.07</TD>
+<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 2</strong></TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 2</strong></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9016&amp;LeagueID=1">Philadelphia Eagles</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD id='showadp_9016' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15.01</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9029&amp;LeagueID=1">Jacksonville Jaguars</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">JAC</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_9029' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10.09</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9030&amp;LeagueID=1">Baltimore Ravens</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BAL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_9030' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.01</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9026&amp;LeagueID=1">New Orleans Saints</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">NO</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_9026' class="sort1" ALIGN="center" BGCOLOR="#ffffff">15.01</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9003&amp;LeagueID=1">New England Patriots</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NE</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
+<TD id='showadp_9003' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">12.02</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9006&amp;LeagueID=1">Cleveland Browns</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">CLE</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_9006' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">11.07</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9026&amp;LeagueID=1">New Orleans Saints</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NO</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_9026' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.02</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9033&amp;LeagueID=1">Los Angeles Chargers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">LAC</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">12</TD>
-<TD id='showadp_9033' class="sort1" ALIGN="center" BGCOLOR="#ffffff">12.07</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9000&amp;LeagueID=1">Buffalo Bills</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_9000' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.12</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9022&amp;LeagueID=1">Minnesota Vikings</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">MIN</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">12</TD>
-<TD id='showadp_9022' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">11.07</TD>
+<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 3</strong></TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9010&amp;LeagueID=1">Kansas City Chiefs</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">KC</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">12</TD>
-<TD id='showadp_9010' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9022&amp;LeagueID=1">Minnesota Vikings</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">MIN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
+<TD id='showadp_9022' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.08</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">12</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9002&amp;LeagueID=1">Miami Dolphins</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">MIA</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
-<TD id='showadp_9002' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9001&amp;LeagueID=1">Indianapolis Colts</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_9001' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.12</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9003&amp;LeagueID=1">New England Patriots</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">NE</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_9003' class="sort1" ALIGN="center" BGCOLOR="#ffffff">14.06</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">12</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9023&amp;LeagueID=1">Tampa Bay Buccaneers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TB</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_9023' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13.06</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">14</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9009&amp;LeagueID=1">Denver Broncos</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">DEN</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_9009' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">13.04</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9009&amp;LeagueID=1">Denver Broncos</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DEN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_9009' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.12</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">15</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9001&amp;LeagueID=1">Indianapolis Colts</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_9001' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9029&amp;LeagueID=1">Jacksonville Jaguars</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">JAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
+<TD id='showadp_9029' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">16</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9008&amp;LeagueID=1">Pittsburgh Steelers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">PIT</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_9008' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">14.09</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9031&amp;LeagueID=1">Houston Texans</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">HOU</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_9031' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">17</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9013&amp;LeagueID=1">Seattle Seahawks</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">SEA</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_9013' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">16</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9028&amp;LeagueID=1">Carolina Panthers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_9028' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">18</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9014&amp;LeagueID=1">Dallas Cowboys</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">DAL</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_9014' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">13.10</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">17</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9018&amp;LeagueID=1">Washington Redskins</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">WAS</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_9018' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">19</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9000&amp;LeagueID=1">Buffalo Bills</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_9000' class="sort1" ALIGN="center" BGCOLOR="#ffffff">14.12</TD>
+<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 4</strong></TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 3</strong></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">18</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9015&amp;LeagueID=1">New York Giants</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYG</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_9015' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">20</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9028&amp;LeagueID=1">Carolina Panthers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_9028' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">19</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9004&amp;LeagueID=1">New York Jets</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYJ</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_9004' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">21</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9004&amp;LeagueID=1">New York Jets</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">NYJ</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">4</TD>
-<TD id='showadp_9004' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">20</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9006&amp;LeagueID=1">Cleveland Browns</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CLE</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
+<TD id='showadp_9006' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">22</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9020&amp;LeagueID=1">Detroit Lions</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">DET</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
-<TD id='showadp_9020' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">21</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9017&amp;LeagueID=1">Arizona Cardinals</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">ARI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_9017' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">23</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9021&amp;LeagueID=1">Green Bay Packers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">GB</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_9021' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">22</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9020&amp;LeagueID=1">Detroit Lions</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DET</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
+<TD id='showadp_9020' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">24</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9027&amp;LeagueID=1">San Francisco 49ers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">4</TD>
-<TD id='showadp_9027' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">23</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9013&amp;LeagueID=1">Seattle Seahawks</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SEA</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
+<TD id='showadp_9013' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.08</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">25</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9024&amp;LeagueID=1">Atlanta Falcons</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">ATL</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_9024' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">24</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9021&amp;LeagueID=1">Green Bay Packers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">GB</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
+<TD id='showadp_9021' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">26</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9017&amp;LeagueID=1">Arizona Cardinals</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">ARI</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">12</TD>
-<TD id='showadp_9017' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">25</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9007&amp;LeagueID=1">Tennessee Titans</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TEN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_9007' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15.01</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">27</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9023&amp;LeagueID=1">Tampa Bay Buccaneers</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_9023' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">26</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9033&amp;LeagueID=1">Los Angeles Chargers</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_9033' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">12.07</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">28</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9007&amp;LeagueID=1">Tennessee Titans</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">TEN</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_9007' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">27</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9014&amp;LeagueID=1">Dallas Cowboys</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DAL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
+<TD id='showadp_9014' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">29</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9005&amp;LeagueID=1">Cincinnati Bengals</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">CIN</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_9005' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 5</strong></TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">30</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9018&amp;LeagueID=1">Washington Redskins</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">WAS</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_9018' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">28</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9011&amp;LeagueID=1">Las Vegas Raiders</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LV</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_9011' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">31</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9015&amp;LeagueID=1">New York Giants</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">NYG</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_9015' class="sort1" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">29</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9005&amp;LeagueID=1">Cincinnati Bengals</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CIN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD id='showadp_9005' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">32</TD>
-<TD class="sort1" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9011&amp;LeagueID=1">Oakland Raiders</A>  </TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">OAK</TD>
-<TD class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD id='showadp_9011' class="sort1" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">30</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9024&amp;LeagueID=1">Atlanta Falcons</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ATL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_9024' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">31</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="/stats/players?TeamID=9019&amp;LeagueID=1">Chicago Bears</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_9019' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11.11</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">32</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="/stats/players?TeamID=9002&amp;LeagueID=1">Miami Dolphins</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">MIA</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_9002' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 
 		
