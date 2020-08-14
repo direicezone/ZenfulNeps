@@ -71,11 +71,11 @@ namespace ZenfulNeps.Controllers
                 {
                     htmlCode = client.DownloadString(string.Format(FFTODAY_URL, (int)players));
                 }
-                var startPos = htmlCode.IndexOf("<TD class=\"bodycontent\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
-                if (players == Players.Defense || startPos < 0)
-                {
-                    startPos = htmlCode.IndexOf("<TD class=\"sort1\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
-                }
+                var startPos = htmlCode.IndexOf("<TD class=\"smallbody\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
+                //if (players == Players.Defense || startPos < 0)
+                //{
+                //    startPos = htmlCode.IndexOf("<TD class=\"sort1\" ALIGN=\"center\" BGCOLOR=\"#ffffff\">&nbsp;</TD>");
+                //}
                 htmlCode = htmlCode.Substring(startPos - 5);
                 var endPos = htmlCode.IndexOf("</table>");
                 htmlCode = htmlCode.Substring(0, endPos - 1);

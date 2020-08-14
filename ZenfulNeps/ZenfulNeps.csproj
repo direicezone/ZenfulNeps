@@ -559,6 +559,8 @@
     <Content Include="Green\images\img06.gif" />
     <Content Include="Green\images\petition.jpg" />
     <Content Include="Green\style.css" />
+    <Content Include="Green\video\timber1.mp4" />
+    <Content Include="Green\video\timber2.mp4" />
     <Content Include="Green\video\treedown.mp4" />
     <Content Include="Images\btn_caution2.gif" />
     <Content Include="Images\btn_checkmark_green.gif" />

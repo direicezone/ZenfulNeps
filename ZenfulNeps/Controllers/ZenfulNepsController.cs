@@ -102,6 +102,10 @@ namespace ZenfulNeps.Controllers
 				}
 				return Redirect("~/Green/default.html");
 			}
+			if (domain.Contains("votetrussville"))
+			{
+				return Redirect("https://www.jaimemeltonanderson.com/");
+			}
 			var zenfulModel = new Models.ZenfulNeps();
 			zenfulModel.RssCount = rawRssInfoList.Count();
             var rnd = new Random();
