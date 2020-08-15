@@ -5,7 +5,8 @@ $(document).ready(function () {
 
     var searchTerm = '';
     var searchPosition = -1;
-    var keepers = ["Julian Edelman", "Calvin Ridley", "Nick Chubb", "Adam Thielen"];
+    // keepers is a array of strings (players names that are kept)
+    var keepers = [];
     GetKeepers();
     if (getKeepers.length > 0) {
         keepers = getKeepers;
