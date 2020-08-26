@@ -6,7 +6,8 @@ $(document).ready(function () {
     var searchTerm = '';
     var searchPosition = -1;
     // keepers is a array of strings (players names that are kept)
-    var keepers = [];
+    var keepers = ["Lamar Jackson", "Tom Brady", "Dak Prescott", "Golden Tate", "DK Metcalf", "Kareem Hunt", "Austin Ekeler", "Aaron Jones", "Kyler Murray"];
+    $(".h4Style").text("Keepers: (" + keepers.join(", ") +")");
     GetKeepers();
     if (getKeepers.length > 0) {
         keepers = getKeepers;
@@ -39,6 +40,30 @@ $(document).ready(function () {
 
     $("#adp-opener").on("click", function () {
         GetADP("All");
+        $("#dialog-ADP").dialog("open");
+        return false;
+    });
+
+    $("#adp-RBs").on("click", function () {
+        GetADP("RunningBacks");
+        $("#dialog-ADP").dialog("open");
+        return false;
+    });
+
+    $("#adp-WRs").on("click", function () {
+        GetADP("WideReceivers");
+        $("#dialog-ADP").dialog("open");
+        return false;
+    });
+
+    $("#adp-TEs").on("click", function () {
+        GetADP("TightEnds");
+        $("#dialog-ADP").dialog("open");
+        return false;
+    });
+
+    $("#adp-QBs").on("click", function () {
+        GetADP("QuarterBacks");
         $("#dialog-ADP").dialog("open");
         return false;
     });
@@ -87,6 +112,12 @@ $(document).ready(function () {
         playerName = $.trim(tds.eq(2).text());
         playerTeam = tds.eq(3).text();
         playerBye = tds.eq(4).text();
+
+        //if (e.ctrlKey && isChecked) {
+        //    keepers.push(playerName);
+        //    $(".h4Style").text("Keepers: (" + keepers.join() + ")");
+        //}
+
         if (e.shiftKey && isChecked) {
             var bgColor = '#ffffff';
             switch (playerType) {

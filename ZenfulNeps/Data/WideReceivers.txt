@@ -4,7 +4,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#1">Michael Thomas</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NO</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_15719' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">1.05</TD>
+<TD id='showadp_15719' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">1.07</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -12,7 +12,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#2">Davante Adams</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">GB</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
-<TD id='showadp_14102' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">1.09</TD>
+<TD id='showadp_14102' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">1.08</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -47,7 +47,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#6">Kenny Golladay</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DET</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
-<TD id='showadp_15882' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.02</TD>
+<TD id='showadp_15882' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.05</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -55,7 +55,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#7">Adam Thielen</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_14449' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">3.06</TD>
+<TD id='showadp_14449' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">4.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -63,7 +63,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#8">Amari Cooper</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DAL</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_15143' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4.02</TD>
+<TD id='showadp_15143' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.03</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -71,7 +71,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#9">Chris Godwin</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: It's more likely that Godwin can keep his production with Brady at QB. Still a WR1."> <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: It's more likely that Godwin can keep his production with Brady at QB. Still a WR1."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_15881' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">2.09</TD>
+<TD id='showadp_15881' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">2.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -79,7 +79,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#10">JuJu Smith-Schuster</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PIT</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_16004' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.11</TD>
+<TD id='showadp_16004' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -87,7 +87,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#11">Robert Woods</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAR</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_13459' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">4.07</TD>
+<TD id='showadp_13459' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -95,15 +95,15 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#12">A.J. Brown</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TEN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_16527' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4.08</TD>
+<TD id='showadp_16527' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5.03</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#13">Cooper Kupp</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAR</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#13">Odell Beckham Jr.</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CLE</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_15932' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">4.04</TD>
+<TD id='showadp_14114' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">3.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 3</strong></TD>
@@ -111,10 +111,10 @@
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#14">Odell Beckham Jr.</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CLE</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#14">Cooper Kupp</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LAR</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_14114' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.09</TD>
+<TD id='showadp_15932' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.09</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -122,7 +122,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#15">Tyler Lockett</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SEA</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_15237' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.04</TD>
+<TD id='showadp_15237' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -130,7 +130,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#16">D.J. Moore</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
-<TD id='showadp_16146' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.12</TD>
+<TD id='showadp_16146' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4.09</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -138,7 +138,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#17">Mike Evans</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: Positive game scripts is going to equal less target volume for Evans and/or Godwin."> <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Positive game scripts is going to equal less target volume for Evans and/or Godwin."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_14172' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">3.03</TD>
+<TD id='showadp_14172' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">3.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -146,7 +146,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#18">Allen Robinson</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CHI</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_14298' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">3.12</TD>
+<TD id='showadp_14298' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -154,7 +154,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#19">DeVante Parker</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIA</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_15271' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6.09</TD>
+<TD id='showadp_15271' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6.10</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -162,7 +162,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#20">Calvin Ridley</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ATL</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_16129' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">4.05</TD>
+<TD id='showadp_16129' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -170,7 +170,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#21">T.Y. Hilton</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Passing offense is expected to run through Hilton (hamstring) according to OC Nick Sirianni."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_12366' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.09</TD>
+<TD id='showadp_12366' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7.05</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -178,7 +178,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#22">Courtland Sutton</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DEN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_16144' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5.11</TD>
+<TD id='showadp_16144' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.09</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -186,7 +186,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#23">Keenan Allen</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Expected decline in offensive efficiency makes Allen more a WR2 in 2020."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAC</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_13003' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.05</TD>
+<TD id='showadp_13003' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.10</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -194,7 +194,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=1#24">A.J. Green</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Sat out 2019 with an ankle injury and hurt feelings. Will be 32 in late July."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CIN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_11858' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.02</TD>
+<TD id='showadp_11858' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -202,23 +202,26 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#25">D.J. Chark</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">JAC</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_16145' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.02</TD>
+<TD id='showadp_16145' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">26</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#26">Stefon Diggs</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BUF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_15156' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.02</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#26">Terry McLaurin</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">WAS</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_16648' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.01</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 4</strong></TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">27</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#27">Terry McLaurin</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">WAS</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16648' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.06</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#27">Stefon Diggs</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_15156' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6.05</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -226,7 +229,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#28">Michael Gallup</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DAL</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_16280' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.07</TD>
+<TD id='showadp_16280' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -234,7 +237,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#29">Julian Edelman</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: With Brady gone, the shine has come off Edelman's fantasy value. The 34 year-old is a better WR3 than WR2."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NE</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_11232' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7.01</TD>
+<TD id='showadp_11232' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -242,7 +245,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#30">Jarvis Landry</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Coming off his best fantasy season since 2015, Landry is rehabbing off-season hip surgery."></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CLE</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_14232' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.08</TD>
+<TD id='showadp_14232' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.04</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -250,10 +253,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#31">DK Metcalf</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SEA</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_16650' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">4.11</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 4</strong></TD>
+<TD id='showadp_16650' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -261,7 +261,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#32">Tyler Boyd</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CIN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_15519' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8.01</TD>
+<TD id='showadp_15519' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8.03</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -269,202 +269,202 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#33">Brandin Cooks</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: Cooks has a long history of concussions but should slide right into the starting lineup opposite Will Fuller."> </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">HOU</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_14153' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7.03</TD>
+<TD id='showadp_14153' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">34</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#34">Golden Tate</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYG</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_11470' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">12.12</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#34">Christian Kirk</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ARI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_16136' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11.09</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">35</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#35">Christian Kirk</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">ARI</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#35">Marquise Brown</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BAL</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16136' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.08</TD>
+<TD id='showadp_16529' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">36</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#36">Marquise Brown</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BAL</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_16529' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.04</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=2#36">Marvin Jones</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DET</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
+<TD id='showadp_12440' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">37</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#37">Marvin Jones</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DET</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5</TD>
-<TD id='showadp_12440' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8.11</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#37">Jamison Crowder</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYJ</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_15145' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">38</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#38">Jamison Crowder</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYJ</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_15145' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.05</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#38">Diontae Johnson</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: Given his rookie season (59-680-5), Johnson will carry the sleeper moniker among fantasy owners."> </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PIT</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_16616' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">39</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#39">Diontae Johnson</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: Given his rookie season (59-680-5), Johnson will carry the sleeper moniker among fantasy owners."> </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PIT</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#39">Will Fuller</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">HOU</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16616' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8.03</TD>
+<TD id='showadp_15585' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">40</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#40">Will Fuller</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">HOU</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_15585' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7.09</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#40">John Brown</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BUF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_14137' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11.04</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">41</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#41">John Brown</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_14137' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">12.09</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#41">Henry Ruggs III</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LV</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
+<TD id='showadp_17198' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11.08</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">42</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#42">Henry Ruggs III</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LV</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD id='showadp_17198' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9.08</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">43</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#43">Emmanuel Sanders</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NO</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_11492' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9.01</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">44</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#44">Sterling Shepard</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYG</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_15706' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11.10</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">45</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#45">Mike Williams</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_16042' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.05</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">46</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#46">Deebo Samuel</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Broken foot suffered on 6/18. Looking at a 3-month recovery."></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_16688' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8.04</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">47</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#47">Anthony Miller</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_16106' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">12.02</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#42">Jalen Reagor</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
+<TD id='showadp_17188' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.04</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 5</strong></TD>
 </TR>
 <TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">43</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#43">Golden Tate</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYG</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_11470' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.05</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">44</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#44">Emmanuel Sanders</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NO</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_11492' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.07</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">45</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#45">Sterling Shepard</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYG</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_15706' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11.07</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">46</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#46">Anthony Miller</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_16106' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">17.09</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">47</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#47">Mike Williams</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
+<TD id='showadp_16042' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13.10</TD>
+</TR>
+<TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">48</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#48">Corey Davis</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TEN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_15845' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">15.12</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=3#48">Deebo Samuel</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Broken foot suffered on 6/18. Looking at a 3-month recovery."></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_16688' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">49</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#49">Darius Slayton</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYG</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_16702' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9.08</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#49">Corey Davis</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TEN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_15845' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">50</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#50">DeSean Jackson</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: The 33 year-old missed 13 games season due to a core injury. He's a risky WR3 in all formats."></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_2930' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11.09</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#50">Darius Slayton</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYG</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_16702' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">51</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#51">Sammy Watkins</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">KC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_14350' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11.07</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#51">DeSean Jackson</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: The 33 year-old missed 13 games season due to a core injury. He's a risky WR3 in all formats."></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD id='showadp_2930' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">12.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">52</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#52">Allen Lazard</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">GB</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
-<TD id='showadp_16357' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13.06</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#52">Sammy Watkins</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">KC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_14350' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">16.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">53</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#53">Curtis Samuel</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CAR</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_15994' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.06</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#53">Allen Lazard</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">GB</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5</TD>
+<TD id='showadp_16357' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">16.07</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">54</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#54">Michael Pittman Jr.</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">IND</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_17183' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13.06</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#54">Curtis Samuel</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_15994' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">15.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">55</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#55">Preston Williams</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: ACL tear in early November. May be slow coming out of the gate in 2020."></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIA</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_16757' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13.05</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#55">Michael Pittman Jr.</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_17183' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">16.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">56</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#56">Cole Beasley</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BUF</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#56">Preston Williams</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: ACL tear in early November. May be slow coming out of the gate in 2020."></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">MIA</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_12699' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">15.12</TD>
+<TD id='showadp_16757' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.02</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">57</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#57">Jalen Reagor</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_17188' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.11</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#57">Cole Beasley</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_12699' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">16.05</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -472,7 +472,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#58">Jerry Jeudy</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DEN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_17127' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.03</TD>
+<TD id='showadp_17127' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9.05</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -480,7 +480,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=4#59">CeeDee Lamb</A> <img src="../images/btn_checkmark_green.gif" align="absbottom" width="15" height="15" border="0" title="Upside: Rookie should immediately slide into 3-WR sets but path to fantasy impact is blocked by Cooper and Gallup."> </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DAL</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_17141' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9.04</TD>
+<TD id='showadp_17141' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8.04</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -496,7 +496,7 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#61">Justin Jefferson</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_17123' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11.03</TD>
+<TD id='showadp_17123' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -512,98 +512,98 @@
 <TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#63">Breshad Perriman</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYJ</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_15274' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.07</TD>
+<TD id='showadp_15274' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">64</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#64">Alshon Jeffery</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Jeffery is coming a Lisfranc injury suffered in December. His status needs be monitored heading into Week 1."></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_12320' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">15.12</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">65</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#65">Robby Anderson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CAR</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_14796' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.10</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#64">Robby Anderson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_14796' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">16.08</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" colspan="6" align="center" bgcolor="#e0e0e0"><strong>Tier 6</strong></TD>
 </TR>
 <TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">65</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#65">Dede Westbrook</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">JAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_16034' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.12</TD>
+</TR>
+<TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">66</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#66">Dede Westbrook</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">JAC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_16034' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">15.12</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#66">N'Keal Harry</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NE</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_16594' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">67</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#67">N'Keal Harry</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NE</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#67">Hunter Renfrow</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LV</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_16594' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13.12</TD>
+<TD id='showadp_16682' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">15.12</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">68</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#68">Hunter Renfrow</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LV</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD id='showadp_16682' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">14.12</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#68">Larry Fitzgerald</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ARI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_3061' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">17.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">69</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#69">Larry Fitzgerald</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">ARI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_3061' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">14.05</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#69">Brandon Aiyuk</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_17002' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13.07</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">70</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#70">Brandon Aiyuk</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_17002' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">12.05</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#70">Mecole Hardman</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">KC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_16589' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">12.06</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">71</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#71">Mecole Hardman</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">KC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_16589' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9.11</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#71">Parris Campbell</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_16538' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">72</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#72">Parris Campbell</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">IND</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_16538' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=5#72">Steven Sims</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">WAS</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_16789' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">73</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=6#73">Steven Sims</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">WAS</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16789' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=6#73">Chris Conley</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">JAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_15141' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">74</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=6#74">Chris Conley</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">JAC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_15141' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=6#74">Alshon Jeffery</A>  <img src="../images/btn_caution2.gif" align="absbottom" width="15" height="15" border="0" title="Risk: Jeffery is coming a Lisfranc injury suffered in December. His status needs be monitored heading into Week 1."></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
+<TD id='showadp_12320' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">18.01</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
@@ -886,250 +886,242 @@
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">109</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#109">Joe Reed</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LAC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_17189' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">110</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#110">KeeSean Johnson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ARI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_16619' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">111</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#111">Cordarrelle Patterson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_13308' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">112</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#112">Trent Taylor</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">SF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_16015' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">113</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#113">Tajae Sharpe</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
-<TD id='showadp_15704' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">114</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#114">Ted Ginn Jr.</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_2755' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">115</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#115">Andre Roberts</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">BUF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_11498' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">116</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#116">Keelan Cole</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">JAC</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_14918' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">117</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#117">Scotty Miller</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_16822' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">118</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#118">JJ Arcega-Whiteside</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
-<TD id='showadp_16508' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">119</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#119">Pharoh Cooper</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CAR</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_15551' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">120</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#120">Javon Wims</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CHI</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_16209' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">121</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#121">Tim Patrick</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DEN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16072' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">122</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#122">Kalif Raymond</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TEN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_14879' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">123</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#123">Deonte Harris</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NO</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
-<TD id='showadp_16793' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">124</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#124">Cody Core</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NYG</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
-<TD id='showadp_15552' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">125</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#125">Taywan Taylor</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CLE</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_16014' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">126</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#126">Marcus Johnson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">IND</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_14980' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">127</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#127">Auden Tate</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CIN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
-<TD id='showadp_16110' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">128</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#128">Nelson Agholor</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LV</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD id='showadp_15101' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">129</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#129">Jalen Hurd</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SF</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD id='showadp_16607' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">130</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#130">Cedrick Wilson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DAL</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD id='showadp_16131' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">131</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#131">Christian Blake</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">ATL</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_16858' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">132</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#132">Justin Watson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TB</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
-<TD id='showadp_16238' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">133</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#133">Bryan Edwards</A>  </TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#109">Bryan Edwards</A>  </TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">LV</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
 <TD id='showadp_17069' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">134</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#134">Ryan Switzer</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">PIT</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">110</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#110">Joe Reed</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_17189' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">111</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#111">KeeSean Johnson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">ARI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_16619' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">112</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#112">Cordarrelle Patterson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_13308' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">113</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#113">Trent Taylor</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">SF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_16015' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">114</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#114">Tajae Sharpe</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">MIN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
+<TD id='showadp_15704' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">115</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#115">Ted Ginn Jr.</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_2755' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">116</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#116">Andre Roberts</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">BUF</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">11</TD>
+<TD id='showadp_11498' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">117</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#117">Keelan Cole</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">JAC</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_14918' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">118</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#118">Scotty Miller</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TB</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_16822' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">119</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#119">JJ Arcega-Whiteside</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">9</TD>
+<TD id='showadp_16508' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">120</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=9#120">Pharoh Cooper</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_15551' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">121</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#121">Javon Wims</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CHI</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_16209' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">122</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#122">Tim Patrick</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DEN</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
-<TD id='showadp_16010' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD id='showadp_16072' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">123</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#123">Kalif Raymond</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TEN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_14879' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">124</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#124">Deonte Harris</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NO</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_16793' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">125</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#125">Cody Core</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NYG</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
+<TD id='showadp_15552' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">126</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#126">Taywan Taylor</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CLE</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
+<TD id='showadp_16014' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">127</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#127">Marcus Johnson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">IND</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_14980' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">128</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#128">Auden Tate</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CIN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">9</TD>
+<TD id='showadp_16110' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">129</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#129">Cedrick Wilson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DAL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
+<TD id='showadp_16131' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">130</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#130">Christian Blake</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">ATL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_16858' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">131</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#131">Justin Watson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
+<TD id='showadp_16238' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">132</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=10#132">Nelson Agholor</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">LV</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
+<TD id='showadp_15101' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">133</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#133">Ryan Switzer</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">PIT</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
+<TD id='showadp_16010' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+</TR>
+<TR class="note-td">
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">134</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#134">Seth Roberts</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">CAR</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
+<TD id='showadp_14598' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">135</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#135">Seth Roberts</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">CAR</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#135">Tyler Johnson</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">TB</TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">13</TD>
-<TD id='showadp_14598' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD id='showadp_17130' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">136</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#136">Tyler Johnson</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">TB</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">13</TD>
-<TD id='showadp_17130' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#136">Trey Quinn</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">WAS</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">8</TD>
+<TD id='showadp_16341' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">137</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#137">Trey Quinn</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">WAS</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">8</TD>
-<TD id='showadp_16341' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#137">K.J. Osborn</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">MIN</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">7</TD>
+<TD id='showadp_17172' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">138</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#138">K.J. Osborn</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">MIN</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">7</TD>
-<TD id='showadp_17172' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
-</TR>
-<TR class="note-td">
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">139</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#139">Devin Smith</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DAL</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10</TD>
-<TD id='showadp_15316' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">-</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=30&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=11#138">Devin Smith</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DAL</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
+<TD id='showadp_15316' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">-</TD>
 </TR>
 
 		

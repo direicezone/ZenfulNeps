@@ -234,7 +234,15 @@ namespace ZenfulNeps.Controllers
                 }, JsonRequestBehavior.AllowGet);
 
             var players = (List<Common.Core.PlayerData>)HttpContext.Cache[PLAYERSDATA];
-            var adp = players.Where(w => w.Taken == false).ToList();
+            var adp = new List<Common.Core.PlayerData>();
+            if (position == "All")
+            {
+                adp = players.Where(w => w.Taken == false).ToList();
+            }
+            else
+            {
+                adp = players.Where(w => w.Taken == false && w.Type == position).ToList();
+            }
             return Json(new
             {
                 ADP = adp
