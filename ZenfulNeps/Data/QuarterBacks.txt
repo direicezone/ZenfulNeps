@@ -79,18 +79,18 @@
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=10&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#10">Drew Brees</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">NO</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6</TD>
-<TD id='showadp_1937' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">6.11</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#f7f7f7"><A HREF="?o=2&PosID=10&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#10">Matthew Stafford</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">DET</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">5</TD>
+<TD id='showadp_11001' class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7">10.08</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
 <TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">11</TD>
-<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=10&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#11">Matthew Stafford</A>  </TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">DET</TD>
-<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">5</TD>
-<TD id='showadp_11001' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">10.08</TD>
+<TD class="smallbody" ALIGN="LEFT" BGCOLOR="#ffffff"><A HREF="?o=2&PosID=10&LeagueID=1&order_by=Rank&sort_order=ASC&cur_page=0#11">Drew Brees</A>  </TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">NO</TD>
+<TD class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6</TD>
+<TD id='showadp_1937' class="smallbody" ALIGN="center" BGCOLOR="#ffffff">6.11</TD>
 </TR>
 <TR class="note-td">
 <TD class="smallbody" ALIGN="center" BGCOLOR="#f7f7f7"><div class="pretty p-default p - thick"><input type="checkbox" class="taken"/><div class="state"><label></label></div></div></TD>
