@@ -8,6 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Web.Mvc;
 using System.Web.Services;
 using HtmlAgilityPack;
+using System.Web;
 
 namespace ZenfulNeps.Controllers
 {
@@ -247,6 +248,12 @@ namespace ZenfulNeps.Controllers
             {
                 ADP = adp
             }, JsonRequestBehavior.AllowGet);
+        }
+
+        [WebMethod(EnableSession = true), AcceptVerbs("GET")]
+        public void SessionHeartbeatHttpHandler()
+        {
+            Session["Heartbeat"] = DateTime.Now;
         }
 
 

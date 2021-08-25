@@ -3,10 +3,12 @@ var myPlayers = [];
 var adpPlayers = [];
 $(document).ready(function () {
 
+    countDown();
+    //setHeartbeat();
     var searchTerm = '';
     var searchPosition = -1;
     // keepers is a array of strings (players names that are kept)
-    var keepers = ["Lamar Jackson", "Tom Brady", "Dak Prescott", "Golden Tate", "DK Metcalf", "Kareem Hunt", "Austin Ekeler", "Aaron Jones", "Kyler Murray"];
+    var keepers = ["Jalen Hurts", "Tom Brady", "CeeDee Lamb", "Antonio Gibson", "Darrell Henderson"];
     $(".h4Style").text("Keepers: (" + keepers.join(", ") +")");
     GetKeepers();
     if (getKeepers.length > 0) {
@@ -362,5 +364,43 @@ function searchAndHighlight(searchTerm, selector, highlightClass, removePrevious
         });
     }
     return false;
+}
+
+function setHeartbeat() {
+    setTimeout("heartbeat()", 5 * 60 * 1000); // every 5 min
+}
+
+function heartbeat() {
+    countDown();
+    $.ajax({
+        type: "GET",
+        url: "FantasyDrafter/SessionHeartbeatHttpHandler",
+        async: false,
+        contentType: "application/json; charset=utf-8",
+        success: function () {
+            return true;
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            alert("SessionHeartbeatHttpHandler " + xhr.responseText);
+        }
+    });
+}
+
+function countDown() {
+    var timer2 = "05:00";
+    var interval = setInterval(function () {
+        var timer = timer2.split(':');
+        //by parsing integer, I avoid all extra string processing
+        var minutes = parseInt(timer[0], 10);
+        var seconds = parseInt(timer[1], 10);
+        --seconds;
+        minutes = (seconds < 0) ? --minutes : minutes;
+        if (minutes < 0) clearInterval(interval);
+        seconds = (seconds < 0) ? 59 : seconds;
+        seconds = (seconds < 10) ? '0' + seconds : seconds;
+        //minutes = (minutes < 10) ?  minutes : minutes;
+        $('.countdown').html(minutes + ':' + seconds);
+        timer2 = minutes + ':' + seconds;
+    }, 1000);
 }
 

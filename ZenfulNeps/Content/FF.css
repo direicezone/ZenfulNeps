@@ -212,3 +212,13 @@ div.ui-tooltip {
     color: wheat;
     text-decoration: underline;
 }
+
+.countdown {
+    position: absolute;
+    font-size: 12px;
+    margin: 5px;
+    color: red;
+    right: 0;
+    top: 0;
+}
+

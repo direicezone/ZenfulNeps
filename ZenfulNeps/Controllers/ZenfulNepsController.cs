@@ -116,8 +116,8 @@ namespace ZenfulNeps.Controllers
 
 		public ActionResult D3Season()
 		{
-
-            return View("D3SeasonCheatSheet");
+			return Redirect("~/D3CheatSheet/index.html");
+			//return View("D3SeasonCheatSheet");
 		}
 
 
